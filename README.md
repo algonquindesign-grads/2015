@@ -1,2 +1,15 @@
-# 2015
+# Algonquin Design Grads 2015
+
 The 2015 Algonquin Design Grad website.
+
+<http://2015.grads.algonquindesign.ca>
+
+---
+
+## Team Members
+
+- [@thomasjbradley](https://github.com/thomasjbradley)
+
+---
+
+© 2015 Algonquin College Graphic Design Grad Website Team Members
