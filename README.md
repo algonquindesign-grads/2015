@@ -10,6 +10,7 @@ The 2015 Algonquin Design Grad website.
 
 - [@thomasjbradley](https://github.com/thomasjbradley)
 - [@namasteChris](https://github.com/namasteChris)
+- [@birchy009](https://github.com/birchy009)
 
 ---
 
