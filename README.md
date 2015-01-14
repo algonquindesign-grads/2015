@@ -11,6 +11,8 @@ The 2015 Algonquin Design Grad website.
 - [@thomasjbradley](https://github.com/thomasjbradley)
 - [@namasteChris](https://github.com/namasteChris)
 - [@birchy009](https://github.com/birchy009)
+- [@corm0078](https://github.com/corm0078)
+- [@heartedmachine](https://github.com/heartedmachine)
 
 ---
 
