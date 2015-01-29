@@ -1,0 +1,36 @@
+// Variables
+/* are placeholders for storing information that you want to reuse throughout your stylesheet
+You can store things like colours, font-stacks, or any css value you think you might want to reuse
+SASS uses the '$' to declare variables.*/
+
+$pri-bg: #666;
+
+$pri-color: #e67e22;
+
+$accent: #eee;
+
+$notification: #f00;
+
+$pri-type: #fff;
+$sec-type: #000;
+
+$pri-font-size: 3em;
+$sec-font-size: 0.5em;
+
+// Font Stacks
+$pri-font: Helvetica, Arial, sans-serif;
+$sec-font: serif;
+
+// Media Query Variables
+// Usage: 
+// @media #{$mobile} {
+//   background: red;
+// }
+$mobile: "only screen and (min-width: 20em)"; //320px
+$mobile-landscape: "only screen and (min-width: 30em)"; //480px
+$tablet: "only screen and (min-width: 37.5em)"; //600px
+$tablet-landscape: "only screen and (min-width: 60em)"; //960px
+$desktop-small: "only screen and (min-width: 75em)"; //1200px
+$desktop: "only screen and (min-width: 87.5em)"; //1400px
+$desktop-large: "only screen and (min-width: 100em)"; //1600px
+$desktop-xlarge: "only screen and (min-width: 110em)"; //1760px
