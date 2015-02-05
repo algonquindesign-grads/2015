@@ -38,7 +38,7 @@ header {
 	position: relative;
 	border-bottom: 5px solid #fff;
 	padding: 0 5%;
-	z-index: 15;
+	z-index: 10;
 }
 
 .logo-head {
@@ -321,6 +321,10 @@ h5 {
 	transition: all 200ms ease;
 }
 
+.right-event a:hover {
+	transform: scale(1.25);
+}
+
 @media #{$mobile} {
 	.left-event,
 	.right-event {
@@ -396,6 +400,11 @@ ul {
 
 .social img {
 	width: 100%;
+	transition: all 100ms ease;
+}
+
+.social a img:hover {
+	transform: scale(1.25);
 }
 
 .ac-logos li {
