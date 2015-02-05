@@ -17,40 +17,167 @@ html {
 	box-sizing: inherit;
 }
 
+a {
+	text-decoration: none;
+}
+
 html,
 body,
 section,
-img {
+img,
+ul,
+li {
 	@include zero;
+	@include font;
+}
+
+//																						HEADER
+
+header {
+	text-align: right;
+	position: relative;
+	border-bottom: 5px solid #fff;
+	padding: 0 5%;
+	z-index: 15;
+}
+
+.logo-head {
+	float: left;
+	left: 5%;
+	position: absolute;
+	max-height: 50px;
+	top: 0.75em;
+}
+
+header h4 {
+	display: inline-block;
+	padding: 0 2%;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+@media #{$mobile} {
+	header h4 {
+		font-size: 0.75em;
+	}
+	.logo-head {
+		max-height: 30px;
+		top: 0.5em;
+	}
+}
+
+@media #{$tablet} {
+	header h4 {
+		font-size: 1em;
+	}
+	.logo-head {
+		max-height: 40px;
+		top: 0.75em;
+	}
+}
+
+@media #{$desktop-small} {
+	header h4 {
+		font-size: 1.25em;
+	}
+	.logo-head {
+		max-height: 60px;
+		top: 0.35em;
+	}
 }
 
 // 																						LANDING
 
 .front {
+	margin-top: -78px;
 	text-align: center;
-	padding: 11.5em 0;
+	padding: 10em 0;
+	background-color: #eee;
 }
 
-.front img{
-	width: 50%;
+.logo {
+	display: block;
+	margin: 0 auto 5em;
+}
+
+.play {
+	color: #fff;
+	letter-spacing: 2px;
+	display: inline-block;
+	margin: 0;
+}
+
+.arrow {
+	position: absolute;
+	width: 80px;
+	margin-left: -40px;
 }
 
 @media #{$mobile} {
-	.front img{
-		width: 85%;
+	.play{
+		font-size: 1em;
+		padding: 0.75em 1em;
+		border: 3px #fff solid;
+	}
+	.logo {
+		width: 200px;
+	}
+	.arrow {
+		top: 32em;
 	}
 }
 
 @media #{$tablet} {
-	.front img{
-		width: 66%;
+	.play{
+		font-size: 2em;
+		padding: 0.5em 1em;
+		border: 5px #fff solid;
+	}
+	.logo {
+		width: 300px;
+	}
+	.arrow {
+		top: 40em;
 	}
 }
 
 @media #{$desktop-small} {
-	.front img{
-		width: 50%;
+	.play {
+		font-size: 2.5em;
+		padding: 0.75em 1.5em;
 	}
+	.logo {
+		width: 400px;
+	}
+	.arrow {
+		top: 45em;
+	}
+}
+
+//																						ABOUT
+
+.about {
+	padding: 5em 20% 3em;
+	position: relative;
+}
+
+h5 {
+	text-align: center;
+	font-size: 2.5em;
+	letter-spacing: 1px;
+	@include zero;
+	margin-bottom: 1.5em;
+}
+
+.about p {
+	font-size: 1.25em;
+	line-height: 1.25em;
+}
+
+.sep {
+	position: relative;
+	width: 80%;
+	margin: 2em 10% 2em;
 }
 
 //																						STUDENTS
@@ -61,15 +188,11 @@ img {
 	height: 0;
 	position: relative;
 	float: left;
+	transition: all 100ms ease-in-out;
 
+	//REMOVE WHEN IMAGES ARE ADDED, just there for separation
 	box-sizing: border-box;
 	border: 1px inset #000;
-	transition: all 100ms ease-in-out;
-}
-
-.pic2 {
-	background: transparent url(../images/800x400.jpg) no-repeat center center;
-	background-size: cover;
 }
 
 .tint {
@@ -93,6 +216,22 @@ img {
 	opacity: .5
 }
 
+.grads p {
+	text-align: center;
+	margin-top: -2em;
+	padding: 0.6em 0 0.5em;
+	background-color: rgba(100,100,100,0.5);
+}
+
+.l-1-6,
+.m-1-4,
+.s-1-2 {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	margin: 3em 0;
+}
+
 @media #{$mobile} {
 	.s-1-2 .pic {
 		width: 50%;
@@ -100,6 +239,14 @@ img {
 	}
 	.s-1-2 .pic2 {
 		width: 100%;
+	}
+	.grads {
+		.partial {
+			display: block;
+		}
+		.full {
+			display: none;
+		}
 	}
 }
 
@@ -111,6 +258,14 @@ img {
 	.m-1-4 .pic2 {
 		width: 50%;
 	}
+	.grads {
+		.partial {
+			display: none;
+		}
+		.full {
+			display: block;
+		}
+	}
 }
 
 @media #{$desktop-small} {
@@ -120,5 +275,302 @@ img {
 	}
 	.l-1-6 .pic2 {
 		width: 33.3333%;
+	}
+}
+
+.teachers {
+	width: 100%;
+}
+
+//																				EVENT
+
+.event {
+	position: relative;
+	display: inline-block;
+	padding: 0 10% 3em;
+	width: 100%;
+}
+
+.left-event,
+.right-event {
+	float: left;
+	text-align: center;
+	display: inline-block;
+}
+
+.event p {
+	line-height: 1.25em;
+	font-size: 1.25em;
+}
+
+
+.right-event h3 {
+	font-size: 1.5em;
+}
+
+.event h4 {
+	padding: 0.5em 0;
+	margin: 0;
+	color: MEDIUMTURQUOISE;
+}
+
+.invite {	
+	display: inline-block;
+	padding: 2em auto;
+	border: 5px solid MEDIUMTURQUOISE;
+	transition: all 200ms ease;
+}
+
+@media #{$mobile} {
+	.left-event,
+	.right-event {
+		width: 100%;
+	}
+	.left-event h5,
+	.right-event h5 {
+		margin-bottom: 0;
+		margin-top: 1em;
+	}
+	.map {
+		width: 300px;
+	}
+	.invite {
+		width: 250px;
+		font-size: 1.5em;
+		margin-top: 1em;
+	}
+}
+
+@media #{$tablet} {
+	.left-event,
+	.right-event {
+		width: 50%;
+	}
+	.left-event h5,
+	.right-event h5 {
+		margin-bottom: 1em;
+	}
+	.map {
+		width: 200px;
+	}
+	.invite {
+		width: 200px;
+		font-size: 1em;
+		margin-top: 1em;
+	}
+}
+
+@media #{$desktop-small} {
+	.map {
+		width: 350px;
+	}
+	.invite {
+		width: 300px;
+		font-size: 2em;
+	}
+}
+
+//																				FOOTER
+
+footer {
+	position: relative;
+	background-color: #666;
+	padding: 5em 0 3em;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.social,
+.ac-logos {
+	display: block;
+	width: 100%;
+}
+
+.social li {
+	display: inline-block;
+	margin: 5em 6%;
+}
+
+.social img {
+	width: 100%;
+}
+
+.ac-logos li {
+	display: inline-block;
+	margin: 2em 3%;
+}
+
+.ac-logos img {
+	width: 100%;
+}
+
+@media #{$mobile} {
+	.social li {
+		width: 75px;
+		height: 75px;
+	}
+	.ac-logos li {
+		width: 30%;
+	}
+	.tablet li,
+	.desktop li {
+		display: none;
+	}
+}
+
+@media #{$tablet} {
+	.social li {
+		width: 100px;
+		height: 100px;
+	}
+	.ac-logos li {
+		width: 25%;
+	}
+	.tablet li {
+		display: inline-block;
+	}
+}
+
+@media #{$desktop-small} {
+	.ac-logos li {
+		width: 15%;
+	}
+	.desktop li {
+		display: inline-block;
+	}
+}
+
+//																				OVERLAY/cover itself
+
+#cover { 
+	position:fixed; 
+	top:0; 
+	left:0; 
+	background:rgba(255,255,255,0.9); 
+	z-index:10; 
+	width:100%; 
+	height:100%; 
+	display: none;
+	padding-top: 5em;
+	color: #fff;
+}
+
+a:visited {
+	color: #fff;
+}
+
+#cover:target { 
+	display:block; 
+	opacity:2; 
+}
+
+//																			WITHIN COVER
+
+.last-student,
+.next-student,
+.close-cover {
+	position: absolute;
+}
+
+.last-student,
+.next-student,
+.close-cover {
+	border: 2px solid #fff;
+	padding: 0.5em 1em;
+}
+
+.last-student {
+	top: 1.25em;
+	left: 7.5%;
+}
+
+.next-student {
+	top: 1.25em;
+	right: 2.5%;
+}
+
+.close-cover {
+	bottom: 2em;
+	right: 2.5%;
+}
+
+.left {
+	padding: 0 7.5%;
+	float: left;
+	width: 50%;
+}
+
+.left h2 {
+	font-size: 1.5em;
+}
+
+.left .lightbox-pic {
+	width: 100%;
+}
+
+.left .skills li {
+	margin: 0.25em 0;
+	font-size: 1em;
+	list-style-type: none;
+}
+
+.left .social {
+	margin: 1.5em 0;
+	width: 100%;
+	list-style-type: none;
+	img {
+		float: left;
+		width: 20%;
+		margin: 0 5% 1.5em 0;
+		border-radius: 200px;
+	}
+}
+
+.left p {
+	font-size: 1.25em;
+	display: inline-block;
+	width: 100%;
+	@include zero;
+	margin: 0 0 0.5em;
+}
+
+.right {
+	float: left;
+	width: 50%;
+	padding-right: 1%;
+}
+
+.right img {
+	width: 50%;
+	float: left;
+}
+
+//																				FOOTER
+
+//																				MEDIA QUERIES
+
+@media #{$mobile} {
+	.right img{
+		width: 75%;
+		margin: 0.25em 12.5%;
+	}
+}
+
+@media #{$tablet} {
+	.right img{
+		width: 50%;
+		margin: 0;
+		padding: 0 2.5% 2em;
+	}
+}
+
+@media #{$desktop-small} {
+	.right img{
+		width: 50%;
+		margin: 0;
+		padding: 0 2.5% 2em;
 	}
 }
