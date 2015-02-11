@@ -30,3 +30,7 @@
 @mixin transition($time, $ease) {
 	transition: all $time, $ease;
 }
+
+@mixin font {
+    font-family: Helvetica, Arial, sans-serif;
+}
