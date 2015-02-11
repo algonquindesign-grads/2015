@@ -53,7 +53,7 @@ var people = [
 		id: 'araujo-kayla',
 		website: 'http://kaylaraujo.ca',
 		email: 'hello@kaylaraujo.ca',
-		skills: 'Branding, Print, Typography',
+		skills: 'Branding, Print, UI/UX',
 		behance: 'https://www.behance.net/kaylaaraujo',
 		dribbble: false,
 		facebook: false,
