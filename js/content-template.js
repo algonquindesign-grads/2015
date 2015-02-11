@@ -45,7 +45,7 @@ var people = [
 			'3',
 			'4'
 		]
-		
+
 	},
 
 	{
@@ -100,7 +100,7 @@ var people = [
 		name: 'Shelley Babij',
 		id: 'babij-shelley',
 		website: 'http://shelleybabij.ca',
-		email: 'shelleybabij@gmail.com',
+		email: 'mail@shelleybabij.ca',
 		skills: 'Branding, UI/UX, Web',
 		behance: 'https://www.behance.net/shelleybabij',
 		dribbble: false,
@@ -284,14 +284,14 @@ var people = [
 			'1',
 			'2',
 			'3',
-			'4'
+			'http://player.vimeo.com/video/110812904'
 		]
 
 	}
 
 	{
 		name: 'Pedro Cardoso dos Santos',
-		id: 'santos-pedro',
+		id: 'cardosodossantos-pedro',
 		website: 'http://pedrosantos.info',
 		email: 'p.santos@me.com',
 		skills: 'Branding, Illustration, Print',
@@ -620,7 +620,7 @@ var people = [
 			'1',
 			'2',
 			'3',
-			'4'
+			'http://player.vimeo.com/video/114403388'
 		]
 
 	}
@@ -692,7 +692,7 @@ var people = [
 			'1',
 			'2',
 			'3',
-			'4'
+			'http://player.vimeo.com/video/114392955'
 		]
 
 	}
@@ -740,7 +740,7 @@ var people = [
 			'1',
 			'2',
 			'3',
-			'4'
+			'http://player.vimeo.com/video/110797452'
 		]
 
 	}
@@ -816,3 +816,860 @@ var people = [
 		]
 
 	}
+
+	{
+		name: 'Shawna Guy',
+		id: 'guy-shawna',
+		website: 'http://shawnaguydesign.ca',
+		email: 'contact@shawnaguydesign.ca',
+		skills: 'Branding, Illustration, Print',
+		behance: 'http://www.behance.net/ShawnaGuy',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: 'http://ca.linkedin.com/pub/shawna-guy',
+		pinterest: false,
+		twitter: 'https://www.twitter.com/Shawna_Guy',
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+	{
+		name: 'Sarah Hodgson',
+		id: 'hodgson-sarah',
+		website: 'http://sarahhodgson.ca',
+		email: 'hello@sarahhodgson.ca',
+		skills: 'Branding, Photography, Typography',
+		behance: 'https://www.behance.net/sarahhodgson',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: 'http://www.instagram.com/_sanoelle',
+		linkedin: 'https://www.linkedin.com/in/hodgsonsarah',
+		pinterest: false,
+		twitter: false,
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+
+{
+		name: 'Brittany Hogg',
+		id: 'hogg-brittany',
+		website: 'http://brittanyhogg.ca',
+		email: 'emailme@brittanyhogg.ca',
+		skills: 'Illustration, UI/UX, Web',
+		behance: 'https://www.behance.net/hoggbrittany',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: 'https://ca.linkedin.com/pub/brittany-hogg/64/642/736',
+		pinterest: false,
+		twitter: 'https://www.twitter.com/HoggBrittany',
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+	{
+		name: 'Joey Anh Huynh',
+		id: 'huynh-joeyanh',
+		website: 'http://joeyanhhuynh.com',
+		email: 'graphic@joeyanhhuynh.com',
+		skills: 'Branding, Illustration, Print',
+		behance: 'https://www.behance.net/joeyhuynh',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: 'https://www.linkedin.com/profile/view?id=228369940&trk=nav_responsive_tab_profile_pic',
+		pinterest: false,
+		twitter: false,
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+
+	{
+		name: 'Ben Jousselin',
+		id: 'jousselin-ben',
+		website: 'http://joussel.in',
+		email: 'ben@joussel.in',
+		skills: 'Branding, Illustration, Motion',
+		behance: 'https://www.behance.net/Jousselin',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: 'https://www.linkedin.com/profile/view?id=220548582',
+		pinterest: false,
+		twitter: false,
+		vimeo: 'https://www.vimeo.com/user17057713',
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+{
+		name: 'Sarah Knowles',
+		id: 'knowles-sarah',
+		website: 'http://sarahknowles.ca',
+		email: 'hello@sarahknowles.ca',
+		skills: 'Photography, Print, Typography',
+		behance: 'https://www.behance.net/knowdesign',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: 'http://www.instagram.com/_sarahknowles_/',
+		linkedin: false,
+		pinterest: false,
+		twitter: false,
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+	{
+		name: 'Tyler Kotsopoulos',
+		id: 'kotsopoulos-tyler',
+		website: 'http://coalitionlifestyle.com',
+		email: 'tylerk91@hotmail.com',
+		skills: 'Branding, Illustration, Print',
+		behance: 'https://www.behance.net/TylerKotsopoulos',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: 'https://www.instagram.com/cltn_tk',
+		linkedin: false,
+		pinterest: false,
+		twitter: false,
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+{
+		name: 'Ivy LaBossiere',
+		id: 'labossiere-ivy',
+		website: 'http://ivylabossiere.ca',
+		email: 'ivy.labossiere@hotmail.ca',
+		skills: 'Branding, Illustration',
+		behance: false,
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: 'http://www.instagram.com/ivy.labossiere',
+		linkedin: 'https://www.linkedin.com/profile/view?id=229725486&trk=nav_responsive_tab_profile_pic',
+		pinterest: false,
+		twitter: false,
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+	{
+		name: 'Jared Label',
+		id: 'label-jared',
+		website: 'http://meetjared.ca',
+		email: 'jared.lebel87@gmail.com',
+		skills: 'Branding, Illustration, Typography',
+		behance: false,
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: 'http://www.instagram.com/meetjared/',
+		linkedin: 'http://ca.linkedin.com/in/jaredlebel/',
+		pinterest: false,
+		twitter: 'https://www.twitter.com/JaredLebel',
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+{
+		name: 'Greg Leblanc',
+		id: 'leblanc-jared',
+		website: false,
+		email: 'gregleblanc227@gmail.com',
+		skills: 'Motion, UI/UX',
+		behance: 'https://www.behance.net/gregleblanc',
+		dribbble: 'https://www.dribbble.com/gregleblanc',
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: false,
+		pinterest: false,
+		twitter: false,
+		vimeo: 'https://www.vimeo.com/gregleblanc',
+		works: [
+			'http://player.vimeo.com/video/113928901',
+			'http://player.vimeo.com/video/112409202',
+			'http://player.vimeo.com/video/110721263',
+			'http://player.vimeo.com/video/106962625'
+		]
+
+	}
+
+{
+		name: 'Rachel Lin',
+		id: 'lin-rachel',
+		website: 'http://rachellin.ca',
+		email: 'hello@rachellin.ca',
+		skills: 'Illustration, Print, Typography',
+		behance: 'https://www.behance.net/rachellin',
+		dribbble: 'https://www.dribbble.com/rachellin',
+		facebook: false,
+		github: false,
+		instagram: 'https://www.instagram.com/nillehcar',
+		linkedin: false,
+		pinterest: false,
+		twitter: false,
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+{
+		name: 'Alex Martin',
+		id: 'martin-alex',
+		website: 'http://alexandermartin.ca/',
+		email: 'design@alexandermartin.ca',
+		skills: 'Illustration, Motion, UI/UX',
+		behance: 'https://www.behance.net/alex_martin',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: 'https://www.linkedin.com/pub/alex-martin/41/9a3/88',
+		pinterest: false,
+		twitter: false,
+		vimeo: 'https://www.vimeo.com/user18179577',
+		works: [
+			'1',
+			'2',
+			'3',
+			'http://player.vimeo.com/video/110809577'
+		]
+
+	}
+
+{
+		name: 'Samantha McClelland',
+		id: 'mcclelland-samantha',
+		website: 'http://mcclellandsam.ca/',
+		email: 'mcclellandsamk@gmail.com',
+		skills: 'Branding, Illustration, Print',
+		behance: 'https://www.behance.net/McClellandSam',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: false,
+		pinterest: false,
+		twitter: 'https://www.twitter.com/McClellandSam',
+		vimeo: 'https://www.vimeo.com/user24145500',
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+
+	{
+		name: 'Emma-Lee McInall',
+		id: 'mcinall-emmalee',
+		website: 'https://emmamcinall.ca',
+		email: 'emcinall93@gmail.com',
+		skills: 'Branding, Print, UI/UX',
+		behance: 'https://www.behance.net/emmaleemcinall',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: 'https://www.linkedin.com/in/emmamcinall',
+		pinterest: false,
+		twitter: false,
+		vimeo: 'http://www.vimeo.com/emmamcinall',
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+	{
+		name: 'Jenna McLean',
+		id: 'mclean-jenna',
+		website: 'http://jennamclean.ca',
+		email: 'mclean0316@gmail.com',
+		skills: 'Print, UI/UX',
+		behance: 'https://www.behance.net/jenna_mclean',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: 'https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile',
+		pinterest: false,
+		twitter: false,
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+	{
+		name: 'Vickey Menard',
+		id: 'menard-vickey',
+		website: 'http://vickeymenard.ca',
+		email: 'info@vickeymenard.ca',
+		skills: 'Branding, Print, UI/UX',
+		behance: 'https://www.behance.net/vickeymenard',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: 'http://www.instagram.com/vickeymenard/',
+		linkedin: 'https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile',
+		pinterest: false,
+		twitter: false,
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+{
+		name: 'Gabriel Mitchell',
+		id: 'mitchell-gabriel',
+		website: 'http://gabrielmitchell.ca/',
+		email: 'heythere@gabrielmitchell.ca',
+		skills: 'Branding, Illustration, Typography',
+		behance: 'https://www.behance.net/gabrielmitchell',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: 'http://www,instagram.com/gabedrawstype',
+		linkedin: 'https://www.linkedin.com/profile/view?id=248691214 ',
+		pinterest: false,
+		twitter: false,
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+	{
+		name: 'Sebastian Nadeau',
+		id: 'nadeau-sebastian',
+		website: 'http://sebastiann.ca',
+		email: 'sebastiann@fastmail.fm',
+		skills: 'Illustration, Motion, Print',
+		behance: 'https://www.behance.net/SebastianNadeau',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: false,
+		pinterest: false,
+		twitter: false,
+		vimeo: 'http://www.vimeo.com/sebastiannadeau',
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+	{
+		name: 'Quynh Nguyen',
+		id: 'nguyen-quynh',
+		website: 'http://quynhnguyen.ca',
+		email: 'tquynh1112@yahoo.com',
+		skills: 'Branding, Illustration, UI/UX',
+		behance: 'http://www.behance.net/mBluebear',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: 'http://www.linkedin.com/pub/quynh-nguyen/64/592/2a1',
+		pinterest: 'http://www.pinterest.com/mbluebear/',
+		twitter: false,
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+	{
+		name: 'Samantha Nickerson',
+		id: 'nickerson-samantha',
+		website: 'http://samantha-nickerson.ca',
+		email: 'samantha.rose.nickerson@gmail.com',
+		skills: 'Branding, Photography, UI/UX',
+		behance: 'https://www.behance.net/samantha-nickerson',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: 'http://www.instagram.com/samantha_nicks/',
+		linkedin: false,
+		pinterest: false,
+		twitter: false,
+		vimeo: 'https://www.vimeo.com/user24145526',
+		works: [
+			'1',
+			'2',
+			'http://player.vimeo.com/video/110746645',
+			'4'
+		]
+
+	}
+
+	{
+		name: 'Caterina O Leary',
+		id: 'oleary-caterina',
+		website: 'http://caterinaghost.ca',
+		email: 'ccat.x@hotmail.com',
+		skills: 'Branding, Print, Typography',
+		behance: 'https://www.behance.net/Caterinaghost',
+		dribbble: false,
+		facebook: 'https://www.facebook.com/ccat.erina.o',
+		github: false,
+		instagram: 'http://www.instagram.com/ccaterinaghost',
+		linkedin: false,
+		pinterest: false,
+		twitter: false,
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+	{
+		name: 'Julia Paddick',
+		id: 'paddick-julia',
+		website: 'http://juliapaddick.ca',
+		email: 'juliapaddick35@gmail.com',
+		skills: 'Branding, Illustration, Print',
+		behance: 'https://www.behance.net/JuliaPaddick',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: 'https://www.linkedin.com/in/juliapaddick',
+		pinterest: false,
+		twitter: false,
+		vimeo: 'http://www.vimeo.com/juliapaddick',
+		works: [
+			'1',
+			'2',
+			'http://player.vimeo.com/video/110833848',
+			'4'
+		]
+
+	}
+
+{
+		name: 'Stephen Pollock',
+		id: 'pollock-stephen',
+		website: 'http://pollockgraphics.ca',
+		email: 'pollockgraphics@fastmail.fm',
+		skills: 'Branding, Illustration, Print',
+		behance: 'https://www.behance.net/stephenpollock',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: false,
+		pinterest: false,
+		twitter: false,
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+	{
+		name: 'Emily Prochnau',
+		id: 'prochnau-emily',
+		website: 'http://emilyprochnau.ca',
+		email: 'hello@emilyprochnau.ca',
+		skills: 'Branding, Print, UI/UX',
+		behance: 'https://www.behance.net/emilyprochnau',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: 'http://ca.linkedin.com/pub/emily-prochnau/64/57a/a82/',
+		pinterest: false,
+		twitter: 'https://www.twitter.com/emilyprochnau',
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+	{
+		name: 'Emily Prochnau',
+		id: 'prochnau-emily',
+		website: 'http://emilyprochnau.ca',
+		email: 'hello@emilyprochnau.ca',
+		skills: 'Branding, Print, UI/UX',
+		behance: 'https://www.behance.net/emilyprochnau',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: 'http://ca.linkedin.com/pub/emily-prochnau/64/57a/a82/',
+		pinterest: false,
+		twitter: 'https://www.twitter.com/emilyprochnau',
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+	{
+		name: 'Brittany Robertson',
+		id: 'robertson-brittany',
+		website: 'http://brittanyrob.ca',
+		email: 'hello@brittanyrob.ca',
+		skills: 'Branding, Photography, UI/UX',
+		behance: 'https://www.behance.net/brittanyrobertson',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: 'http://www.instagram.com/brittanyrob',
+		linkedin: 'https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile',
+		pinterest: false,
+		twitter: false,
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+	{
+		name: 'Melissa Roy',
+		id: 'roy-melissa',
+		website: 'http://melissaroy.ca',
+		email: 'r.melissadesign@gmail.com',
+		skills: 'Illustration, Print, Web',
+		behance: 'https://www.behance.net/melissaroy',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: 'http://ca.linkedin.com/pub/melissa-roy/64/501/185/',
+		pinterest: false,
+		twitter: false,
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+{
+		name: 'Sonal Sharma',
+		id: 'sharma-sonal',
+		website: 'http://sonalsharma.ca',
+		email: 'info@sonalsharma.ca',
+		skills: 'Motion, Typography, Web',
+		behance: 'https://www.behance.net/sonalsharma',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: 'http://ca.linkedin.com/in/sonalsharmaa/',
+		pinterest: false,
+		twitter: 'http://www.twitter.com/sharmasonalx',
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'http://player.vimeo.com/video/110809912'
+		]
+
+	}
+
+{
+		name: 'Katie Situ',
+		id: 'situ-katie',
+		website: 'http://katiesitu.ca',
+		email: 'katie.situ@gmail.com',
+		skills: 'Branding, Illustration, Photography',
+		behance: 'https://www.behance.net/katiesitu',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: 'http://ca.linkedin.com/in/katiesitu',
+		pinterest: false,
+		twitter: 'https://www.twitter.com/situkd',
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+	{
+		name: 'Amanda Sparks',
+		id: 'sparks-amanda',
+		website: 'http://amandasparks.ca',
+		email: 'info@amandasparks.ca',
+		skills: 'Motion, Print, UI/UX',
+		behance: 'https://www.behance.net/amanda-sparks',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: 'https://www.linkedin.com/pub/amanda-sparks/64/501/a23',
+		pinterest: false,
+		twitter: false,
+		vimeo: 'http://www.vimeo.com/amandasparks',
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+	{
+		name: 'Kayla Tomkiewicz',
+		id: 'tomkiewicz-kayla',
+		website: 'http://kaylatomkiewicz.ca',
+		email: 'hello@kaylatomkiewicz.ca',
+		skills: 'Branding, Print, Typography',
+		behance: 'https://www.behance.net/kaylatomkiewicz',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: 'https://ca.linkedin.com/pub/kayla-tomkiewicz/64/514/478',
+		pinterest: false,
+		twitter: false,
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+	{
+		name: 'Marta Traczyk',
+		id: 'traczyk-marta',
+		website: 'http://martatraczyk.ca',
+		email: 'design@martatraczyk.ca',
+		skills: 'Print, Typography, Web',
+		behance: 'https://www.behance.net/trac0040edd3',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: false,
+		pinterest: false,
+		twitter: false,
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+{
+		name: 'Nichole Veiro',
+		id: 'veiro-nichole',
+		website: 'http://nicholeveiro.ca/',
+		email: 'nicholeveiro@gmail.com',
+		skills: 'Branding, Motion, Print',
+		behance: 'https://www.behance.net/nicholeveiro',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: false,
+		pinterest: false,
+		twitter: false,
+		vimeo: 'https://www.vimeo.com/nicholeveiro',
+		works: [
+			'1',
+			'2',
+			'3',
+			'http://player.vimeo.com/video/87873432'
+		]
+
+	}
+
+{
+		name: 'Rebecca Wright',
+		id: 'wright-rebecca',
+		website: 'http://rebeccawright.ca/',
+		email: 'bec666.wright@gmail.com',
+		skills: 'Branding, Illustration, Motion',
+		behance: 'https://www.behance.net/Bekka-Wright',
+		dribbble: false,
+		facebook: 'https://www.facebook.com/bekkamonster.eatsrainbows',
+		github: false,
+		instagram: false,
+		linkedin: false,
+		pinterest: false,
+		twitter: false,
+		vimeo: 'https://www.vimeo.com/user24344303',
+		works: [
+			'1',
+			'2',
+			'http://player.vimeo.com/video/111936215',
+			'http://player.vimeo.com/video/111572730'
+		]
+
+	}
+
+	{
+		name: 'Hasan Yavuz',
+		id: 'yavuz-hasan',
+		website: 'http://hasanyavuz.ca/',
+		email: 'yavuz.hasan@icloud.com',
+		skills: 'Branding, UI/UX, Web',
+		behance: 'https://www.behance.net/HasanYavuz',
+		dribbble: false,
+		facebook: false,
+		github: false,
+		instagram: false,
+		linkedin: 'https://www.linkedin.com/pub/hasan-yavuz/8a/b05/676',
+		pinterest: false,
+		twitter: 'https://www.twitter.com/hasanyavuz91',
+		vimeo: false,
+		works: [
+			'1',
+			'2',
+			'3',
+			'4'
+		]
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
