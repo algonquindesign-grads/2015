@@ -172,7 +172,7 @@ var people = [
 		name: 'David Birch',
 		id: 'birch-david',
 		website: 'http://davidbirch.ca',
-		email: 'contact@davidbirch.ca',
+		email: 'birchy009@gmail.com',
 		skills: 'Illustration, UI/UX, Web',
 		behance: 'https://www.behance.net/davidbirch',
 		dribbble: false,
