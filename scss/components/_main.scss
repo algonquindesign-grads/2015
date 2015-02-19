@@ -12,6 +12,14 @@ html {
 	text-size-adjust: 100%;
 }
 
+ul {
+	list-style-type:none;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	-webkit-padding-start: 0;
+}
 
 *, *:before, *:after {
 	box-sizing: inherit;
@@ -314,7 +322,7 @@ h5 {
 	color: MEDIUMTURQUOISE;
 }
 
-.invite {	
+.invite {
 	display: inline-block;
 	padding: 2em auto;
 	border: 5px solid MEDIUMTURQUOISE;
@@ -454,14 +462,14 @@ ul {
 
 //																				OVERLAY/cover itself
 
-#cover { 
-	position:fixed; 
-	top:0; 
-	left:0; 
-	background:rgba(255,255,255,0.9); 
-	z-index:10; 
-	width:100%; 
-	height:100%; 
+#cover {
+	position:fixed;
+	top:0;
+	left:0;
+	background:rgba(255,255,255,0.9);
+	z-index:10;
+	width:100%;
+	height:100%;
 	display: none;
 	padding-top: 5em;
 	color: #fff;
@@ -471,9 +479,9 @@ a:visited {
 	color: #fff;
 }
 
-#cover:target { 
-	display:block; 
-	opacity:2; 
+#cover:target {
+	display:block;
+	opacity:2;
 }
 
 //																			WITHIN COVER
