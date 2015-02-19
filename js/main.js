@@ -21,3 +21,24 @@ if (window.screen.width >= 768) {
 		}
 	}, { offset: '150px'});
 }
+
+
+// OVERLAY
+
+var $studentClick = $('.student a');
+var $cover = $('#cover');
+var $closeOverlay = $('.close-overlay');
+var $body  = $('body');
+
+
+$studentClick.on('click', function(event){
+	event.preventDefault();
+	$cover.addClass('overlay');
+	$body.addClass('noscroll');
+});
+
+$closeOverlay.click(function(event){
+	event.preventDefault();
+	$cover.removeClass('overlay');
+	$body.removeClass('noscroll');
+});
