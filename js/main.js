@@ -7,3 +7,17 @@ $('a[href^="#"]').on('click', function(event) {
         }, 500);
     }
 });
+
+
+var $about = $('.about');
+var $topNav = $('.top-nav')
+
+if (window.screen.width >= 768) {
+	$about.waypoint(function (direction) {
+		if (direction == 'down') {
+			$topNav.addClass('sticky-nav');
+		} else {
+			$topNav.removeClass('sticky-nav');
+		}
+	}, { offset: '150px'});
+}

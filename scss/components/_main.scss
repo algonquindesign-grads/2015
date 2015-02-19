@@ -49,6 +49,7 @@ header {
 	z-index: 10;
 }
 
+
 .logo-head {
 	float: left;
 	left: 5%;
@@ -63,6 +64,16 @@ header h4 {
 	color: #fff;
 	letter-spacing: 2px;
 }
+
+.sticky-nav {
+	@include ease(all, 250ms, linear);
+	position: fixed;
+	top:0;
+	z-index: 1000;
+	width:100%;
+	background-color: rgba(#222222, 0.95);
+}
+
 
 @media #{$mobile} {
 	header h4 {
