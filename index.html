@@ -48,7 +48,6 @@
 	<script id="template" type="x-tmpl-mustache">
 		{{#student}}
 			<a href="#cover">
-			<img src="">
 				<li class="pic">
 						<p class="full">{{name}}</p>
 						<p class="partial">{{name}}</p>
@@ -428,8 +427,9 @@
 		<p class="partial">First L.</p>
 		<p class="full">First Last</p>
 	</a>
+	-->
 	<img class="teachers" src="http://placehold.it/1400x400&text=Teachers">
-	 -->
+
 
 </section>
 
@@ -480,7 +480,45 @@
 	</ul>
 
 </footer>
+<!--
+<script id="template" type="x-tmpl-mustache">
+	{{#cover}}
+		<ul>
+			<li><a class="last-student" href="#">Last</a></li>
+			<li><a class="next-student" href="#">Next</a></li>
+			<li><a class="close-overlay" href="#">Close</a></li>
+		</ul>
 
+		<ul class="left">
+
+			<li><img class="lightbox-pic"></li>
+
+			<li><h2>{{name}}</h2></li>
+
+			<li>
+				<ul class="skills">
+					<li>{{skill-1}}</li>
+					<li>{{skill-2}}</li>
+					<li>{{skill-3}}</li>
+				</ul>
+			</li>
+
+			<li>
+				<ul class="social">
+					<li><a href="{{link-1}}"><img src="http://placehold.it/100x100"></a></li>
+					<li><a href="{{link-2}}"><img src="http://placehold.it/100x100"></a></li>
+					<li><a href="{{link-3}}"><img src="http://placehold.it/100x100"></a></li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="{{website}}" class="site">{{website}}</a>
+				<p class="email">{{email}}</p>
+			</li>
+		</ul>
+	{{/cover}}
+</script>
+ -->
 <div id="cover" class="student-box">
 
 	<a class="last-student" href="#">Last</a>
@@ -491,22 +529,22 @@
 
 		<img class="lightbox-pic" src="http://placehold.it/600x400" alt="">
 
-		<h2 class="student-First Last">Students First Last</h2>
+		<h2 class="student-name"></h2>
 
 		<ul class="skills">
-			<li>Skill 1</li>
-			<li>Skill 2</li>
-			<li>Skill 3</li>
+			<li class="skill-a"></li>
+			<li class="skill-b"></li>
+			<li class="skill-c"></li>
 		</ul>
 
 		<ul class="social">
-			<a href="#"><li><img src="http://placehold.it/100x100" alt=""></li></a>
-			<a href="#"><li><img src="http://placehold.it/100x100" alt=""></li></a>
-			<a href="#"><li><img src="http://placehold.it/100x100" alt=""></li></a>
+			<a href="#" class="social-a"><li><img src="http://placehold.it/100x100" alt=""></li></a>
+			<a href="#" class="social-b"><li><img src="http://placehold.it/100x100" alt=""></li></a>
+			<a href="#" class="social-c"><li><img src="http://placehold.it/100x100" alt=""></li></a>
 		</ul>
 
-		<a href="#"><p class="site">http://mywebsite.ca</p></a>
-		<p class="email">contact@site.ca</p>
+		<a href="#"><p class="site"></p></a>
+		<p class="email"></p>
 
 	</div>
 
@@ -527,6 +565,7 @@
 <script src="js/waypoints.min.js"></script>
 <script src="js/mustache.min.js"></script>
 <script src="js/content-template.js"></script>
+<script src="js/data-filter.js"></script>
 <script src="js/template.js"></script>
 <script src="js/main.js"></script>
 
