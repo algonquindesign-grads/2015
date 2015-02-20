@@ -363,7 +363,7 @@ var people = [
 
 	{
 		name: 'Daniela Chavez Ackermann',
-		id: 'ackermann-daniela',
+		id: 'chavez-daniela',
 		website: 'http://meetdani.ca',
 		email: 'hey@meetdani.ca',
 		skills: 'Branding, Print, UI/UX',
@@ -1037,7 +1037,7 @@ var people = [
 
 {
 		name: 'Greg Leblanc',
-		id: 'leblanc-jared',
+		id: 'leblanc-greg',
 		website: false,
 		email: 'gregleblanc227@gmail.com',
 		skills: 'Motion, UI/UX',
@@ -1396,29 +1396,6 @@ var people = [
 
 	}
 
-	{
-		name: 'Emily Prochnau',
-		id: 'prochnau-emily',
-		website: 'http://emilyprochnau.ca',
-		email: 'hello@emilyprochnau.ca',
-		skills: 'Branding, Print, UI/UX',
-		behance: 'https://www.behance.net/emilyprochnau',
-		dribbble: false,
-		facebook: false,
-		github: false,
-		instagram: false,
-		linkedin: 'http://ca.linkedin.com/pub/emily-prochnau/64/57a/a82/',
-		pinterest: false,
-		twitter: 'https://www.twitter.com/emilyprochnau',
-		vimeo: false,
-		works: [
-			'1',
-			'2',
-			'3',
-			'4'
-		]
-
-	}
 
 	{
 		name: 'Brittany Robertson',
