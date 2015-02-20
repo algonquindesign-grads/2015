@@ -70,3 +70,11 @@ $closeOverlay.click(function(event){
 	$cover.removeClass('overlay');
 	$body.removeClass('noscroll');
 });
+
+$(document).keydown(function(e) {
+    if (e.keyCode == 27) { // esc keycode
+        $cover.removeClass('overlay');
+        $body.removeClass('noscroll');
+    }
+});
+
