@@ -30,7 +30,7 @@ var people = [
 		website: 'http://www.colombinaanzivino.ca',
 		email: 'cmasrs19@gmail.com',
 		skills: 'Branding, Illustration, Print',
-		behance: 'https://www.behance.net/anzivino'
+		behance: 'https://www.behance.net/anzivino',
 		dribbble: false,
 		facebook: false,
 		github: false,
