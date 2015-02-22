@@ -70,7 +70,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Jake Asiddao',
@@ -94,7 +94,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Shelley Babij',
@@ -118,7 +118,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Thalia Bacilio',
@@ -142,7 +142,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Giulia Teresa Balestra',
@@ -166,7 +166,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'David Birch',
@@ -190,7 +190,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Tara Boland',
@@ -214,8 +214,7 @@ var people = [
 			'4'
 		]
 
-	}
-
+	},
 
 	{
 		name: 'Ariah Boots',
@@ -239,7 +238,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Sarah Bootsma',
@@ -263,7 +262,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Logan Brandwood',
@@ -287,7 +286,7 @@ var people = [
 			'http://player.vimeo.com/video/110812904'
 		]
 
-	}
+	},
 
 	{
 		name: 'Pedro Cardoso dos Santos',
@@ -311,7 +310,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Alexandra Chama',
@@ -335,7 +334,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Chris Chan',
@@ -359,7 +358,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Daniela Chavez Ackermann',
@@ -383,7 +382,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Felipe Clavijo',
@@ -407,7 +406,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Rebecka Cole',
@@ -431,7 +430,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Mark Collantes',
@@ -455,7 +454,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Jennifer Comacchio',
@@ -479,7 +478,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Alyson Conner',
@@ -503,7 +502,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Martine Cormier',
@@ -527,7 +526,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Stacey Cowan',
@@ -551,7 +550,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Megan Davis',
@@ -575,7 +574,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Alissa Dicaire',
@@ -599,7 +598,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Nigel Elton',
@@ -623,7 +622,7 @@ var people = [
 			'http://player.vimeo.com/video/114403388'
 		]
 
-	}
+	},
 
 	{
 		name: 'Lorena Franco',
@@ -647,7 +646,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Chelsey Frohlick',
@@ -671,7 +670,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Madeleine Gagné',
@@ -695,7 +694,7 @@ var people = [
 			'http://player.vimeo.com/video/114392955'
 		]
 
-	}
+	},
 
 	{
 		name: 'Laura Natalia Garcias V.',
@@ -719,7 +718,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Iman Ghader',
@@ -743,7 +742,7 @@ var people = [
 			'http://player.vimeo.com/video/110797452'
 		]
 
-	}
+	},
 
 	{
 		name: 'Adriana Granieri',
@@ -767,7 +766,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Kathrine Greenberg',
@@ -791,7 +790,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Evan Grice',
@@ -815,7 +814,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Shawna Guy',
@@ -839,7 +838,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Sarah Hodgson',
@@ -863,10 +862,9 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
-
-{
+	{
 		name: 'Brittany Hogg',
 		id: 'hogg-brittany',
 		website: 'http://brittanyhogg.ca',
@@ -888,7 +886,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Joey Anh Huynh',
@@ -912,8 +910,7 @@ var people = [
 			'4'
 		]
 
-	}
-
+	},
 
 	{
 		name: 'Ben Jousselin',
@@ -937,9 +934,9 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
-{
+	{
 		name: 'Sarah Knowles',
 		id: 'knowles-sarah',
 		website: 'http://sarahknowles.ca',
@@ -961,7 +958,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Tyler Kotsopoulos',
@@ -985,9 +982,9 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
-{
+	{
 		name: 'Ivy LaBossiere',
 		id: 'labossiere-ivy',
 		website: 'http://ivylabossiere.ca',
@@ -1009,7 +1006,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Jared Label',
@@ -1033,9 +1030,9 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
-{
+	{
 		name: 'Greg Leblanc',
 		id: 'leblanc-greg',
 		website: false,
@@ -1057,9 +1054,9 @@ var people = [
 			'http://player.vimeo.com/video/106962625'
 		]
 
-	}
+	},
 
-{
+	{
 		name: 'Rachel Lin',
 		id: 'lin-rachel',
 		website: 'http://rachellin.ca',
@@ -1081,9 +1078,9 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
-{
+	{
 		name: 'Alex Martin',
 		id: 'martin-alex',
 		website: 'http://alexandermartin.ca/',
@@ -1105,9 +1102,9 @@ var people = [
 			'http://player.vimeo.com/video/110809577'
 		]
 
-	}
+	},
 
-{
+	{
 		name: 'Samantha McClelland',
 		id: 'mcclelland-samantha',
 		website: 'http://mcclellandsam.ca/',
@@ -1129,8 +1126,7 @@ var people = [
 			'4'
 		]
 
-	}
-
+	},
 
 	{
 		name: 'Emma-Lee McInall',
@@ -1154,7 +1150,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Jenna McLean',
@@ -1178,7 +1174,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Vickey Menard',
@@ -1202,9 +1198,9 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
-{
+	{
 		name: 'Gabriel Mitchell',
 		id: 'mitchell-gabriel',
 		website: 'http://gabrielmitchell.ca/',
@@ -1226,7 +1222,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Sebastian Nadeau',
@@ -1250,7 +1246,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Quynh Nguyen',
@@ -1274,7 +1270,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Samantha Nickerson',
@@ -1298,7 +1294,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Caterina O Leary',
@@ -1322,7 +1318,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Julia Paddick',
@@ -1346,9 +1342,9 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
-{
+	{
 		name: 'Stephen Pollock',
 		id: 'pollock-stephen',
 		website: 'http://pollockgraphics.ca',
@@ -1370,7 +1366,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Emily Prochnau',
@@ -1394,8 +1390,7 @@ var people = [
 			'4'
 		]
 
-	}
-
+	},
 
 	{
 		name: 'Brittany Robertson',
@@ -1419,7 +1414,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Melissa Roy',
@@ -1443,9 +1438,9 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
-{
+	{
 		name: 'Sonal Sharma',
 		id: 'sharma-sonal',
 		website: 'http://sonalsharma.ca',
@@ -1467,9 +1462,9 @@ var people = [
 			'http://player.vimeo.com/video/110809912'
 		]
 
-	}
+	},
 
-{
+	{
 		name: 'Katie Situ',
 		id: 'situ-katie',
 		website: 'http://katiesitu.ca',
@@ -1491,7 +1486,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Amanda Sparks',
@@ -1515,7 +1510,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Kayla Tomkiewicz',
@@ -1539,7 +1534,7 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
 	{
 		name: 'Marta Traczyk',
@@ -1563,9 +1558,9 @@ var people = [
 			'4'
 		]
 
-	}
+	},
 
-{
+	{
 		name: 'Nichole Veiro',
 		id: 'veiro-nichole',
 		website: 'http://nicholeveiro.ca/',
@@ -1587,9 +1582,9 @@ var people = [
 			'http://player.vimeo.com/video/87873432'
 		]
 
-	}
+	},
 
-{
+	{
 		name: 'Rebecca Wright',
 		id: 'wright-rebecca',
 		website: 'http://rebeccawright.ca/',
@@ -1611,7 +1606,7 @@ var people = [
 			'http://player.vimeo.com/video/111572730'
 		]
 
-	}
+	},
 
 	{
 		name: 'Hasan Yavuz',
@@ -1636,6 +1631,8 @@ var people = [
 		]
 
 	}
+
+];
 
 
 
