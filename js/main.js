@@ -57,6 +57,19 @@ var $studentLink = $('.student a');
 var $cover = $('#cover');
 var $closeOverlay = $('.close-overlay');
 var $body  = $('body');
+var $stuName = $('.student-name');
+var $lbPic = $('.lightbox-pic');
+var $skillA = $('.skill-a');
+var $skillB = $('.skill-b');
+var $skillC = $('.skill-c');
+var $socialA = $('.social-a');
+var $socialB = $('.social-b');
+var $socialC = $('.social-c');
+var $site = $('.site');
+var $email = $('.email');
+
+
+$studentLink.on('click', function(event){
 	event.preventDefault();
 	$cover.addClass('overlay');
 	$body.addClass('noscroll');
@@ -74,4 +87,8 @@ $(document).keydown(function(e) {
         $body.removeClass('noscroll');
     }
 });
+
+
+
+
 
