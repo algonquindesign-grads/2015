@@ -1,4 +1,3 @@
-var template = $('#template').html();
-Mustache.parse(template);
-var rendered = Mustache.render(template, people);
+var template = Handlebars.compile($('#template').html());
+var rendered = template(people);
 $('.student').html(rendered);

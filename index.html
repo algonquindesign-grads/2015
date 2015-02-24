@@ -45,9 +45,9 @@
 
 	<ul class="student"></ul>
 
-	<script id="template" type="x-tmpl-mustache">
+	<script id="template" type="text/x-handlebars-template">
 		{{#student}}
-			<a href="#cover">
+			<a href="#cover" data-index="{{@index}}">
 				<li class="pic">
 						<p class="full">{{name}}</p>
 						<p class="partial">{{name}}</p>
@@ -563,7 +563,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="js/waypoints.min.js"></script>
-<script src="js/mustache.min.js"></script>
+<script src="js/handlebars-v3.0.0.js"></script>
 <script src="js/content-template.js"></script>
 <script src="js/data-filter.js"></script>
 <script src="js/template.js"></script>
