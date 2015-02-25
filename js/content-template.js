@@ -24,8 +24,11 @@ var people = [
 	},
 */
 
-	{
-		name: 'Colombina Anzivino',
+{
+		name: [
+			full: 'Colombina-Anzivino',
+			partial: 'Colombina A.'
+		],
 		id: 'anzivino-colombina',
 		website: 'http://www.colombinaanzivino.ca',
 		email: 'cmasrs19@gmail.com',
@@ -45,11 +48,14 @@ var people = [
 			'3',
 			'4'
 		]
-
 	},
 
+
 	{
-		name: 'Kayla Araujo',
+		name: [
+			full: 'Kayla-Araujo',
+			partial: 'Kayla A.'
+		],
 		id: 'araujo-kayla',
 		website: 'http://kaylaraujo.ca',
 		email: 'hello@kaylaraujo.ca',
