@@ -73,7 +73,7 @@ $studentLink.on('click', function(event, i){
 	$cover.addClass('overlay');
 	$body.addClass('noscroll');
 	var studentdata = $(this).attr('data-index');
-	console.log(studentdata);
+	$stuName.html(studentdata);
 });
 
 $closeOverlay.click(function(event){
