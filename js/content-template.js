@@ -1,7 +1,10 @@
 var people = [
 /*
 	{
-		name: 'FirstName LastName',
+		name: [
+			full: 'Firstname Lastname',
+			partial: 'Firstname L.'
+		],
 		id: 'lastname-firstname',
 		website: 'http://johnsmith.ca',
 		email: 'hey@johnsmith.ca',
@@ -26,7 +29,7 @@ var people = [
 
 {
 		name: [
-			full: 'Colombina-Anzivino',
+			full: 'Colombina Anzivino',
 			partial: 'Colombina A.'
 		],
 		id: 'anzivino-colombina',
@@ -53,7 +56,7 @@ var people = [
 
 	{
 		name: [
-			full: 'Kayla-Araujo',
+			full: 'Kayla Araujo',
 			partial: 'Kayla A.'
 		],
 		id: 'araujo-kayla',
@@ -79,7 +82,10 @@ var people = [
 	},
 
 	{
-		name: 'Jake Asiddao',
+		name: [
+			full: 'Jake Asiddao',
+			partial: 'Jake A.'
+		],
 		id: 'asiddao-jake',
 		website: 'http://jakeasiddao.ca/',
 		email: 'jakeasiddao@gmail.com',
@@ -103,7 +109,10 @@ var people = [
 	},
 
 	{
-		name: 'Shelley Babij',
+		name: [
+			full: 'Shelley Babij',
+			partial: 'Shelley B.'
+		],
 		id: 'babij-shelley',
 		website: 'http://shelleybabij.ca',
 		email: 'mail@shelleybabij.ca',
@@ -127,7 +136,10 @@ var people = [
 	},
 
 	{
-		name: 'Thalia Bacilio',
+		name: [
+			full: 'Thalia Bacilio',
+			partial: 'Thalia B.'
+		],
 		id: 'bacilio-thalia',
 		website: 'http://thaliadesign.info',
 		email: 'baci0008@algonquinlive.com',
@@ -151,7 +163,10 @@ var people = [
 	},
 
 	{
-		name: 'Giulia Teresa Balestra',
+		name: [
+			full: 'Guilia Balestra',
+			partial: 'Guilia B.'
+		],
 		id: 'balestra-giulia',
 		website: 'http://giuliateresa.ca',
 		email: 'giuliateresadesign@gmail.com',
@@ -175,7 +190,10 @@ var people = [
 	},
 
 	{
-		name: 'David Birch',
+		name: [
+			full: 'David Birch',
+			partial: 'David B.'
+		],
 		id: 'birch-david',
 		website: 'http://davidbirch.ca',
 		email: 'birchy009@gmail.com',
@@ -199,7 +217,10 @@ var people = [
 	},
 
 	{
-		name: 'Tara Boland',
+		name: [
+			full: 'Tara Boland',
+			partial: 'Tara B.'
+		],
 		id: 'boland-tara',
 		website: 'http://taraboland.ca',
 		email: 'hello@taraboland.ca',
@@ -223,7 +244,10 @@ var people = [
 	},
 
 	{
-		name: 'Ariah Boots',
+		name: [
+			full: 'Ariah Boots',
+			partial: 'Ariah B.'
+		],
 		id: 'boots-ariah',
 		website: 'http://ariahboots.ca',
 		email: 'hello@ariahboots.ca',
@@ -247,7 +271,10 @@ var people = [
 	},
 
 	{
-		name: 'Sarah Bootsma',
+		name: [
+			full: 'Sarah Bootsma',
+			partial: 'Sarah B.'
+		],
 		id: 'bootsma-sarah',
 		website: 'http://sarahbootsma.ca',
 		email: 'hello@sarahbootsma.ca',
@@ -271,7 +298,10 @@ var people = [
 	},
 
 	{
-		name: 'Logan Brandwood',
+		name: [
+			full: 'Logan Branwood',
+			partial: 'Logan B.'
+		],
 		id: 'brandwood-logan',
 		website: 'http://loganbrandwood.ca',
 		email: 'loganbrandwood@hotmail.com',
@@ -295,7 +325,10 @@ var people = [
 	},
 
 	{
-		name: 'Pedro Cardoso dos Santos',
+		name: [
+			full: 'Pedro Cardoso dos Santos',
+			partial: 'Pedro C.'
+		],
 		id: 'cardosodossantos-pedro',
 		website: 'http://pedrosantos.info',
 		email: 'p.santos@me.com',
@@ -319,7 +352,10 @@ var people = [
 	},
 
 	{
-		name: 'Alexandra Chama',
+		name: [
+			full: 'Alexandra Chama',
+			partial: 'Alexandra C.'
+		],
 		id: 'chama-alexandra',
 		website: 'http://alexandrachama.ca',
 		email: 'sasha@alexnadrachama.ca',
@@ -343,7 +379,10 @@ var people = [
 	},
 
 	{
-		name: 'Chris Chan',
+		name: [
+			full: 'Chris Chan',
+			partial: 'Chris C.'
+		],
 		id: 'chan-chris',
 		website: 'http://namastechris.ca',
 		email: 'chris.noel.chan@gmail.com',
@@ -367,7 +406,10 @@ var people = [
 	},
 
 	{
-		name: 'Daniela Chavez Ackermann',
+		name: [
+			full: 'Daniela Chavez-Ackermann',
+			partial: 'Daniela C.'
+		],
 		id: 'chavez-daniela',
 		website: 'http://meetdani.ca',
 		email: 'hey@meetdani.ca',
@@ -391,7 +433,10 @@ var people = [
 	},
 
 	{
-		name: 'Felipe Clavijo',
+		name: [
+			full: 'Felipe Clavijo',
+			partial: 'Felipe C.'
+		],
 		id: 'clavijo-felipe',
 		website: 'http://felipeclavijo.ca',
 		email: 'info@felipeclavijo.ca',
@@ -415,7 +460,10 @@ var people = [
 	},
 
 	{
-		name: 'Rebecka Cole',
+		name: [
+			full: 'Rebecka Cole',
+			partial: 'Rebecka C.'
+		],
 		id: 'cole-rebecka',
 		website: 'http://rebeckacole.ca',
 		email: 'rebecka.cole@gmail.com',
@@ -439,7 +487,10 @@ var people = [
 	},
 
 	{
-		name: 'Mark Collantes',
+		name: [
+			full: 'Mark Collantes',
+			partial: 'Mark C.'
+		],
 		id: 'collantes-mark',
 		website: 'http://markcollantes.ca',
 		email: 'collantes.mark.mgc@gmail.com',
@@ -463,7 +514,10 @@ var people = [
 	},
 
 	{
-		name: 'Jennifer Comacchio',
+		name: [
+			full: 'Jennifer Comacchio',
+			partial: 'Jennifer C.'
+		],
 		id: 'comacchio-jennifer',
 		website: 'http://jennifercomacchio.ca',
 		email: 'jennifer.comacchio@gmail.com',
@@ -487,7 +541,10 @@ var people = [
 	},
 
 	{
-		name: 'Alyson Conner',
+		name: [
+			full: 'Alyson Conner',
+			partial: 'Alyson C.'
+		],
 		id: 'conner-alyson',
 		website: 'http://alysonconner.ca',
 		email: 'hello@alysonconner.ca',
@@ -511,7 +568,10 @@ var people = [
 	},
 
 	{
-		name: 'Martine Cormier',
+		name: [
+			full: 'Martine Cormier',
+			partial: 'Martine C.'
+		],
 		id: 'cormier-martine',
 		website: 'http://martinecormier.ca',
 		email: 'bonjour@martinecormier.ca',
@@ -535,7 +595,10 @@ var people = [
 	},
 
 	{
-		name: 'Stacey Cowan',
+		name: [
+			full: 'Stacey Cowan',
+			partial: 'Stacey C.'
+		],
 		id: 'cowan-stacey',
 		website: 'http://staceycowan.ca',
 		email: 'hello@staceycowan.ca',
@@ -559,7 +622,10 @@ var people = [
 	},
 
 	{
-		name: 'Megan Davis',
+		name: [
+			full: 'Megan Davis',
+			partial: 'Megan D.'
+		],
 		id: 'davis-megan',
 		website: 'http://meganjessi.ca',
 		email: 'meganjd@hotmail.com',
@@ -583,7 +649,10 @@ var people = [
 	},
 
 	{
-		name: 'Alissa Dicaire',
+		name: [
+			full: 'Alissa Dicaire',
+			partial: 'Alissa D.'
+		],
 		id: 'dicaire-alissa',
 		website: 'http://alissadicaire.ca',
 		email: 'dica0020@algonquinlive.com',
@@ -607,7 +676,10 @@ var people = [
 	},
 
 	{
-		name: 'Nigel Elton',
+		name: [
+			full: 'Nigel Elton',
+			partial: 'Nigel E.'
+		],
 		id: 'elton-nigel',
 		website: 'http://nigelelton.github.io',
 		email: 'nigel.elton@gmail.com',
@@ -631,7 +703,10 @@ var people = [
 	},
 
 	{
-		name: 'Lorena Franco',
+		name: [
+			full: 'Lorena Franco',
+			partial: 'Lorena F.'
+		],
 		id: 'franco-lorena',
 		website: 'http://lorenafranco.ca',
 		email: 'info@lorenafranco.ca',
@@ -655,7 +730,10 @@ var people = [
 	},
 
 	{
-		name: 'Chelsey Frohlick',
+		name: [
+			full: 'Chelsey Frohlick',
+			partial: 'Chelsey F.'
+		],
 		id: 'frohlick-chelsey',
 		website: 'http://chelseyfrohlick.ca',
 		email: 'frohlick.c@gmail.com',
@@ -679,7 +757,10 @@ var people = [
 	},
 
 	{
-		name: 'Madeleine Gagné',
+		name: [
+			full: 'Madeleine Gagne',
+			partial: 'Madeleine G.'
+		],
 		id: 'gagne-madeleine',
 		website: 'http://madeleinegagne.ca',
 		email: 'hello@madeleinegagne.ca',
@@ -703,7 +784,10 @@ var people = [
 	},
 
 	{
-		name: 'Laura Natalia Garcias V.',
+		name: [
+			full: 'Laura Natalia Garcias V.',
+			partial: 'Laura G.'
+		],
 		id: 'garcias-laura',
 		website: 'http://laugarcia.info',
 		email: 'lauranataliagv@gmail.com',
@@ -727,7 +811,10 @@ var people = [
 	},
 
 	{
-		name: 'Iman Ghader',
+		name: [
+			full: 'Iman Ghader',
+			partial: 'Iman G.'
+		],
 		id: 'ghader-iman',
 		website: 'http://imanghader.com',
 		email: 'imanghad@gmail.com',
@@ -751,7 +838,10 @@ var people = [
 	},
 
 	{
-		name: 'Adriana Granieri',
+		name: [
+			full: 'Adriana Granieri',
+			partial: 'Adriana G.'
+		],
 		id: 'granieri-adriana',
 		website: 'http://agranieri.ca',
 		email: 'hello@agranieri.ca',
@@ -775,7 +865,10 @@ var people = [
 	},
 
 	{
-		name: 'Kathrine Greenberg',
+		name: [
+			full: 'Kathrine Greenberg',
+			partial: 'Kathrine G.'
+		],
 		id: 'greenberg-kathrine',
 		website: 'http://kathrinegreenberg.ca',
 		email: 'kathrinegreenberg@gmail.com',
@@ -799,7 +892,10 @@ var people = [
 	},
 
 	{
-		name: 'Evan Grice',
+		name: [
+			full: 'Evan Grice',
+			partial: 'Evan G.'
+		],
 		id: 'grice-evan',
 		website: 'http://evanandgrice.ca',
 		email: 'hello@evanandgrice.ca',
@@ -823,7 +919,10 @@ var people = [
 	},
 
 	{
-		name: 'Shawna Guy',
+		name: [
+			full: 'Shawna Guy',
+			partial: 'Shawna G.'
+		],
 		id: 'guy-shawna',
 		website: 'http://shawnaguydesign.ca',
 		email: 'contact@shawnaguydesign.ca',
@@ -847,7 +946,10 @@ var people = [
 	},
 
 	{
-		name: 'Sarah Hodgson',
+		name: [
+			full: 'Sarah Hodgson',
+			partial: 'Sarah H.'
+		],
 		id: 'hodgson-sarah',
 		website: 'http://sarahhodgson.ca',
 		email: 'hello@sarahhodgson.ca',
@@ -871,7 +973,10 @@ var people = [
 	},
 
 	{
-		name: 'Brittany Hogg',
+		name: [
+			full: 'Brittany Hogg',
+			partial: 'Brittany H.'
+		],
 		id: 'hogg-brittany',
 		website: 'http://brittanyhogg.ca',
 		email: 'emailme@brittanyhogg.ca',
@@ -895,7 +1000,10 @@ var people = [
 	},
 
 	{
-		name: 'Joey Anh Huynh',
+		name: [
+			full: 'Joey Anh Huynh',
+			partial: 'Joey H.'
+		],
 		id: 'huynh-joeyanh',
 		website: 'http://joeyanhhuynh.com',
 		email: 'graphic@joeyanhhuynh.com',
@@ -919,7 +1027,10 @@ var people = [
 	},
 
 	{
-		name: 'Ben Jousselin',
+		name: [
+			full: 'Ben Jousselin',
+			partial: 'Ben J.'
+		],
 		id: 'jousselin-ben',
 		website: 'http://joussel.in',
 		email: 'ben@joussel.in',
@@ -943,7 +1054,10 @@ var people = [
 	},
 
 	{
-		name: 'Sarah Knowles',
+		name: [
+			full: 'Sarah Knowles',
+			partial: 'Sarah K.'
+		],
 		id: 'knowles-sarah',
 		website: 'http://sarahknowles.ca',
 		email: 'hello@sarahknowles.ca',
@@ -967,7 +1081,10 @@ var people = [
 	},
 
 	{
-		name: 'Tyler Kotsopoulos',
+		name: [
+			full: 'Tyler Kotsopoulos',
+			partial: 'Tyler K.'
+		],
 		id: 'kotsopoulos-tyler',
 		website: 'http://coalitionlifestyle.com',
 		email: 'tylerk91@hotmail.com',
@@ -991,7 +1108,10 @@ var people = [
 	},
 
 	{
-		name: 'Ivy LaBossiere',
+		name: [
+			full: 'Ivy LaBossiere',
+			partial: 'Ivy L.'
+		],
 		id: 'labossiere-ivy',
 		website: 'http://ivylabossiere.ca',
 		email: 'ivy.labossiere@hotmail.ca',
@@ -1015,7 +1135,10 @@ var people = [
 	},
 
 	{
-		name: 'Jared Label',
+		name: [
+			full: 'Jared Label',
+			partial: 'Jared L.'
+		],
 		id: 'label-jared',
 		website: 'http://meetjared.ca',
 		email: 'jared.lebel87@gmail.com',
@@ -1039,7 +1162,10 @@ var people = [
 	},
 
 	{
-		name: 'Greg Leblanc',
+		name: [
+			full: 'Greg Leblanc',
+			partial: 'Greg L.'
+		],
 		id: 'leblanc-greg',
 		website: false,
 		email: 'gregleblanc227@gmail.com',
@@ -1063,7 +1189,10 @@ var people = [
 	},
 
 	{
-		name: 'Rachel Lin',
+		name: [
+			full: 'Rachel Lin',
+			partial: 'Rachel L.'
+		],
 		id: 'lin-rachel',
 		website: 'http://rachellin.ca',
 		email: 'hello@rachellin.ca',
@@ -1087,7 +1216,10 @@ var people = [
 	},
 
 	{
-		name: 'Alex Martin',
+		name: [
+			full: 'Alex Martin',
+			partial: 'Alex M.'
+		],
 		id: 'martin-alex',
 		website: 'http://alexandermartin.ca/',
 		email: 'design@alexandermartin.ca',
@@ -1111,7 +1243,10 @@ var people = [
 	},
 
 	{
-		name: 'Samantha McClelland',
+		name: [
+			full: 'Samantha McClelland',
+			partial: 'Samantha M.'
+		],
 		id: 'mcclelland-samantha',
 		website: 'http://mcclellandsam.ca/',
 		email: 'mcclellandsamk@gmail.com',
@@ -1135,9 +1270,12 @@ var people = [
 	},
 
 	{
-		name: 'Emma-Lee McInall',
+		name: [
+			full: 'Emma-Lee McInall',
+			partial: 'Emma-Lee M.'
+		],
 		id: 'mcinall-emmalee',
-		website: 'https://emmamcinall.ca',
+		website: 'http://emmamcinall.ca',
 		email: 'emcinall93@gmail.com',
 		skills: 'Branding, Print, UI/UX',
 		behance: 'https://www.behance.net/emmaleemcinall',
@@ -1159,7 +1297,10 @@ var people = [
 	},
 
 	{
-		name: 'Jenna McLean',
+		name: [
+			full: 'Jenna McLean',
+			partial: 'Jenna M.'
+		],
 		id: 'mclean-jenna',
 		website: 'http://jennamclean.ca',
 		email: 'mclean0316@gmail.com',
@@ -1183,7 +1324,10 @@ var people = [
 	},
 
 	{
-		name: 'Vickey Menard',
+		name: [
+			full: 'Vickey Menard',
+			partial: 'Vickey M.'
+		],
 		id: 'menard-vickey',
 		website: 'http://vickeymenard.ca',
 		email: 'info@vickeymenard.ca',
@@ -1207,7 +1351,10 @@ var people = [
 	},
 
 	{
-		name: 'Gabriel Mitchell',
+		name: [
+			full: 'Gabriel Mitchell',
+			partial: 'Gabriel M.'
+		],
 		id: 'mitchell-gabriel',
 		website: 'http://gabrielmitchell.ca/',
 		email: 'heythere@gabrielmitchell.ca',
@@ -1231,7 +1378,10 @@ var people = [
 	},
 
 	{
-		name: 'Sebastian Nadeau',
+		name: [
+			full: 'Sebastian Nadeau',
+			partial: 'Sebastian N.'
+		],
 		id: 'nadeau-sebastian',
 		website: 'http://sebastiann.ca',
 		email: 'sebastiann@fastmail.fm',
@@ -1255,7 +1405,10 @@ var people = [
 	},
 
 	{
-		name: 'Quynh Nguyen',
+		name: [
+			full: 'Quynh Nguyen',
+			partial: 'Quynh N.'
+		],
 		id: 'nguyen-quynh',
 		website: 'http://quynhnguyen.ca',
 		email: 'tquynh1112@yahoo.com',
@@ -1279,7 +1432,10 @@ var people = [
 	},
 
 	{
-		name: 'Samantha Nickerson',
+		name: [
+			full: 'Samantha Nickerson',
+			partial: 'Samantha N.'
+		],
 		id: 'nickerson-samantha',
 		website: 'http://samantha-nickerson.ca',
 		email: 'samantha.rose.nickerson@gmail.com',
@@ -1303,7 +1459,10 @@ var people = [
 	},
 
 	{
-		name: 'Caterina O Leary',
+		name: [
+			full: 'Caterina O Leary',
+			partial: 'Caterina O.'
+		],
 		id: 'oleary-caterina',
 		website: 'http://caterinaghost.ca',
 		email: 'ccat.x@hotmail.com',
@@ -1327,7 +1486,10 @@ var people = [
 	},
 
 	{
-		name: 'Julia Paddick',
+		name: [
+			full: 'Julia Paddick',
+			partial: 'Julia P.'
+		],
 		id: 'paddick-julia',
 		website: 'http://juliapaddick.ca',
 		email: 'juliapaddick35@gmail.com',
@@ -1351,7 +1513,10 @@ var people = [
 	},
 
 	{
-		name: 'Stephen Pollock',
+		name: [
+			full: 'Stephen Pollock',
+			partial: 'Stephen P.'
+		],
 		id: 'pollock-stephen',
 		website: 'http://pollockgraphics.ca',
 		email: 'pollockgraphics@fastmail.fm',
@@ -1375,7 +1540,10 @@ var people = [
 	},
 
 	{
-		name: 'Emily Prochnau',
+		name: [
+			full: 'Emily Prochnau',
+			partial: 'Emily P.'
+		],
 		id: 'prochnau-emily',
 		website: 'http://emilyprochnau.ca',
 		email: 'hello@emilyprochnau.ca',
@@ -1399,7 +1567,10 @@ var people = [
 	},
 
 	{
-		name: 'Brittany Robertson',
+		name: [
+			full: 'Brittany Robertson',
+			partial: 'Brittany R.'
+		],
 		id: 'robertson-brittany',
 		website: 'http://brittanyrob.ca',
 		email: 'hello@brittanyrob.ca',
@@ -1423,7 +1594,10 @@ var people = [
 	},
 
 	{
-		name: 'Melissa Roy',
+		name: [
+			full: 'Melissa Roy',
+			partial: 'Melissa R.'
+		],
 		id: 'roy-melissa',
 		website: 'http://melissaroy.ca',
 		email: 'r.melissadesign@gmail.com',
@@ -1447,7 +1621,10 @@ var people = [
 	},
 
 	{
-		name: 'Sonal Sharma',
+		name: [
+			full: 'Sonal Sharma',
+			partial: 'Sonal S.'
+		],
 		id: 'sharma-sonal',
 		website: 'http://sonalsharma.ca',
 		email: 'info@sonalsharma.ca',
@@ -1471,7 +1648,10 @@ var people = [
 	},
 
 	{
-		name: 'Katie Situ',
+		name: [
+			full: 'Katie Situ',
+			partial: 'Katie S.'
+		],
 		id: 'situ-katie',
 		website: 'http://katiesitu.ca',
 		email: 'katie.situ@gmail.com',
@@ -1495,7 +1675,10 @@ var people = [
 	},
 
 	{
-		name: 'Amanda Sparks',
+		name: [
+			full: 'Amanda Sparks',
+			partial: 'Amanda S.'
+		],
 		id: 'sparks-amanda',
 		website: 'http://amandasparks.ca',
 		email: 'info@amandasparks.ca',
@@ -1519,7 +1702,10 @@ var people = [
 	},
 
 	{
-		name: 'Kayla Tomkiewicz',
+		name: [
+			full: 'Kayla Tomkiewicz',
+			partial: 'Kayla T.'
+		],
 		id: 'tomkiewicz-kayla',
 		website: 'http://kaylatomkiewicz.ca',
 		email: 'hello@kaylatomkiewicz.ca',
@@ -1543,7 +1729,10 @@ var people = [
 	},
 
 	{
-		name: 'Marta Traczyk',
+		name: [
+			full: 'Marta Traczyk',
+			partial: 'Marta T.'
+		],
 		id: 'traczyk-marta',
 		website: 'http://martatraczyk.ca',
 		email: 'design@martatraczyk.ca',
@@ -1567,7 +1756,10 @@ var people = [
 	},
 
 	{
-		name: 'Nichole Veiro',
+		name: [
+			full: 'Nichole Veiro',
+			partial: 'Nichole V.'
+		],
 		id: 'veiro-nichole',
 		website: 'http://nicholeveiro.ca/',
 		email: 'nicholeveiro@gmail.com',
@@ -1591,7 +1783,10 @@ var people = [
 	},
 
 	{
-		name: 'Rebecca Wright',
+		name: [
+			full: 'Rebecca Wright',
+			partial: 'Rebecca W.'
+		],
 		id: 'wright-rebecca',
 		website: 'http://rebeccawright.ca/',
 		email: 'bec666.wright@gmail.com',
@@ -1615,7 +1810,10 @@ var people = [
 	},
 
 	{
-		name: 'Hasan Yavuz',
+		name: [
+			full: 'Hasan Yavuz',
+			partial: 'Hasan Y.'
+		],
 		id: 'yavuz-hasan',
 		website: 'http://hasanyavuz.ca/',
 		email: 'yavuz.hasan@icloud.com',
