@@ -68,11 +68,12 @@ var $socialC = $('.social-c');
 var $site = $('.site');
 var $email = $('.email');
 
-
-$studentLink.on('click', function(event){
+$studentLink.on('click', function(event, i){
 	event.preventDefault();
 	$cover.addClass('overlay');
 	$body.addClass('noscroll');
+	var studentdata = $(this).attr('data-index');
+	console.log(studentdata);
 });
 
 $closeOverlay.click(function(event){
