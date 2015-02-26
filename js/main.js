@@ -82,8 +82,8 @@ $studentLink.on('click', function(event, i){
 	event.preventDefault();
 	$cover.addClass('overlay');
 	$body.addClass('noscroll');
-	var studentdata = $(this).attr('data-index');
-	$('.next-student').attr('data-index', studentdata + 1);
+	var studentdata = parseInt($(this).attr('data-index'), 10);
+	upDateNextPrv(studentdata)
 	$stuName.html(people.student[studentdata].name);
 	$lbPic.attr('src', 'http://grads.images.algonquindesign.ca/2015/lightbox/' + people.student[studentdata].id + '-lightbox.jpg');
 	$site.html(people.student[studentdata].website);
@@ -96,13 +96,44 @@ $studentLink.on('click', function(event, i){
 
 $nxtStudent.click(function(event) {
 	event.preventDefault();
-	var studentdata = $(this).attr('data-index');
-	console.log(studentdata);
+	var studentdata = parseInt($(this).attr('data-index'), 10);
+	upDateNextPrv(studentdata)
+	$stuName.html(people.student[studentdata].name);
+	$lbPic.attr('src', 'http://grads.images.algonquindesign.ca/2015/lightbox/' + people.student[studentdata].id + '-lightbox.jpg');
+	$site.html(people.student[studentdata].website);
+	$email.html(people.student[studentdata].email);
+	$portImg1.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-1.jpg');
+	$portImg2.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-2.jpg');
+	$portImg3.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-3.jpg');
+	$portImg4.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-4.jpg');
 });
 
 $prvStudent.click(function(event) {
 	event.preventDefault();
+	var studentdata = parseInt($(this).attr('data-index'), 10);
+	upDateNextPrv(studentdata)
+	$stuName.html(people.student[studentdata].name);
+	$lbPic.attr('src', 'http://grads.images.algonquindesign.ca/2015/lightbox/' + people.student[studentdata].id + '-lightbox.jpg');
+	$site.html(people.student[studentdata].website);
+	$email.html(people.student[studentdata].email);
+	$portImg1.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-1.jpg');
+	$portImg2.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-2.jpg');
+	$portImg3.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-3.jpg');
+	$portImg4.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-4.jpg');
 });
+
+var upDateNextPrv = function (id) {
+	var nxt = id + 1;
+	var prv = id - 1;
+	if (nxt > people.student.length - 1) {
+		nxt = 0;
+	}
+	if ( prv < 0 ) {
+		prv = people.student.length - 1;
+	}
+	$nxtStudent.attr('data-index', nxt);
+	$prvStudent.attr('data-index', prv);
+}
 
 
 $closeOverlay.click(function(event){

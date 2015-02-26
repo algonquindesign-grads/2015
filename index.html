@@ -32,8 +32,8 @@
 <section class="about" id="about">
 
 	<h5>ABOUT</h5>
-
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse itaque maxime, eligendi fugiat ut optio voluptatum eveniet, harum autem, hic et dolore, ea atque blanditiis aspernatur libero voluptates obcaecati fuga!</p>
+		<p>The graduating class of the Algonquin College School of Media and Design invite you to witness an explosion of collective creativity and talent. There will be flair. There will be genius. There will be beer.
+You can’t miss it.</p>
 
 </section>
 
@@ -48,13 +48,14 @@
 
 	<script id="template" type="text/x-handlebars-template">
 		{{#student}}
-			<a href="#cover" data-index="{{@index}}">
-				<li class="pic">
+			<li class="pic">
+				<a href="#cover" data-index="{{@index}}">
 						<img class="homepage-pic" src="http://grads.images.algonquindesign.ca/2015/homepage/{{id}}-homepage.jpg">
 						<p class="full">{{name}}</p>
 						<p class="partial">{{name}}</p>
-				</li>
-			</a>
+						<div class="tint"></div>
+				</a>
+			</li>
 		{{/student}}
 	</script>
 
@@ -93,10 +94,10 @@
 	<div class="smooth-scroll">
 	<a href="#top"><h5 class="play">BACK TO TOP</h5></a>
 	</div>
-	<ul class="social">
-		<a href="https://twitter.com/acgdX15"><li><img src="images/twitter.svg" alt="Twitter Logo"></li></a>
-		<a href="#"><li><img src="images/facebook.svg" alt="Facebook Logo"></li></a>
-		<a href="http://instagram.com/acgdx15"><li><img src="images/instagram.svg" alt="Instagram Logo"></li></a>
+	<ul class="footer-social">
+		<li><a href="https://twitter.com/acgdX15"><img src="images/twitter.svg" alt="Twitter Logo"></a></li>
+		<li><a href="#"><img src="images/facebook.svg" alt="Facebook Logo"></a></li>
+		<li><a href="http://instagram.com/acgdx15"><img src="images/instagram.svg" alt="Instagram Logo"></a></li>
 	</ul>
 
 	<ul class="ac-logos">

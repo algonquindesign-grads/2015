@@ -210,7 +210,6 @@ h5 {
 .homepage-pic {
 	display:block;
 	position:relative;
-	float:left;
 	width:100%;
 	background-size: cover;
 	bacground-position: center center;
@@ -226,18 +225,20 @@ h5 {
 	height: 100%;
 	opacity: 0;
 	top: 0;
+	z-index: 5;
+	transition: all 250ms linear;
 }
 
-.yellow {
+.pic:nth-child(3n) .tint {
 	background-color: yellow;
 }
 
-.magenta {
+.pic:nth-child(2n) .tint {
 	background-color: magenta;
 }
 
-.tint:hover {
-	opacity: .5;
+.pic:hover .tint {
+	opacity: .7;
 }
 
 .grads p {
@@ -448,6 +449,24 @@ ul {
 
 .ac-logos img {
 	width: 100%;
+}
+
+.footer-social {
+	display:block;
+	img {
+			width:100%;
+		}
+}
+
+.footer-social li {
+	display: inline-block;
+	width: 5%;
+	margin: 3em 3em;
+	transition: all 250ms linear;
+}
+
+.footer-social li:hover {
+	transform: scale(1.25);
 }
 
 @media #{$mobile} {
