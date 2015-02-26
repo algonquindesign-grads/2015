@@ -357,8 +357,8 @@ var people = [
 			partial: 'Alexandra C.'
 		],
 		id: 'chama-alexandra',
-		website: 'http://alexandrachama.ca',
-		email: 'sasha@alexnadrachama.ca',
+		website: 'http://sashachama.com',
+		email: 'ideas@sashachama.com ',
 		skills: 'Branding, Print, Typography',
 		behance: 'https://www.behance.net/AlexandraChama',
 		dribbble: false,
