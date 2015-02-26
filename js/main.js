@@ -82,8 +82,13 @@ $studentLink.on('click', function(event, i){
 	event.preventDefault();
 	$cover.addClass('overlay');
 	$body.addClass('noscroll');
+<<<<<<< HEAD
 	var studentdata = parseInt($(this).attr('data-index'), 10);
 	upDateNextPrv(studentdata)
+=======
+	var studentdata = $(this).attr('data-index');
+	$nxtStudent.attr('data-index', studentdata + 1);
+>>>>>>> origin/java
 	$stuName.html(people.student[studentdata].name);
 	$lbPic.attr('src', 'http://grads.images.algonquindesign.ca/2015/lightbox/' + people.student[studentdata].id + '-lightbox.jpg');
 	$site.html(people.student[studentdata].website);
@@ -96,6 +101,7 @@ $studentLink.on('click', function(event, i){
 
 $nxtStudent.click(function(event) {
 	event.preventDefault();
+<<<<<<< HEAD
 	var studentdata = parseInt($(this).attr('data-index'), 10);
 	upDateNextPrv(studentdata)
 	$stuName.html(people.student[studentdata].name);
@@ -106,6 +112,13 @@ $nxtStudent.click(function(event) {
 	$portImg2.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-2.jpg');
 	$portImg3.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-3.jpg');
 	$portImg4.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-4.jpg');
+=======
+	var studentdata = $(this).attr('data-index');
+	console.log(studentdata);
+	// Have to update the next button again with the new next student
+	$nxtStudent.attr('data-index', studentdata + 1);
+	// Then populate all the details: name, images, etc.
+>>>>>>> origin/java
 });
 
 $prvStudent.click(function(event) {
