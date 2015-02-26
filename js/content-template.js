@@ -2,7 +2,10 @@ var people = {
 	student: [
 	/*
 	{
-		name: 'FirstName LastName',
+		name: {
+			full: 'FirstName LastName',
+			partial: 'T. Bradley'
+		},
 		id: 'lastname-firstname',
 		website: 'http://johnsmith.ca',
 		email: 'hey@johnsmith.ca',
@@ -300,7 +303,7 @@ var people = {
 		facebook: false,
 		github: false,
 		instagram: false,
-		linkedin: 'ca.linkedin.com/in/pcardososantos',
+		linkedin: 'https://ca.linkedin.com/in/pcardososantos',
 		pinterest: false,
 		twitter: false,
 		vimeo: 'https://www.vimeo.com/user24145531',
@@ -316,8 +319,8 @@ var people = {
 	{
 		name: 'Alexandra Chama',
 		id: 'chama-alexandra',
-		website: 'http://alexandrachama.ca',
-		email: 'sasha@alexnadrachama.ca',
+		website: 'http://sashachama.com',
+		email: 'ideas@sashachama.com',
 		skills: 'Branding, Print, Typography',
 		behance: 'https://www.behance.net/AlexandraChama',
 		dribbble: false,
@@ -363,7 +366,7 @@ var people = {
 
 	{
 		name: 'Daniela Chavez Ackermann',
-		id: 'ackermann-daniela',
+		id: 'chavez-daniela',
 		website: 'http://meetdani.ca',
 		email: 'hey@meetdani.ca',
 		skills: 'Branding, Print, UI/UX',
@@ -1012,8 +1015,8 @@ var people = {
 	},
 
 	{
-		name: 'Jared Label',
-		id: 'label-jared',
+		name: 'Jared Lebel',
+		id: 'lebel-jared',
 		website: 'http://meetjared.ca',
 		email: 'jared.lebel87@gmail.com',
 		skills: 'Branding, Illustration, Typography',
@@ -1037,7 +1040,7 @@ var people = {
 
 {
 		name: 'Greg Leblanc',
-		id: 'leblanc-jared',
+		id: 'leblanc-greg',
 		website: false,
 		email: 'gregleblanc227@gmail.com',
 		skills: 'Motion, UI/UX',
@@ -1134,7 +1137,7 @@ var people = {
 
 	{
 		name: 'Emma-Lee McInall',
-		id: 'mcinall-emmalee',
+		id: 'mcinall-emma',
 		website: 'https://emmamcinall.ca',
 		email: 'emcinall93@gmail.com',
 		skills: 'Branding, Print, UI/UX',
@@ -1663,6 +1666,12 @@ var people = {
 	],
 }
 
+function shuffle(o){ //v1.0
+    for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+    return o;
+};
+
+shuffle(people.student);
 
 
 

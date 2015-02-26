@@ -59,6 +59,7 @@ var $closeOverlay = $('.close-overlay');
 var $body  = $('body');
 var $stuName = $('.student-name');
 var $lbPic = $('.lightbox-pic');
+var $hpPic = $('.homepage-pic');
 var $skillA = $('.skill-a');
 var $skillB = $('.skill-b');
 var $skillC = $('.skill-c');
@@ -67,14 +68,40 @@ var $socialB = $('.social-b');
 var $socialC = $('.social-c');
 var $site = $('.site');
 var $email = $('.email');
+var $nxtStudent = $('.next-student');
+var $prvStudent = $('.prev-student');
+
+// portfolio pieces
+var $portImg1 = $('.portfolio-img-1')
+var $portImg2 = $('.portfolio-img-2')
+var $portImg3 = $('.portfolio-img-3')
+var $portImg4 = $('.portfolio-img-4')
+
 
 $studentLink.on('click', function(event, i){
 	event.preventDefault();
 	$cover.addClass('overlay');
 	$body.addClass('noscroll');
 	var studentdata = $(this).attr('data-index');
-	$stuName.html(studentdata);
+	$('.next-student').attr('data-index', studentdata + 1);
+	$stuName.html(people.student[studentdata].name);
+	$lbPic.attr('src', 'http://grads.images.algonquindesign.ca/2015/lightbox/' + people.student[studentdata].id + '-lightbox.jpg');
+	$site.html(people.student[studentdata].website);
+	$email.html(people.student[studentdata].email);
+	$portImg1.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-1.jpg');
+	$portImg2.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-2.jpg');
+	$portImg3.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-3.jpg');
+	$portImg4.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-4.jpg');
 });
+
+$nxtStudent.click(function(event) {
+	event.preventDefault();
+});
+
+$prvStudent.click(function(event) {
+	event.preventDefault();
+});
+
 
 $closeOverlay.click(function(event){
 	event.preventDefault();

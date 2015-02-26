@@ -201,17 +201,22 @@ h5 {
 
 //																						STUDENTS
 
-.pic {
-	background: transparent url(../images/400x400.jpg) no-repeat center center;
-	background-size: cover;
-	height: 0;
-	position: relative;
-	float: left;
-	transition: all 100ms ease-in-out;
 
-	//REMOVE WHEN IMAGES ARE ADDED, just there for separation
-	box-sizing: border-box;
-	border: 1px inset #000;
+.pic {
+	position:relative;
+	float:left;
+}
+
+.homepage-pic {
+	display:block;
+	position:relative;
+	float:left;
+	width:100%;
+	background-size: cover;
+	bacground-position: center center;
+	z-index: 3;
+	padding-bottom:0;
+	transition: all 250ms linear;
 }
 
 .tint {
@@ -232,14 +237,22 @@ h5 {
 }
 
 .tint:hover {
-	opacity: .5
+	opacity: .5;
 }
 
 .grads p {
+	float: left;
+	position: relative;
 	text-align: center;
 	margin-top: -2em;
-	padding: 0.6em 0 0.5em;
+	margin-bottom: -1em;
+	width:100%;
+	z-index: 10;
+	padding: 0.6em 0 .5em;
 	background-color: rgba(100,100,100,0.5);
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight:300;
 }
 
 .l-1-6,
@@ -254,7 +267,6 @@ h5 {
 @media #{$mobile} {
 	.s-1-2 .pic {
 		width: 50%;
-		padding-top: 50%;
 	}
 	.s-1-2 .pic2 {
 		width: 100%;
@@ -272,7 +284,6 @@ h5 {
 @media #{$tablet} {
 	.m-1-4 .pic {
 		width: 25%;
-		padding-top: 25%;
 	}
 	.m-1-4 .pic2 {
 		width: 50%;
@@ -290,7 +301,6 @@ h5 {
 @media #{$desktop-small} {
 	.l-1-6 .pic {
 		width: 16.6666%;
-		padding-top: 16.6666%;
 	}
 	.l-1-6 .pic2 {
 		width: 33.3333%;
@@ -508,6 +518,12 @@ ul {
 	background:rgba(#222222, .8);
 }
 
+.student-box h2 {
+	color: #fff;
+	letter-spacing:1px;
+	font-weight: 300;
+}
+
 .overlay {
 	display:block;
 }
@@ -519,20 +535,20 @@ ul {
 
 //																			WITHIN COVER
 
-.last-student,
+.prev-student,
 .next-student,
 .close-overlay {
 	position: absolute;
 }
 
-.last-student,
+.prev-student,
 .next-student,
 .close-overlay {
 	border: 2px solid #fff;
 	padding: 0.5em 1em;
 }
 
-.last-student {
+.prev-student {
 	top: 1.25em;
 	left: 7.5%;
 }
