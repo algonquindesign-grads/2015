@@ -9,7 +9,16 @@ var people = {
 		id: 'lastname-firstname',
 		website: 'http://johnsmith.ca',
 		email: 'hey@johnsmith.ca',
-		skills: 'Branding, UX, Web',
+		skills: {
+			skillA: 'Branding',
+			skillB: 'UX&UI',
+			skillC: 'Motion'
+		},
+		social: {
+			socialA:'',
+			socialB:'',
+			socialC:''
+		},
 		behance: false,
 		dribbble: false,
 		facebook: 'http://facebook.com/johnsmith'
