@@ -96,6 +96,8 @@ $studentLink.on('click', function(event, i){
 
 $nxtStudent.click(function(event) {
 	event.preventDefault();
+	var studentdata = $(this).attr('data-index');
+	console.log(studentdata);
 });
 
 $prvStudent.click(function(event) {

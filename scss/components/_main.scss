@@ -416,24 +416,29 @@ ul {
 	list-style-type: none;
 }
 
+.social-links {
+	text-align: center;
+}
+
 .social,
 .ac-logos {
 	display: block;
 	width: 100%;
 }
 
-.social li {
+.social-links li {
 	display: inline-block;
-	margin: 5em 6%;
+	padding: 2em;
 }
 
-.social img {
+.social-links img {
 	width: 100%;
+	border-radius: 200px;
 	transition: all 100ms ease;
 }
 
-.social a img:hover {
-	transform: scale(1.25);
+.social-links a img:hover {
+	transform: scale(1.15);
 }
 
 .ac-logos li {
@@ -446,7 +451,7 @@ ul {
 }
 
 @media #{$mobile} {
-	.social li {
+	.social-links li {
 		width: 75px;
 		height: 75px;
 	}
@@ -460,7 +465,7 @@ ul {
 }
 
 @media #{$tablet} {
-	.social li {
+	.social-links li {
 		width: 100px;
 		height: 100px;
 	}
@@ -483,28 +488,6 @@ ul {
 
 //																				OVERLAY/cover itself
 
-
-// #cover {
-// 	position:fixed;
-// 	top:0;
-// 	left:0;
-// 	background:rgba(255,255,255,0.9);
-// 	z-index:1;
-// 	width:100%;
-// 	height:100%;
-// 	display: none;
-// 	padding-top: 5em;
-// 	color: #fff;
-// }
-
-// a:visited {
-// 	color: #fff;
-// }
-
-// #cover:target {
-// 	display:block;
-// 	opacity:2;
-// }
 
 .student-box {
 	position:fixed;
@@ -587,16 +570,10 @@ ul {
 	margin: 1.5em 0;
 	width: 100%;
 	list-style-type: none;
-	img {
-		float: left;
-		width: 20%;
-		margin: 0 5% 1.5em 0;
-		border-radius: 200px;
-	}
 }
 
 .left p {
-	font-size: 1.25em;
+	font-size: 1em;
 	display: inline-block;
 	width: 100%;
 	@include zero;
@@ -612,6 +589,13 @@ ul {
 .right img {
 	width: 50%;
 	float: left;
+}
+
+.site,
+.email {
+	color: #fff;
+	font-weight: 300;
+	letter-spacing: 1px;
 }
 
 //																				FOOTER
