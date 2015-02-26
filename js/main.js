@@ -83,7 +83,7 @@ $studentLink.on('click', function(event, i){
 	$cover.addClass('overlay');
 	$body.addClass('noscroll');
 	var studentdata = $(this).attr('data-index');
-	$('.next-student').attr('data-index', studentdata + 1);
+	$nxtStudent.attr('data-index', studentdata + 1);
 	$stuName.html(people.student[studentdata].name);
 	$lbPic.attr('src', 'http://grads.images.algonquindesign.ca/2015/lightbox/' + people.student[studentdata].id + '-lightbox.jpg');
 	$site.html(people.student[studentdata].website);
@@ -98,6 +98,9 @@ $nxtStudent.click(function(event) {
 	event.preventDefault();
 	var studentdata = $(this).attr('data-index');
 	console.log(studentdata);
+	// Have to update the next button again with the new next student
+	$nxtStudent.attr('data-index', studentdata + 1);
+	// Then populate all the details: name, images, etc.
 });
 
 $prvStudent.click(function(event) {
