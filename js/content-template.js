@@ -2,10 +2,17 @@ var people = {
 	student: [
 	/*
 	{
+<<<<<<< Updated upstream
 		name: {
 			full: 'FirstName LastName',
 			partial: 'T. Bradley'
 		},
+=======
+		name: [
+			full: FirstName-LastName,
+			partial:FirstName Initial(A.)
+		],
+>>>>>>> Stashed changes
 		id: 'lastname-firstname',
 		website: 'http://johnsmith.ca',
 		email: 'hey@johnsmith.ca',
@@ -38,7 +45,10 @@ var people = {
 */
 
 		{
-		name: 'Colombina Anzivino',
+		name: [
+			full: 'Colombina-Anzivino',
+			partial: 'Colombina A.'
+		],
 		id: 'anzivino-colombina',
 		website: 'http://www.colombinaanzivino.ca',
 		email: 'cmasrs19@gmail.com',
