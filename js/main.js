@@ -60,9 +60,7 @@ var $body  = $('body');
 var $stuName = $('.student-name');
 var $lbPic = $('.lightbox-pic');
 var $hpPic = $('.homepage-pic');
-var $skillA = $('.skill-a');
-var $skillB = $('.skill-b');
-var $skillC = $('.skill-c');
+var $skill = $('.skill');
 var $socialA = $('.social-a');
 var $socialB = $('.social-b');
 var $socialC = $('.social-c');
@@ -84,10 +82,11 @@ $studentLink.on('click', function(event, i){
 	$body.addClass('noscroll');
 	var studentdata = parseInt($(this).attr('data-index'), 10);
 	upDateNextPrv(studentdata)
-	$stuName.html(people.student[studentdata].name);
+	$stuName.html(people.student[studentdata].name.full);
 	$lbPic.attr('src', 'http://grads.images.algonquindesign.ca/2015/lightbox/' + people.student[studentdata].id + '-lightbox.jpg');
 	$site.html(people.student[studentdata].website);
 	$email.html(people.student[studentdata].email);
+	$skill.html(people.student[studentdata].skills);
 	$portImg1.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-1.jpg');
 	$portImg2.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-2.jpg');
 	$portImg3.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-3.jpg');
@@ -98,7 +97,7 @@ $nxtStudent.click(function(event) {
 	event.preventDefault();
 	var studentdata = parseInt($(this).attr('data-index'), 10);
 	upDateNextPrv(studentdata)
-	$stuName.html(people.student[studentdata].name);
+	$stuName.html(people.student[studentdata].name.full);
 	$lbPic.attr('src', 'http://grads.images.algonquindesign.ca/2015/lightbox/' + people.student[studentdata].id + '-lightbox.jpg');
 	$site.html(people.student[studentdata].website);
 	$email.html(people.student[studentdata].email);
@@ -111,8 +110,8 @@ $nxtStudent.click(function(event) {
 $prvStudent.click(function(event) {
 	event.preventDefault();
 	var studentdata = parseInt($(this).attr('data-index'), 10);
-	upDateNextPrv(studentdata)
-	$stuName.html(people.student[studentdata].name);
+	upDateNextPrv(studentdata);
+	$stuName.html(people.student[studentdata].name.full);
 	$lbPic.attr('src', 'http://grads.images.algonquindesign.ca/2015/lightbox/' + people.student[studentdata].id + '-lightbox.jpg');
 	$site.html(people.student[studentdata].website);
 	$email.html(people.student[studentdata].email);
@@ -135,7 +134,6 @@ var upDateNextPrv = function (id) {
 	$prvStudent.attr('data-index', prv);
 }
 
-
 $closeOverlay.click(function(event){
 	event.preventDefault();
 	$cover.removeClass('overlay');
@@ -148,6 +146,7 @@ $(document).keydown(function(e) {
         $body.removeClass('noscroll');
     }
 });
+
 
 
 

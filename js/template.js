@@ -2,4 +2,4 @@ var template = Handlebars.compile($('#template').html());
 var rendered = template(people);
 $('.student').html(rendered);
 
-$('.student').append('<img class="teachers" src="http://placehold.it/1400x400&text=Teachers">');
+$('.student').append('<img class="teachers" src="http://grads.images.algonquindesign.ca/2015/homepage/teachers.jpg">');

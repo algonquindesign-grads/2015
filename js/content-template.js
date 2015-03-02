@@ -16,11 +16,7 @@ var people = {
 		id: 'lastname-firstname',
 		website: 'http://johnsmith.ca',
 		email: 'hey@johnsmith.ca',
-		skills: {
-			skillA: 'Branding',
-			skillB: 'UX&UI',
-			skillC: 'Motion'
-		},
+		skills:  'Branding, UX&UI & Motion',
 		social: {
 			socialA:'',
 			socialB:'',
@@ -342,8 +338,8 @@ var people = {
 
 	{
 		name: {
-			full: 'Pedro Cardoso dos Santos',
-			partial: 'Pedro C.'
+			full: 'Pedro Santos',
+			partial: 'Pedro S.'
 		},
 		id: 'cardosodossantos-pedro',
 		website: 'http://pedrosantos.info',
@@ -423,7 +419,7 @@ var people = {
 
 	{
 		name: {
-			full: 'Daniela Chavez-Ackermann',
+			full: 'Daniela Chavez',
 			partial: 'Daniela C.'
 		},
 		id: 'chavez-daniela',
