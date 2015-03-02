@@ -236,7 +236,6 @@ h5 {
 /* line 221, /Users/Mark/Desktop/2015/scss/components/main */
 .tint {
   position: absolute;
-  background-color: cyan;
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -244,19 +243,23 @@ h5 {
   z-index: 5;
   transition: all 250ms linear; }
 
-/* line 232, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 231, /Users/Mark/Desktop/2015/scss/components/main */
+.pic:nth-child(1n) .tint {
+  background-color: cyan; }
+
+/* line 236, /Users/Mark/Desktop/2015/scss/components/main */
 .pic:nth-child(3n) .tint {
   background-color: yellow; }
 
-/* line 236, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 240, /Users/Mark/Desktop/2015/scss/components/main */
 .pic:nth-child(2n) .tint {
   background-color: magenta; }
 
-/* line 240, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 244, /Users/Mark/Desktop/2015/scss/components/main */
 .pic:hover .tint {
   opacity: 0.7; }
 
-/* line 244, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 248, /Users/Mark/Desktop/2015/scss/components/main */
 .grads p {
   float: left;
   position: relative;
@@ -271,7 +274,7 @@ h5 {
   letter-spacing: 1px;
   font-weight: 300; }
 
-/* line 261, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 265, /Users/Mark/Desktop/2015/scss/components/main */
 .l-1-6, .m-1-4, .s-1-2 {
   position: relative;
   display: block;
@@ -279,118 +282,118 @@ h5 {
   margin: 3em 0; }
 
 @media only screen and (min-width: 20em) {
-  /* line 269, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 273, /Users/Mark/Desktop/2015/scss/components/main */
   .s-1-2 .pic {
     width: 50%; }
 
-  /* line 272, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 276, /Users/Mark/Desktop/2015/scss/components/main */
   .s-1-2 .pic2 {
     width: 100%; }
 
-  /* line 276, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 280, /Users/Mark/Desktop/2015/scss/components/main */
   .grads .partial {
     display: block; }
-  /* line 279, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 283, /Users/Mark/Desktop/2015/scss/components/main */
   .grads .full {
     display: none; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 286, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 290, /Users/Mark/Desktop/2015/scss/components/main */
   .m-1-4 .pic {
     width: 25%; }
 
-  /* line 289, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 293, /Users/Mark/Desktop/2015/scss/components/main */
   .m-1-4 .pic2 {
     width: 50%; }
 
-  /* line 293, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 297, /Users/Mark/Desktop/2015/scss/components/main */
   .grads .partial {
     display: none; }
-  /* line 296, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 300, /Users/Mark/Desktop/2015/scss/components/main */
   .grads .full {
     display: block; }
  }
 
 @media only screen and (max-width: 900px) {
-  /* line 304, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 308, /Users/Mark/Desktop/2015/scss/components/main */
   .grads .partial {
     display: block; }
-  /* line 307, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 311, /Users/Mark/Desktop/2015/scss/components/main */
   .grads .full {
     display: none; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 315, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 319, /Users/Mark/Desktop/2015/scss/components/main */
   .l-1-6 .pic {
     width: 16.6666%; }
 
-  /* line 318, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 322, /Users/Mark/Desktop/2015/scss/components/main */
   .l-1-6 .pic2 {
     width: 33.3333%; }
  }
 
-/* line 323, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 327, /Users/Mark/Desktop/2015/scss/components/main */
 .teachers {
   width: 100%; }
 
-/* line 329, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 333, /Users/Mark/Desktop/2015/scss/components/main */
 .event {
   position: relative;
   display: inline-block;
   padding: 0 10% 3em;
   width: 100%; }
 
-/* line 337, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 341, /Users/Mark/Desktop/2015/scss/components/main */
 .left-event, .right-event {
   float: left;
   text-align: center;
   display: inline-block; }
 
-/* line 343, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 347, /Users/Mark/Desktop/2015/scss/components/main */
 .event p {
   line-height: 1.25em;
   font-size: 1.25em; }
 
-/* line 349, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 353, /Users/Mark/Desktop/2015/scss/components/main */
 .right-event h3 {
   font-size: 1.5em; }
 
-/* line 353, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 357, /Users/Mark/Desktop/2015/scss/components/main */
 .event h4 {
   padding: 0.5em 0;
   margin: 0;
   color: MEDIUMTURQUOISE; }
 
-/* line 359, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 363, /Users/Mark/Desktop/2015/scss/components/main */
 .invite {
   display: inline-block;
   padding: 2em auto;
   border: 5px solid MEDIUMTURQUOISE;
   transition: all 200ms ease; }
 
-/* line 366, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 370, /Users/Mark/Desktop/2015/scss/components/main */
 .right-event a:hover {
   -webkit-transform: scale(1.25);
       -ms-transform: scale(1.25);
           transform: scale(1.25); }
 
 @media only screen and (min-width: 20em) {
-  /* line 372, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 376, /Users/Mark/Desktop/2015/scss/components/main */
   .left-event, .right-event {
     width: 100%; }
 
-  /* line 376, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 380, /Users/Mark/Desktop/2015/scss/components/main */
   .left-event h5, .right-event h5 {
     margin-bottom: 0;
     margin-top: 1em; }
 
-  /* line 380, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 384, /Users/Mark/Desktop/2015/scss/components/main */
   .map {
     width: 300px; }
 
-  /* line 383, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 387, /Users/Mark/Desktop/2015/scss/components/main */
   .invite {
     width: 250px;
     font-size: 1.5em;
@@ -398,19 +401,19 @@ h5 {
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 392, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 396, /Users/Mark/Desktop/2015/scss/components/main */
   .left-event, .right-event {
     width: 50%; }
 
-  /* line 396, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 400, /Users/Mark/Desktop/2015/scss/components/main */
   .left-event h5, .right-event h5 {
     margin-bottom: 1em; }
 
-  /* line 399, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 403, /Users/Mark/Desktop/2015/scss/components/main */
   .map {
     width: 200px; }
 
-  /* line 402, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 406, /Users/Mark/Desktop/2015/scss/components/main */
   .invite {
     width: 200px;
     font-size: 1em;
@@ -418,123 +421,122 @@ h5 {
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 410, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 414, /Users/Mark/Desktop/2015/scss/components/main */
   .map {
     width: 350px; }
 
-  /* line 413, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 417, /Users/Mark/Desktop/2015/scss/components/main */
   .invite {
     width: 300px;
     font-size: 2em; }
  }
 
-/* line 421, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 425, /Users/Mark/Desktop/2015/scss/components/main */
 footer {
   position: relative;
   background-color: #666;
   padding: 5em 0 3em;
   text-align: center; }
 
-/* line 428, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 432, /Users/Mark/Desktop/2015/scss/components/main */
 ul {
   list-style-type: none; }
 
-/* line 432, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 436, /Users/Mark/Desktop/2015/scss/components/main */
 .social-links {
-  text-align: center; }
+  display: block;
+  width: 100%; }
 
-/* line 437, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 443, /Users/Mark/Desktop/2015/scss/components/main */
 .social, .ac-logos {
   display: block;
   width: 100%; }
 
-/* line 442, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 448, /Users/Mark/Desktop/2015/scss/components/main */
 .social-links li {
   display: inline-block;
-  padding: 2em; }
-
-/* line 447, /Users/Mark/Desktop/2015/scss/components/main */
-.social-links img {
-  width: 100%;
-  border-radius: 200px;
-  transition: all 100ms ease; }
+  margin: 0; }
 
 /* line 453, /Users/Mark/Desktop/2015/scss/components/main */
+.social-links img {
+  width: 40px;
+  margin: 1em 0;
+  transition: all 100ms ease; }
+
+/* line 459, /Users/Mark/Desktop/2015/scss/components/main */
 .social-links a img:hover {
   -webkit-transform: scale(1.15);
       -ms-transform: scale(1.15);
           transform: scale(1.15); }
 
-/* line 457, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 463, /Users/Mark/Desktop/2015/scss/components/main */
 .ac-logos li {
   display: inline-block;
   margin: 2em 3%; }
 
-/* line 462, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 468, /Users/Mark/Desktop/2015/scss/components/main */
 .ac-logos img {
   width: 100%; }
 
-/* line 466, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 472, /Users/Mark/Desktop/2015/scss/components/main */
 .footer-social {
   display: block; }
-  /* line 468, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 474, /Users/Mark/Desktop/2015/scss/components/main */
   .footer-social img {
     width: 100%; }
 
-/* line 473, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 479, /Users/Mark/Desktop/2015/scss/components/main */
 .footer-social li {
   display: inline-block;
   width: 5%;
   margin: 3em 3em;
   transition: all 250ms linear; }
 
-/* line 480, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 486, /Users/Mark/Desktop/2015/scss/components/main */
 .footer-social li:hover {
   -webkit-transform: scale(1.25);
       -ms-transform: scale(1.25);
           transform: scale(1.25); }
 
 @media only screen and (min-width: 20em) {
-  /* line 485, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 491, /Users/Mark/Desktop/2015/scss/components/main */
   .social-links li {
-    width: 75px;
-    height: 75px; }
+    width: 60px; }
 
-  /* line 489, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 494, /Users/Mark/Desktop/2015/scss/components/main */
   .ac-logos li {
     width: 30%; }
 
-  /* line 493, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 498, /Users/Mark/Desktop/2015/scss/components/main */
   .tablet li, .desktop li {
     display: none; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 499, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 504, /Users/Mark/Desktop/2015/scss/components/main */
   .social-links li {
-    width: 100px;
-    height: 100px; }
+    width: 100px; }
 
-  /* line 503, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 507, /Users/Mark/Desktop/2015/scss/components/main */
   .ac-logos li {
     width: 25%; }
 
-  /* line 506, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 510, /Users/Mark/Desktop/2015/scss/components/main */
   .tablet li {
     display: inline-block; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 512, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 516, /Users/Mark/Desktop/2015/scss/components/main */
   .ac-logos li {
     width: 15%; }
 
-  /* line 515, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 519, /Users/Mark/Desktop/2015/scss/components/main */
   .desktop li {
     display: inline-block; }
  }
 
-/* line 523, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 527, /Users/Mark/Desktop/2015/scss/components/main */
 .student-box {
   position: fixed;
   display: none;
@@ -546,22 +548,22 @@ ul {
   height: 100%;
   background: rgba(34, 34, 34, 0.8); }
 
-/* line 535, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 539, /Users/Mark/Desktop/2015/scss/components/main */
 .student-box h2 {
   color: #fff;
   letter-spacing: 1px;
   font-weight: 300;
   margin: 0.5em 0; }
 
-/* line 542, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 546, /Users/Mark/Desktop/2015/scss/components/main */
 .overlay {
   display: block; }
 
-/* line 546, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 550, /Users/Mark/Desktop/2015/scss/components/main */
 .noscroll {
   overflow: hidden; }
 
-/* line 555, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 559, /Users/Mark/Desktop/2015/scss/components/main */
 .prev-student, .next-student, .close-overlay {
   position: absolute;
   color: #fff;
@@ -570,56 +572,56 @@ ul {
   padding: 0.5em 1em;
   transition: all 250ms linear; }
 
-/* line 566, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 570, /Users/Mark/Desktop/2015/scss/components/main */
 .prev-student:hover, .next-student:hover, .close-overlay:hover {
   background-color: #fff;
   color: #222222; }
 
-/* line 571, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 575, /Users/Mark/Desktop/2015/scss/components/main */
 .prev-student {
   top: 1.25em;
   left: 7.5%;
   letter-spacing: 1px; }
 
-/* line 577, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 581, /Users/Mark/Desktop/2015/scss/components/main */
 .next-student {
   top: 1.25em;
   right: 2.5%;
   letter-spacing: 1px; }
 
-/* line 583, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 587, /Users/Mark/Desktop/2015/scss/components/main */
 .close-overlay {
   bottom: 2em;
   right: 2.5%;
   letter-spacing: 1px; }
 
-/* line 589, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 593, /Users/Mark/Desktop/2015/scss/components/main */
 .left {
   padding: 0 7.5%;
   float: left;
   width: 50%; }
 
-/* line 595, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 599, /Users/Mark/Desktop/2015/scss/components/main */
 .left h2 {
   font-size: 1.5em; }
 
-/* line 599, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 603, /Users/Mark/Desktop/2015/scss/components/main */
 .left .lightbox-pic {
   width: 100%; }
 
-/* line 603, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 607, /Users/Mark/Desktop/2015/scss/components/main */
 .left {
   margin: 0.25em 0;
   font-size: 1em;
   list-style-type: none; }
 
-/* line 609, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 613, /Users/Mark/Desktop/2015/scss/components/main */
 .left .social {
   margin: 1.5em 0;
   width: 100%;
   list-style-type: none; }
 
-/* line 615, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 619, /Users/Mark/Desktop/2015/scss/components/main */
 .skill {
   margin: 0;
   padding: 0;
@@ -627,7 +629,7 @@ ul {
   letter-spacing: 1px;
   font-weight: 300; }
 
-/* line 623, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 627, /Users/Mark/Desktop/2015/scss/components/main */
 .left p {
   font-size: 1em;
   display: inline-block;
@@ -636,32 +638,32 @@ ul {
   padding: 0;
   margin: 0 0 0.5em; }
 
-/* line 631, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 635, /Users/Mark/Desktop/2015/scss/components/main */
 .right {
   float: left;
   width: 50%;
   padding-right: 1%; }
 
-/* line 637, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 641, /Users/Mark/Desktop/2015/scss/components/main */
 .right img {
   width: 50%;
   float: left; }
 
-/* line 643, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 647, /Users/Mark/Desktop/2015/scss/components/main */
 .site, .email {
   color: #fff;
   font-weight: 300;
   letter-spacing: 1px; }
 
 @media only screen and (min-width: 20em) {
-  /* line 654, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 658, /Users/Mark/Desktop/2015/scss/components/main */
   .right img {
     width: 75%;
     margin: 0.25em 12.5%; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 661, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 665, /Users/Mark/Desktop/2015/scss/components/main */
   .right img {
     width: 50%;
     margin: 0;
@@ -669,7 +671,7 @@ ul {
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 669, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 673, /Users/Mark/Desktop/2015/scss/components/main */
   .right img {
     width: 50%;
     margin: 0;
