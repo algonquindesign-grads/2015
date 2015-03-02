@@ -447,12 +447,11 @@ ul {
 
 .social-links li {
 	display: inline-block;
-	margin: 0;
 }
 
 .social-links img {
 	width: 40px;
-	margin: 1em 0;
+	margin: 2em 0;
 	transition: all 100ms ease;
 }
 
@@ -489,7 +488,7 @@ ul {
 
 @media #{$mobile} {
 	.social-links li {
-		width: 60px;
+		width: 55px;
 			}
 	.ac-logos li {
 		width: 30%;
@@ -502,7 +501,7 @@ ul {
 
 @media #{$tablet} {
 	.social-links li {
-		width: 100px;
+		width: 70px;
 	}
 	.ac-logos li {
 		width: 25%;
@@ -513,6 +512,10 @@ ul {
 }
 
 @media #{$desktop-small} {
+	.social-links li {
+		width:85px;
+	}
+
 	.ac-logos li {
 		width: 15%;
 	}
