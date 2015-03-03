@@ -25,14 +25,14 @@ SASS uses the '$' to declare variables.*/
   width: device-width;
   scale: 1; }
 
-/* line 7, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 7, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 html {
   box-sizing: border-box;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%; }
 
-/* line 15, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 15, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 ul {
   list-style-type: none;
   -webkit-margin-before: 0;
@@ -41,21 +41,21 @@ ul {
   -webkit-margin-end: 0;
   -webkit-padding-start: 0; }
 
-/* line 24, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 24, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 *, *:before, *:after {
   box-sizing: inherit; }
 
-/* line 28, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 28, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 a {
   text-decoration: none; }
 
-/* line 37, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 37, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 html, body, section, img, ul, li {
   margin: 0;
   padding: 0;
   font-family: Helvetica, Arial, sans-serif; }
 
-/* line 44, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 44, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 header {
   text-align: right;
   position: relative;
@@ -63,7 +63,7 @@ header {
   padding: 0 5%;
   z-index: 10; }
 
-/* line 53, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 53, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .logo-head {
   float: left;
   left: 5%;
@@ -71,14 +71,14 @@ header {
   width: 75px;
   top: 0.75em; }
 
-/* line 61, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 61, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 header h4 {
   display: inline-block;
   padding: 0 2%;
   color: #fff;
   letter-spacing: 2px; }
 
-/* line 68, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 68, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .sticky-nav {
   transition: all 250ms linear;
   position: fixed;
@@ -88,116 +88,116 @@ header h4 {
   background-color: rgba(34, 34, 34, 0.95); }
 
 @media only screen and (min-width: 20em) {
-  /* line 79, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 79, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   header h4 {
     font-size: 0.75em; }
 
-  /* line 82, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 82, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .logo-head {
     max-height: 30px;
     top: 0.5em; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 89, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 89, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   header h4 {
     font-size: 1em; }
 
-  /* line 92, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 92, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .logo-head {
     max-height: 40px;
     top: 0.75em; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 99, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 99, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   header h4 {
     font-size: 1.25em; }
 
-  /* line 102, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 102, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .logo-head {
     max-height: 60px;
     top: 1.25em; }
  }
 
-/* line 110, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 110, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .front {
   margin-top: -78px;
   text-align: center;
   padding: 10em 0;
   background-color: #bbb; }
 
-/* line 117, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 117, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .logo {
   display: block;
   margin: 0 auto 5em; }
 
-/* line 122, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 122, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .play {
   color: #fff;
   letter-spacing: 2px;
   display: inline-block;
   margin: 0; }
 
-/* line 129, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 129, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .arrow {
   position: absolute;
   width: 80px;
   margin-left: -40px; }
 
 @media only screen and (min-width: 20em) {
-  /* line 136, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 136, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .play {
     font-size: 1em;
     padding: 0.75em 1em;
     border: 3px #fff solid; }
 
-  /* line 141, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 141, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .logo {
     width: 200px; }
 
-  /* line 144, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 144, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .arrow {
     top: 32em; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 150, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 150, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .play {
     font-size: 2em;
     padding: 0.5em 1em;
     border: 5px #fff solid; }
 
-  /* line 155, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 155, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .logo {
     width: 300px; }
 
-  /* line 158, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 158, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .arrow {
     top: 40em; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 164, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 164, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .play {
     font-size: 2.5em;
     padding: 0.75em 1.5em; }
 
-  /* line 168, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 168, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .logo {
     width: 400px; }
 
-  /* line 171, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 171, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .arrow {
     top: 45em; }
  }
 
-/* line 178, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 178, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .about {
   padding: 5em 20% 3em;
   position: relative; }
 
-/* line 183, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 183, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 h5 {
   text-align: center;
   font-size: 2.5em;
@@ -206,23 +206,23 @@ h5 {
   padding: 0;
   margin-bottom: 1.5em; }
 
-/* line 191, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 191, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .about p {
   font-size: 1.25em;
   line-height: 1.25em; }
 
-/* line 196, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 196, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .sep {
   position: relative;
   width: 80%;
   margin: 2em 10% 2em; }
 
-/* line 205, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 205, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .pic {
   position: relative;
   float: left; }
 
-/* line 210, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 210, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .homepage-pic {
   display: block;
   position: relative;
@@ -233,7 +233,7 @@ h5 {
   padding-bottom: 0;
   transition: all 250ms linear; }
 
-/* line 221, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 221, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .tint {
   position: absolute;
   width: 100%;
@@ -243,23 +243,23 @@ h5 {
   z-index: 5;
   transition: all 250ms linear; }
 
-/* line 231, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 231, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .pic:nth-child(1n) .tint {
   background-color: cyan; }
 
-/* line 236, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 236, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .pic:nth-child(3n) .tint {
   background-color: yellow; }
 
-/* line 240, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 240, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .pic:nth-child(2n) .tint {
   background-color: magenta; }
 
-/* line 244, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 244, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .pic:hover .tint {
   opacity: 0.7; }
 
-/* line 248, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 248, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .grads p {
   float: left;
   position: relative;
@@ -274,7 +274,7 @@ h5 {
   letter-spacing: 1px;
   font-weight: 300; }
 
-/* line 265, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 265, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .l-1-6, .m-1-4, .s-1-2 {
   position: relative;
   display: block;
@@ -282,118 +282,118 @@ h5 {
   margin: 3em 0; }
 
 @media only screen and (min-width: 20em) {
-  /* line 273, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 273, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .s-1-2 .pic {
     width: 50%; }
 
-  /* line 276, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 276, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .s-1-2 .pic2 {
     width: 100%; }
 
-  /* line 280, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 280, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .grads .partial {
     display: block; }
-  /* line 283, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 283, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .grads .full {
     display: none; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 290, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 290, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .m-1-4 .pic {
     width: 25%; }
 
-  /* line 293, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 293, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .m-1-4 .pic2 {
     width: 50%; }
 
-  /* line 297, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 297, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .grads .partial {
     display: none; }
-  /* line 300, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 300, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .grads .full {
     display: block; }
  }
 
 @media only screen and (max-width: 900px) {
-  /* line 308, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 308, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .grads .partial {
     display: block; }
-  /* line 311, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 311, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .grads .full {
     display: none; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 319, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 319, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .l-1-6 .pic {
     width: 16.6666%; }
 
-  /* line 322, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 322, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .l-1-6 .pic2 {
     width: 33.3333%; }
  }
 
-/* line 327, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 327, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .teachers {
   width: 100%; }
 
-/* line 333, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 333, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .event {
   position: relative;
   display: inline-block;
   padding: 0 10% 3em;
   width: 100%; }
 
-/* line 341, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 341, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .left-event, .right-event {
   float: left;
   text-align: center;
   display: inline-block; }
 
-/* line 347, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 347, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .event p {
   line-height: 1.25em;
   font-size: 1.25em; }
 
-/* line 353, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 353, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .right-event h3 {
   font-size: 1.5em; }
 
-/* line 357, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 357, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .event h4 {
   padding: 0.5em 0;
   margin: 0;
   color: MEDIUMTURQUOISE; }
 
-/* line 363, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 363, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .invite {
   display: inline-block;
   padding: 2em auto;
   border: 5px solid MEDIUMTURQUOISE;
   transition: all 200ms ease; }
 
-/* line 370, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 370, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .right-event a:hover {
   -webkit-transform: scale(1.25);
       -ms-transform: scale(1.25);
           transform: scale(1.25); }
 
 @media only screen and (min-width: 20em) {
-  /* line 376, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 376, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .left-event, .right-event {
     width: 100%; }
 
-  /* line 380, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 380, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .left-event h5, .right-event h5 {
     margin-bottom: 0;
     margin-top: 1em; }
 
-  /* line 384, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 384, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .map {
     width: 300px; }
 
-  /* line 387, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 387, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .invite {
     width: 250px;
     font-size: 1.5em;
@@ -401,19 +401,19 @@ h5 {
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 396, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 396, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .left-event, .right-event {
     width: 50%; }
 
-  /* line 400, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 400, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .left-event h5, .right-event h5 {
     margin-bottom: 1em; }
 
-  /* line 403, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 403, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .map {
     width: 200px; }
 
-  /* line 406, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 406, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .invite {
     width: 200px;
     font-size: 1em;
@@ -421,125 +421,125 @@ h5 {
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 414, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 414, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .map {
     width: 350px; }
 
-  /* line 417, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 417, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .invite {
     width: 300px;
     font-size: 2em; }
  }
 
-/* line 425, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 425, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 footer {
   position: relative;
   background-color: #666;
   padding: 5em 0 3em;
   text-align: center; }
 
-/* line 432, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 432, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 ul {
   list-style-type: none; }
 
-/* line 436, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 436, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .social-links {
   display: block;
   width: 100%; }
 
-/* line 443, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 443, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .social, .ac-logos {
   display: block;
   width: 100%; }
 
-/* line 448, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 448, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .social-links li {
   display: inline-block; }
 
-/* line 452, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 452, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .social-links img {
   width: 40px;
   margin: 2em 0;
   transition: all 100ms ease; }
 
-/* line 458, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 458, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .social-links a img:hover {
   -webkit-transform: scale(1.15);
       -ms-transform: scale(1.15);
           transform: scale(1.15); }
 
-/* line 462, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 462, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .ac-logos li {
   display: inline-block;
   margin: 2em 3%; }
 
-/* line 467, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 467, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .ac-logos img {
   width: 100%; }
 
-/* line 471, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 471, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .footer-social {
   display: block; }
-  /* line 473, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 473, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .footer-social img {
     width: 100%; }
 
-/* line 478, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 478, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .footer-social li {
   display: inline-block;
   width: 5%;
   margin: 3em 3em;
   transition: all 250ms linear; }
 
-/* line 485, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 485, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .footer-social li:hover {
   -webkit-transform: scale(1.25);
       -ms-transform: scale(1.25);
           transform: scale(1.25); }
 
 @media only screen and (min-width: 20em) {
-  /* line 490, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 490, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .social-links li {
     width: 55px; }
 
-  /* line 493, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 493, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .ac-logos li {
     width: 30%; }
 
-  /* line 497, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 497, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .tablet li, .desktop li {
     display: none; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 503, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 503, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .social-links li {
     width: 70px; }
 
-  /* line 506, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 506, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .ac-logos li {
     width: 25%; }
 
-  /* line 509, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 509, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .tablet li {
     display: inline-block; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 515, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 515, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .social-links li {
     width: 85px; }
 
-  /* line 519, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 519, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .ac-logos li {
     width: 15%; }
 
-  /* line 522, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 522, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .desktop li {
     display: inline-block; }
  }
 
-/* line 530, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 530, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .student-box {
   position: fixed;
   top: 0;
@@ -554,22 +554,22 @@ ul {
   color: #000;
   z-index: 100; }
 
-/* line 545, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 545, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .student-box h2 {
   color: #fff;
   letter-spacing: 1px;
   font-weight: 300;
   margin: 0.5em 0; }
 
-/* line 552, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 552, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .overlay {
   display: block; }
 
-/* line 556, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 556, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .noscroll {
   overflow: hidden; }
 
-/* line 563, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 563, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .cover-buttons {
   right: 0;
   width: 100%;
@@ -577,30 +577,30 @@ ul {
   bottom: -2.9em;
   overflow: hidden;
   text-align: right; }
-  /* line 570, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 570, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .cover-buttons i {
     display: inline-block;
     font-size: 5em; }
 
-/* line 576, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 576, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .cyan-icon {
   color: cyan;
   margin-right: 2%; }
-  /* line 579, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 579, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .cyan-icon p {
     color: #000;
     font-size: 1em; }
 
-/* line 585, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 585, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .magenta-icon {
   position: relative;
   margin-right: 2%;
   color: magenta; }
-  /* line 589, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 589, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .magenta-icon p {
     color: #000; }
 
-/* line 594, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 594, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .left {
   padding: 0 7.5%;
   float: left;
@@ -608,21 +608,21 @@ ul {
   font-size: 1em;
   list-style-type: none; }
 
-/* line 602, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 602, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .left h2 {
   font-size: 1.5em; }
 
-/* line 606, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 606, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .left .lightbox-pic {
   width: 100%; }
 
-/* line 610, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 610, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .left .social {
   margin: 1.5em 0;
   width: 100%;
   list-style-type: none; }
 
-/* line 616, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 616, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .skill {
   margin: 0;
   padding: 0;
@@ -630,7 +630,7 @@ ul {
   letter-spacing: 1px;
   font-weight: 300; }
 
-/* line 624, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 624, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .left p {
   font-size: 1em;
   display: inline-block;
@@ -639,73 +639,74 @@ ul {
   padding: 0;
   margin: 0 0 0.5em; }
 
-/* line 632, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 632, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .right {
   float: left;
-  padding-right: 1%; }
+  padding-right: 1%;
+  margin-top: 1rem; }
 
-/* line 637, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 638, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .right img {
   width: 50%;
   float: left; }
 
-/* line 643, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 644, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
 .site, .email {
   color: #fff;
   font-weight: 300;
   letter-spacing: 1px; }
 
 @media only screen and (min-width: 20em) {
-  /* line 652, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 653, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .right img {
     width: 75%;
     margin: 0.25em 12.5%; }
 
-  /* line 656, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 657, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .left {
     width: 100%;
     text-align: left;
     margin: 1em 0; }
 
-  /* line 661, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 662, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .right {
     width: 100%; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 667, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 668, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .right img {
     width: 50%;
     margin: 0;
     padding: 0 1% 1em; }
 
-  /* line 672, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 673, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .left .lightbox-pic {
     width: 50%;
     margin: 0 25%; }
 
-  /* line 676, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 677, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .left {
     text-align: center; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 682, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 683, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .right img {
     width: 50%;
     margin: 0;
     padding: 0 0.5% 0.5em; }
 
-  /* line 687, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 688, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .left {
     width: 50%;
     text-align: left; }
 
-  /* line 691, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 692, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .right {
     width: 50%; }
 
-  /* line 694, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 695, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
   .left .lightbox-pic {
     width: 100%;
     margin: 0; }
@@ -728,7 +729,7 @@ ul {
   }
 }
 */
-/* line 22, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/cover-buttons */
+/* line 22, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/cover-buttons */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "cover-buttons";
   font-style: normal;
@@ -753,17 +754,17 @@ ul {
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-/* line 53, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/cover-buttons */
+/* line 53, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/cover-buttons */
 .icon-angle-circled-left:before {
   content: '\e800'; }
 
 /* '' */
-/* line 54, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/cover-buttons */
+/* line 54, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/cover-buttons */
 .icon-cancel-circled:before {
   content: '\e801'; }
 
 /* '' */
-/* line 55, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/cover-buttons */
+/* line 55, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/cover-buttons */
 .icon-angle-circled-right:before {
   content: '\e802'; }
 
