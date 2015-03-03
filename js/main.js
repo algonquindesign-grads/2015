@@ -9,7 +9,8 @@
 // });
 
 var hashTagActive = "";
-$(document).ready( function() {
+
+$(document).ready(function() {
 	$(".smooth-scroll a").click(function (event) {
 
 		if(hashTagActive != this.hash) { //this will prevent if the user click several times the same link to freeze the scroll.
@@ -26,7 +27,7 @@ $(document).ready( function() {
 
 			//go to destination
 			$('html, body').animate({
-			    scrollTop: dest
+					scrollTop: dest
 			}, 700, 'swing');
 
 			hashTagActive = this.hash;
@@ -34,8 +35,6 @@ $(document).ready( function() {
 
 	});
 });
-
-
 
 var $about = $('.about');
 var $topNav = $('.top-nav')
@@ -49,7 +48,6 @@ if (window.screen.width >= 768) {
 		}
 	}, { offset: '150px'});
 }
-
 
 // OVERLAY
 var $student = $('.student');
@@ -76,7 +74,6 @@ var $portImg3 = $('.portfolio-img-3');
 var $portImg4 = $('.portfolio-img-4');
 
 // Social Links
-
 var $fb = $('.facebook');
 var $beh = $('.behance');
 var $drib = $('.dribbble');
@@ -87,27 +84,17 @@ var $pin = $('.pinterest');
 var $twt = $('.twitter');
 var $vim = $('.vimeo');
 
-
-
-$studentLink.on('click', function(event, i){
+$studentLink.on('click', function (event, i) {
 	event.preventDefault();
 	$cover.addClass('overlay');
 	$body.addClass('noscroll');
 	var studentdata = parseInt($(this).attr('data-index'), 10);
 	upDateNextPrv(studentdata)
+	changeStudent(studentdata);
 	socialChange(studentdata);
-	$stuName.html(people.student[studentdata].name.full);
-	$lbPic.attr('src', 'http://grads.images.algonquindesign.ca/2015/lightbox/' + people.student[studentdata].id + '-lightbox.jpg');
-	$site.html(people.student[studentdata].website);
-	$email.html(people.student[studentdata].email);
-	$skill.html(people.student[studentdata].skills);
-	$portImg1.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-1.jpg');
-	$portImg2.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-2.jpg');
-	$portImg3.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-3.jpg');
-	$portImg4.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-4.jpg');
 });
 
-$nxtStudent.click(function(event) {
+$nxtStudent.click(function (event) {
 	event.preventDefault();
 	var studentdata = parseInt($(this).attr('data-index'), 10);
 	upDateNextPrv(studentdata);
@@ -115,7 +102,7 @@ $nxtStudent.click(function(event) {
 	socialChange(studentdata);
 });
 
-$prvStudent.click(function(event) {
+$prvStudent.click(function (event) {
 	event.preventDefault();
 	var studentdata = parseInt($(this).attr('data-index'), 10);
 	upDateNextPrv(studentdata);
@@ -123,7 +110,7 @@ $prvStudent.click(function(event) {
 	socialChange(studentdata);
 });
 
-var changeStudent = function(studentdata) {
+var changeStudent = function (studentdata) {
 	$stuName.html(people.student[studentdata].name.full);
 	$lbPic.attr('src', 'http://grads.images.algonquindesign.ca/2015/lightbox/' + people.student[studentdata].id + '-lightbox.jpg');
 	$site.html(people.student[studentdata].website);
@@ -132,24 +119,22 @@ var changeStudent = function(studentdata) {
 	$portImg2.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-2.jpg');
 	$portImg3.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-3.jpg');
 	$portImg4.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-4.jpg');
-
 }
 
-var socialChange = function(studentdata) {
+var socialChange = function (studentdata) {
 	if (people.student[studentdata].facebook) {
 		$fb.show();
 		$fb.children("a").attr('href', people.student[studentdata].facebook);
-		} else {
-			$fb.hide();
-		}
+	} else {
+		$fb.hide();
+	}
 
 	if (people.student[studentdata].behance) {
 		$beh.show();
 		$beh.children("a").attr('href', people.student[studentdata].behance);
-		} else {
-			$beh.hide();
-		}
-
+	} else {
+		$beh.hide();
+	}
 
 	if (people.student[studentdata].dribbble) {
 		$drib.show();
@@ -158,9 +143,9 @@ var socialChange = function(studentdata) {
 		$drib.hide();
 	}
 
-		if (people.student[studentdata].github) {
-			$git.show();
-			$git.children("a").attr('href', people.student[studentdata].github);
+	if (people.student[studentdata].github) {
+		$git.show();
+		$git.children("a").attr('href', people.student[studentdata].github);
 	} else {
 			$git.hide();
 	}
@@ -201,46 +186,45 @@ var socialChange = function(studentdata) {
 	}
 }
 
-
 var upDateNextPrv = function (id) {
 	var nxt = id + 1;
 	var prv = id - 1;
+
 	if (nxt > people.student.length - 1) {
 		nxt = 0;
 	}
-	if ( prv < 0 ) {
+
+	if (prv < 0) {
 		prv = people.student.length - 1;
 	}
+
 	$nxtStudent.attr('data-index', nxt);
 	$prvStudent.attr('data-index', prv);
 }
 
-$closeOverlay.click(function(event){
+$closeOverlay.click(function (event) {
 	event.preventDefault();
 	$cover.removeClass('overlay');
 	$body.removeClass('noscroll');
 });
 
-$(document).keydown(function(e) {
-
+$(document).keydown(function (e) {
 	switch(e.keyCode) {
 		case 27:
 			$cover.removeClass('overlay');
-    	$body.removeClass('noscroll');
-    break;
-    case 39:
-    	var studentdata = parseInt($nxtStudent.attr('data-index'), 10);
+			$body.removeClass('noscroll');
+		break;
+		case 39:
+			var studentdata = parseInt($nxtStudent.attr('data-index'), 10);
 			upDateNextPrv(studentdata);
 			changeStudent(studentdata);
 			socialChange(studentdata);
-    break;
-    case 37:
-    	var studentdata = parseInt($prvStudent.attr('data-index'), 10);
+		break;
+		case 37:
+			var studentdata = parseInt($prvStudent.attr('data-index'), 10);
 			upDateNextPrv(studentdata);
 			changeStudent(studentdata);
 			socialChange(studentdata);
-    break;
+		break;
 	}
 });
-
-
