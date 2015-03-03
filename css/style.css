@@ -663,35 +663,52 @@ ul {
 
   /* line 656, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
   .left {
-    width: 100%; }
+    width: 100%;
+    text-align: left;
+    margin: 1em 0; }
 
-  /* line 659, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 661, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
   .right {
     width: 100%; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 665, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 667, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
   .right img {
     width: 50%;
     margin: 0;
     padding: 0 1% 1em; }
 
-  /* line 670, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
-  .left {
-    width: 50%; }
+  /* line 672, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  .left .lightbox-pic {
+    width: 50%;
+    margin: 0 25%; }
 
-  /* line 673, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
-  .right {
-    width: 50%; }
+  /* line 676, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  .left {
+    text-align: center; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 679, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 682, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
   .right img {
     width: 50%;
     margin: 0;
     padding: 0 0.5% 0.5em; }
+
+  /* line 687, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  .left {
+    width: 50%;
+    text-align: left; }
+
+  /* line 691, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  .right {
+    width: 50%; }
+
+  /* line 694, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  .left .lightbox-pic {
+    width: 100%;
+    margin: 0; }
  }
 
 @font-face {
