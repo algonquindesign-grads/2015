@@ -115,7 +115,15 @@ var changeStudent = function (studentdata) {
 	$lbPic.attr('src', 'http://grads.images.algonquindesign.ca/2015/lightbox/' + people.student[studentdata].id + '-lightbox.jpg');
 	$site.html(people.student[studentdata].website);
 	$email.html(people.student[studentdata].email);
-	$portImg1.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-1.jpg');
+
+	if (people.student[studentdata].works[0].length == 1) {
+		// Plain image
+		$portImg1.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-' + people.student[studentdata].works[0] + '.jpg');
+	} else {
+		// Vimeo
+
+	}
+
 	$portImg2.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-2.jpg');
 	$portImg3.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-3.jpg');
 	$portImg4.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-4.jpg');
