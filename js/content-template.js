@@ -1530,7 +1530,7 @@ var people = {
 		},
 		id: 'pollock-stephen',
 		website: 'http://pollockgraphics.ca',
-		email: 'pollockgraphics@fastmail.fm',
+		email: 'stephen@pollockgraphics.ca',
 		skills: 'Branding, Illustration, Print',
 		behance: 'https://www.behance.net/stephenpollock',
 		dribbble: false,
