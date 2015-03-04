@@ -627,62 +627,61 @@ ul {
   top: 0;
   left: 0;
   background: rgba(22, 22, 22, 0.8);
-  z-index: 10;
   width: 100%;
-  height: 90%;
-  margin: 2.5% 0;
+  height: 100%;
   display: none;
-  padding-top: 3em;
+  padding-top: 5em;
   color: #000;
-  z-index: 100; }
+  z-index: 1000;
+  transition: all 250ms linear; }
 
-/* line 653, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 654, /Users/Mark/Desktop/2015/scss/components/main */
 .student-box h2 {
   color: #fff;
   letter-spacing: 1px;
   font-weight: 300;
   margin: 0.5em 0; }
 
-/* line 660, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 661, /Users/Mark/Desktop/2015/scss/components/main */
 .overlay {
   display: block; }
 
-/* line 664, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 665, /Users/Mark/Desktop/2015/scss/components/main */
 .noscroll {
   overflow: hidden; }
 
-/* line 671, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 672, /Users/Mark/Desktop/2015/scss/components/main */
 .cover-buttons {
   right: 0;
   width: 100%;
   position: absolute;
-  bottom: -2.9em;
+  bottom: 1em;
   overflow: hidden;
   text-align: right; }
-  /* line 678, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 679, /Users/Mark/Desktop/2015/scss/components/main */
   .cover-buttons i {
     display: inline-block;
     font-size: 5em; }
 
-/* line 684, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 685, /Users/Mark/Desktop/2015/scss/components/main */
 .cyan-icon {
   color: cyan;
   margin-right: 2%; }
-  /* line 687, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 688, /Users/Mark/Desktop/2015/scss/components/main */
   .cyan-icon p {
     color: #000;
     font-size: 1em; }
 
-/* line 693, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 694, /Users/Mark/Desktop/2015/scss/components/main */
 .magenta-icon {
   position: relative;
   margin-right: 2%;
   color: magenta; }
-  /* line 697, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 698, /Users/Mark/Desktop/2015/scss/components/main */
   .magenta-icon p {
     color: #000; }
 
-/* line 702, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 703, /Users/Mark/Desktop/2015/scss/components/main */
 .left {
   padding: 0 7.5%;
   float: left;
@@ -690,21 +689,21 @@ ul {
   font-size: 1em;
   list-style-type: none; }
 
-/* line 710, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 711, /Users/Mark/Desktop/2015/scss/components/main */
 .left h2 {
   font-size: 1.5em; }
 
-/* line 714, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 715, /Users/Mark/Desktop/2015/scss/components/main */
 .left .lightbox-pic {
   width: 100%; }
 
-/* line 718, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 719, /Users/Mark/Desktop/2015/scss/components/main */
 .left .social {
   margin: 1.5em 0;
   width: 100%;
   list-style-type: none; }
 
-/* line 724, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 725, /Users/Mark/Desktop/2015/scss/components/main */
 .skill {
   margin: 0;
   padding: 0;
@@ -712,7 +711,7 @@ ul {
   letter-spacing: 1px;
   font-weight: 300; }
 
-/* line 732, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 733, /Users/Mark/Desktop/2015/scss/components/main */
 .left p {
   font-size: 1em;
   display: inline-block;
@@ -721,74 +720,80 @@ ul {
   padding: 0;
   margin: 0 0 0.5em; }
 
-/* line 740, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 741, /Users/Mark/Desktop/2015/scss/components/main */
 .right {
   float: left;
   padding-right: 1%;
   margin-top: 1rem; }
 
-/* line 746, /Users/Mark/Desktop/2015/scss/components/main */
-.right img {
+/* line 747, /Users/Mark/Desktop/2015/scss/components/main */
+.right-content {
   width: 50%;
-  float: left; }
+  float: left;
+  margin-bottom: 0.75em; }
 
-/* line 752, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 753, /Users/Mark/Desktop/2015/scss/components/main */
+.right-content iframe {
+  height: 100%;
+  overflow: auto; }
+
+/* line 759, /Users/Mark/Desktop/2015/scss/components/main */
 .site, .email {
   color: #fff;
   font-weight: 300;
   letter-spacing: 1px; }
 
 @media only screen and (min-width: 20em) {
-  /* line 761, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 768, /Users/Mark/Desktop/2015/scss/components/main */
   .right img {
     width: 75%;
     margin: 0.25em 12.5%; }
 
-  /* line 765, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 772, /Users/Mark/Desktop/2015/scss/components/main */
   .left {
     width: 100%;
     text-align: left;
     margin: 1em 0; }
 
-  /* line 770, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 777, /Users/Mark/Desktop/2015/scss/components/main */
   .right {
     width: 100%; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 776, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 783, /Users/Mark/Desktop/2015/scss/components/main */
   .right img {
     width: 50%;
     margin: 0;
     padding: 0 1% 1em; }
 
-  /* line 781, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 788, /Users/Mark/Desktop/2015/scss/components/main */
   .left .lightbox-pic {
     width: 50%;
     margin: 0 25%; }
 
-  /* line 785, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 792, /Users/Mark/Desktop/2015/scss/components/main */
   .left {
     text-align: center; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 791, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 798, /Users/Mark/Desktop/2015/scss/components/main */
   .right img {
     width: 50%;
     margin: 0;
     padding: 0 0.5% 0.5em; }
 
-  /* line 796, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 803, /Users/Mark/Desktop/2015/scss/components/main */
   .left {
     width: 50%;
     text-align: left; }
 
-  /* line 800, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 807, /Users/Mark/Desktop/2015/scss/components/main */
   .right {
     width: 50%; }
 
-  /* line 803, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 810, /Users/Mark/Desktop/2015/scss/components/main */
   .left .lightbox-pic {
     width: 100%;
     margin: 0; }

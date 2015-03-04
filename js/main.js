@@ -108,14 +108,6 @@ $studentLink.on('click', function (event, i) {
 	upDateNextPrv(studentdata)
 	changeStudent(studentdata);
 	socialChange(studentdata);
-	// if (people.student[studentdata].website) {
-	// 	$site.attr('href', people.student[studentdata].website);
-	// }
-	// if (people.student[studentdata].email) {
-	// 	$email.attr('href', 'mailto:' + people.student[studentdata].email);
-	// }
-
-
 });
 
 $nxtStudent.click(function (event) {
@@ -139,6 +131,7 @@ var changeStudent = function (studentdata) {
 	$lbPic.attr('src', 'http://grads.images.algonquindesign.ca/2015/lightbox/' + people.student[studentdata].id + '-lightbox.jpg');
 	$site.html(people.student[studentdata].website);
 	$email.html(people.student[studentdata].email);
+	$skill.html(people.student[studentdata].skills);
 
 	if (people.student[studentdata].works[0].length == 1) {
 		// Plain image
@@ -216,6 +209,14 @@ var socialChange = function (studentdata) {
 	} else {
 		$vim.hide();
 	}
+
+	if (people.student[studentdata].website) {
+		$site.attr('href', people.student[studentdata].website);
+	}
+	if (people.student[studentdata].email) {
+		$email.attr('href', 'mailto:' + people.student[studentdata].email);
+	}
+
 }
 
 var upDateNextPrv = function (id) {
