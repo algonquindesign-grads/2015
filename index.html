@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <title>Algonquin Grads 2015</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/cover-buttons.css">
 </head>
 <body>
 
@@ -20,28 +19,30 @@
 
 </header>
 
-<section id="top" class="front smooth-scroll">
-	<video autoplay muted poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" loop>
-		<source src="//demosthenes.info/assets/videos/polina.webm" type="video/webm">
-		<source src="//demosthenes.info/assets/videos/polina.mp4" type="video/mp4">
-	</video>
+<section id="top" class="front-wrap smooth-scroll">
+	<div class="embed embed--16by9">
+		<video class="embed__item" autoplay muted poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" loop>
+			<source src="http://grads.images.algonquindesign.ca/2015/videos/acgdx15-multiply-loop-1080p.webm">
+			<source src="http://grads.images.algonquindesign.ca/2015/videos/acgdx15-multiply-loop-1080p.mp4">
+		</video>
+	</div>
 
-	<ul class="hp-cont">
-		<li><img class="logo" src="images/multiply.svg" alt=""></li>
-		<!-- <li><h2 class="slogan">Greater Together</h2></li> -->
-		<li><a href="#about"><img class="arrow" src="images/arrow.svg" alt="down arrow"></a></li>
-	</ul>
+	<div class="front">
+		<ul class="hp-cont">
+			<li><img class="logo" src="images/multiply.svg" alt=""></li>
+			<!-- <li><h2 class="slogan">Greater Together</h2></li> -->
+			<li><a href="#about"><img class="arrow" src="images/arrow.svg" alt="down arrow"></a></li>
+		</ul>
 
-	<a id="vid-toggle-btn" href="#" class="toggle-video"></a>
-
-
+		<a id="vid-toggle-btn" href="#" class="toggle-video"></a>
+	</div>
 </section>
 
 <section class="about" id="about">
 
 	<h5>ABOUT</h5>
-		<p>The graduating class of the Algonquin College School of Media and Design invite you to witness an explosion of collective creativity and talent. There will be flair. There will be genius. There will be beer.
-You can’t miss it.</p>
+		<p>The graduating class of the Algonquin College School of Media and Design invite you to witness an explosion of collective creativity and talent. There will be flair. There will be genius. There will be beer. </br>You can’t miss it.</p>
+	<img src="http://grads.images.algonquindesign.ca/2015/assets/gt-mini.svg">
 
 </section>
 
@@ -88,7 +89,7 @@ You can’t miss it.</p>
 
 		<h5>DATE</h5>
 
-		<h3>MARCH 13, 2015</h3>
+		<h3>March 13th, 2015</h3>
 		<p>5:00 - 6:30 PM</br>Family & Friends</br></br>6:30 - 9:00 PM</br>Industry Professionals</p>
 
 		<a href="https://www.eventbrite.ca/e/multiply-2015-algonquin-college-graphic-design-program-grad-show-tickets-15503665882" class="invite"><h4>FRIENDS / FAM</h4></a></br>
@@ -101,7 +102,7 @@ You can’t miss it.</p>
 <footer>
 
 	<div class="smooth-scroll">
-	<a href="#top"><h5 class="play">BACK TO TOP</h5></a>
+	<a href="#top"><h5 class="invite">BACK TO TOP</h5></a>
 	</div>
 	<ul class="footer-social">
 		<li><a href="https://twitter.com/acgdX15"><img src="http://grads.images.algonquindesign.ca/2015/assets/twitter.svg" alt="Twitter Logo"></a></li>
@@ -119,12 +120,6 @@ You can’t miss it.</p>
 </footer>
 
 <div id="cover" class="student-box">
-
-	<div class="cover-buttons">
-		<a href="#" class="prev-student"><i class="icon-angle-circled-left cyan-icon"></i></a>
-		<a href="#" class="next-student"><i class="icon-angle-circled-right cyan-icon"></i></a>
-		<a href="#" class="close-overlay"><i class="icon-cancel-circled magenta-icon"></i></a>
-	</div>
 
 	<div class="left">
 
@@ -155,25 +150,40 @@ You can’t miss it.</p>
 
 		<div class="order">
 		<div class="right-content">
-			<iframe frameborder="0" scrolling="no" class="portfolio-img-1" src=""></iframe>
+			<div class="embed embed--16by9">
+				<iframe frameborder="0" scrolling="no" class="portfolio-img-1 embed__item" src=""></iframe>
+			</div>
+			<img class="portfolio-img-1" src="http://placehold.it/600x400">
 		</div>
 
 		<div class="right-content">
-			<iframe frameborder="0" scrolling="no" class="portfolio-img-2" src=""></iframe>
-		</div>
-
-		<div class="right-content">
-			<iframe frameborder="0" scrolling="no" class="portfolio-img-3" src=""></iframe>
-		</div>
-
-		<div class="right-content">
-			<iframe frameborder="0" scrolling="no" class="portfolio-img-4" src=""></iframe>
-		</div>
-<!-- 			<img class="portfolio-img-1" src="http://placehold.it/600x400">
+			<div class="embed embed--16by9">
+				<iframe frameborder="0" scrolling="no" class="portfolio-img-2 embed__item" src=""></iframe>
+			</div>
 			<img class="portfolio-img-2" src="http://placehold.it/600x400">
+		</div>
+
+		<div class="right-content">
+			<div class="embed embed--16by9">
+				<iframe frameborder="0" scrolling="no" class="portfolio-img-3 embed__item" src=""></iframe>
+			</div>
 			<img class="portfolio-img-3" src="http://placehold.it/600x400">
+
+		</div>
+
+		<div class="right-content">
+			<div class="embed embed--16by9" style="boder:1px red solid">
+				<iframe frameborder="0" scrolling="no" class="portfolio-img-4 embed__item" src=""></iframe>
+			</div>
 			<img class="portfolio-img-4" src="http://placehold.it/600x400">
- --></div>
+		</div>
+	</div>
+
+	<div class="cover-buttons">
+		<a href="#" class="prev-student"><i class="icon-angle-circled-left cyan-icon"></i></a>
+		<a href="#" class="next-student"><i class="icon-angle-circled-right cyan-icon"></i></a>
+		<a href="#" class="close-overlay"><i class="icon-cancel-circled magenta-icon"></i></a>
+	</div>
 
 	</div>
 
@@ -186,6 +196,8 @@ You can’t miss it.</p>
 <script src="js/data-filter.js"></script>
 <script src="js/template.js"></script>
 <script src="js/main.js"></script>
+<script src="//use.typekit.net/uxk4kyz.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
 
 </body>
 </html>

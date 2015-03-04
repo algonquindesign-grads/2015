@@ -7,22 +7,14 @@ $tgglVid.click(function(e) {
 	e.preventDefault();
 	$topLogo.toggleClass('show');
 	$arrow.toggleClass('show');
+	if ($vid.get(0).paused) {
+	 $vid.get(0).play();
+	} else {
+		$vid.get(0).pause();
+	}
 });
 
-// var toggleVid = function() {
-// 	if ($vid.pause()) {
-// 		$vid.get(0).play();
-// 	} else {
-// 		$vid.get(0).pause();
-// 	}
-// }
-
-// $tgglVid.click(function(){
-// 	toggleVid();
-// });
-
 var hashTagActive = "";
-
 $(document).ready(function() {
 	$(".smooth-scroll a").click(function (event) {
 
@@ -71,6 +63,7 @@ var $studentLink = $('.student a');
 var $cover = $('#cover');
 var $closeOverlay = $('.close-overlay');
 var $body  = $('body');
+var $html = $('html');
 var $stuName = $('.student-name');
 var $lbPic = $('.lightbox-pic');
 var $hpPic = $('.homepage-pic');
@@ -84,10 +77,15 @@ var $nxtStudent = $('.next-student');
 var $prvStudent = $('.prev-student');
 
 // portfolio pieces
-var $portImg1 = $('.portfolio-img-1');
-var $portImg2 = $('.portfolio-img-2');
-var $portImg3 = $('.portfolio-img-3');
-var $portImg4 = $('.portfolio-img-4');
+var $portImg1 = $('img.portfolio-img-1');
+var $portImg2 = $('img.portfolio-img-2');
+var $portImg3 = $('img.portfolio-img-3');
+var $portImg4 = $('img.portfolio-img-4');
+
+var $portIframe1 = $('iframe.portfolio-img-1');
+var $portIframe2 = $('iframe.portfolio-img-2');
+var $portIframe3 = $('iframe.portfolio-img-3');
+var $portIframe4 = $('iframe.portfolio-img-4');
 
 // Social Links
 var $fb = $('.facebook');
@@ -103,7 +101,7 @@ var $vim = $('.vimeo');
 $studentLink.on('click', function (event, i) {
 	event.preventDefault();
 	$cover.addClass('overlay');
-	$body.addClass('noscroll');
+	$html.addClass('noscroll');
 	var studentdata = parseInt($(this).attr('data-index'), 10);
 	upDateNextPrv(studentdata)
 	changeStudent(studentdata);
@@ -136,14 +134,48 @@ var changeStudent = function (studentdata) {
 	if (people.student[studentdata].works[0].length == 1) {
 		// Plain image
 		$portImg1.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-' + people.student[studentdata].works[0] + '.jpg');
-	} else {
-		// Vimeo
-
+		$portImg1.show();
+		$portIframe1.parent().hide();
+	} else { // Vimeo
+		$portIframe1.attr('src', people.student[studentdata].works[0]);
+		$portImg1.hide();
+		$portIframe1.parent().show();
 	}
 
-	$portImg2.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-2.jpg');
-	$portImg3.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-3.jpg');
-	$portImg4.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-4.jpg');
+		if (people.student[studentdata].works[1].length == 1) {
+		// Plain image
+		$portImg2.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-' + people.student[studentdata].works[1] + '.jpg');
+		$portImg2.show();
+		$portIframe2.parent().hide();
+	} else { // Vimeo
+		$portIframe2.attr('src', people.student[studentdata].works[1]);
+		$portImg2.hide();
+		$portIframe2.parent().show();
+	}
+
+		if (people.student[studentdata].works[2].length == 1) {
+		// Plain image
+		$portImg3.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-' + people.student[studentdata].works[2] + '.jpg');
+		$portImg3.show();
+		$portIframe3.parent().hide();
+	} else { // Vimeo
+		$portIframe3.attr('src', people.student[studentdata].works[2]);
+		$portImg3.hide();
+		$portIframe3.parent().show();
+	}
+
+		if (people.student[studentdata].works[3].length == 1) {
+		// Plain image
+		$portImg4.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-' + people.student[studentdata].works[3] + '.jpg');
+		$portImg4.show();
+		$portIframe4.parent().hide();
+	} else { // Vimeo
+		$portIframe4.attr('src', people.student[studentdata].works[3]);
+		$portImg4.hide();
+		$portIframe4.parent().show();
+	}
+
+
 }
 
 var socialChange = function (studentdata) {
@@ -238,14 +270,14 @@ var upDateNextPrv = function (id) {
 $closeOverlay.click(function (event) {
 	event.preventDefault();
 	$cover.removeClass('overlay');
-	$body.removeClass('noscroll');
+	$html.removeClass('noscroll');
 });
 
 $(document).keydown(function (e) {
 	switch(e.keyCode) {
 		case 27:
 			$cover.removeClass('overlay');
-			$body.removeClass('noscroll');
+			$html.removeClass('noscroll');
 		break;
 		case 39:
 			var studentdata = parseInt($nxtStudent.attr('data-index'), 10);
@@ -260,4 +292,12 @@ $(document).keydown(function (e) {
 			socialChange(studentdata);
 		break;
 	}
+});
+
+
+var $sbCont = $('.student-box');
+
+$sbCont.click(function() {
+	$cover.removeClass('overlay');
+	$html.removeClass('noscroll');
 });
