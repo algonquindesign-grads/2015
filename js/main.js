@@ -2,6 +2,7 @@ var $vid = $('#bgvid');
 var $tgglVid = $('.toggle-video');
 var $topLogo = $('.hp-cont .logo');
 var $arrow = $('.front .arrow');
+var $frontWrp = $('.front-wrap');
 
 $tgglVid.click(function(e) {
 	e.preventDefault();
@@ -9,8 +10,10 @@ $tgglVid.click(function(e) {
 	$arrow.toggleClass('show');
 	if ($vid.get(0).paused) {
 	 $vid.get(0).play();
+	 $frontWrp.removeClass('fade');
 	} else {
 		$vid.get(0).pause();
+		$frontWrp.addClass('fade');
 	}
 });
 
