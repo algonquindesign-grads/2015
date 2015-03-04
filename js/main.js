@@ -108,30 +108,14 @@ $studentLink.on('click', function (event, i) {
 	upDateNextPrv(studentdata)
 	changeStudent(studentdata);
 	socialChange(studentdata);
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-	$stuName.html(people.student[studentdata].name.full);
-	$lbPic.attr('src', 'http://grads.images.algonquindesign.ca/2015/lightbox/' + people.student[studentdata].id + '-lightbox.jpg');
-	$site.html(people.student[studentdata].website);
-	$email.html(people.student[studentdata].email);
-	$skill.html(people.student[studentdata].skills);
-	$portImg1.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-1.jpg');
-	$portImg2.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-2.jpg');
-	$portImg3.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-3.jpg');
-	$portImg4.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-4.jpg');
-
-	if (people.student[studentdata].website) {
-		$site.attr('href', people.student[studentdata].website);
-	}
-	if (people.student[studentdata].email) {
-		$email.attr('href', 'mailto:' + people.student[studentdata].email);
-	}
+	// if (people.student[studentdata].website) {
+	// 	$site.attr('href', people.student[studentdata].website);
+	// }
+	// if (people.student[studentdata].email) {
+	// 	$email.attr('href', 'mailto:' + people.student[studentdata].email);
+	// }
 
 
-=======
->>>>>>> origin/java
->>>>>>> Stashed changes
 });
 
 $nxtStudent.click(function (event) {

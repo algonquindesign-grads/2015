@@ -25,14 +25,14 @@ SASS uses the '$' to declare variables.*/
   width: device-width;
   scale: 1; }
 
-/* line 7, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
+/* line 7, /Users/Mark/Desktop/2015/scss/components/main */
 html {
   box-sizing: border-box;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%; }
 
-/* line 15, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
+/* line 15, /Users/Mark/Desktop/2015/scss/components/main */
 ul {
   list-style-type: none;
   -webkit-margin-before: 0;
@@ -41,36 +41,28 @@ ul {
   -webkit-margin-end: 0;
   -webkit-padding-start: 0; }
 
-/* line 24, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
+/* line 24, /Users/Mark/Desktop/2015/scss/components/main */
 *, *:before, *:after {
   box-sizing: inherit; }
 
-/* line 28, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
+/* line 28, /Users/Mark/Desktop/2015/scss/components/main */
 a {
   text-decoration: none; }
 
-/* line 37, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
+/* line 37, /Users/Mark/Desktop/2015/scss/components/main */
 html, body, section, img, ul, li {
   margin: 0;
   padding: 0;
   font-family: Helvetica, Arial, sans-serif; }
 
-<<<<<<< Updated upstream
-/* line 44, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 48, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 header {
   text-align: right;
   position: relative;
   padding: 0 3%;
   z-index: 10; }
 
-<<<<<<< Updated upstream
-/* line 53, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 57, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .logo-head {
   float: left;
   left: 5%;
@@ -83,11 +75,7 @@ header {
 .logo-head:hover {
   opacity: 0.6; }
 
-<<<<<<< Updated upstream
-/* line 61, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 70, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 header h4 {
   display: inline-block;
   padding: 0 2%;
@@ -95,16 +83,12 @@ header h4 {
   letter-spacing: 2px;
   font-weight: 500; }
 
-<<<<<<< Updated upstream
-/* line 68, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 78, /Users/Mark/Desktop/2015/scss/components/main */
 header h4:hover {
   opacity: 0.6;
   transition: all 250ms linear; }
 
 /* line 84, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .sticky-nav {
   transition: all 250ms linear;
   position: fixed;
@@ -114,65 +98,38 @@ header h4:hover {
   background-color: rgba(34, 34, 34, 0.95); }
 
 @media only screen and (min-width: 20em) {
-<<<<<<< Updated upstream
-  /* line 79, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  header h4 {
-    font-size: 0.75em; }
-
-  /* line 82, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 95, /Users/Mark/Desktop/2015/scss/components/main */
   header h4 {
     font-size: 0.75em; }
 
   /* line 98, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .logo-head {
     max-height: 30px;
     top: 0.5em; }
  }
 
 @media only screen and (min-width: 37.5em) {
-<<<<<<< Updated upstream
-  /* line 89, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  header h4 {
-    font-size: 1em; }
-
-  /* line 92, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 105, /Users/Mark/Desktop/2015/scss/components/main */
   header h4 {
     font-size: 1em; }
 
   /* line 108, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .logo-head {
     max-height: 40px;
     top: 0.75em; }
  }
 
 @media only screen and (min-width: 75em) {
-<<<<<<< Updated upstream
-  /* line 99, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  header h4 {
-    font-size: 1.25em; }
-
-  /* line 102, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 115, /Users/Mark/Desktop/2015/scss/components/main */
   header h4 {
     font-size: 1.25em; }
 
   /* line 118, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .logo-head {
     max-height: 60px;
     top: 1.25em; }
  }
 
-<<<<<<< Updated upstream
-/* line 110, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 126, /Users/Mark/Desktop/2015/scss/components/main */
 #top {
   display: block;
@@ -200,7 +157,6 @@ video #bgvideo {
   opacity: 0.5; }
 
 /* line 153, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .front {
   margin-top: -90px;
   text-align: center;
@@ -219,11 +175,7 @@ video #bgvideo {
 .sn-comp {
   padding: 8.2em 0; }
 
-<<<<<<< Updated upstream
-/* line 117, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 173, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .logo {
   display: block;
   margin: 0 auto 5em;
@@ -253,11 +205,7 @@ video #bgvideo {
 .show {
   opacity: 0.8; }
 
-<<<<<<< Updated upstream
-/* line 122, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 218, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .play {
   color: #fff;
   letter-spacing: 2px;
@@ -266,16 +214,6 @@ video #bgvideo {
   margin-top: -1em;
   opacity: 0.8; }
 
-<<<<<<< Updated upstream
-/* line 129, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-.arrow {
-  position: absolute;
-  width: 80px;
-  margin-left: -40px; }
-
-@media only screen and (min-width: 20em) {
-  /* line 136, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 227, /Users/Mark/Desktop/2015/scss/components/main */
 .slogan {
   text-transform: uppercase;
@@ -286,99 +224,58 @@ video #bgvideo {
 
 @media only screen and (min-width: 20em) {
   /* line 237, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .play {
     font-size: 1em;
     padding: 0.75em 1em;
     border: 3px #fff solid; }
 
-<<<<<<< Updated upstream
-  /* line 141, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .logo {
-    width: 200px; }
-
-  /* line 144, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 242, /Users/Mark/Desktop/2015/scss/components/main */
   .logo {
     width: 200px; }
 
   /* line 245, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .arrow {
     top: 32em; }
  }
 
 @media only screen and (min-width: 37.5em) {
-<<<<<<< Updated upstream
-  /* line 150, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 251, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .play {
     font-size: 2em;
     padding: 0.5em 1em;
     border: 5px #fff solid; }
 
-<<<<<<< Updated upstream
-  /* line 155, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .logo {
-    width: 300px; }
-
-  /* line 158, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 256, /Users/Mark/Desktop/2015/scss/components/main */
   .logo {
     width: 300px; }
 
   /* line 259, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .arrow {
     top: 40em; }
  }
 
 @media only screen and (min-width: 75em) {
-<<<<<<< Updated upstream
-  /* line 164, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 265, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .play {
     font-size: 2.5em;
     padding: 0.75em 1.2em; }
 
-<<<<<<< Updated upstream
-  /* line 168, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .logo {
-    width: 400px; }
-
-  /* line 171, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 269, /Users/Mark/Desktop/2015/scss/components/main */
   .logo {
     width: 400px; }
 
   /* line 272, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .arrow {
     top: 45em; }
  }
 
-<<<<<<< Updated upstream
-/* line 178, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 279, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .about {
   padding: 5em 20% 3em;
   position: relative;
   background-color: #fff; }
 
-<<<<<<< Updated upstream
-/* line 183, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 285, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 h5 {
   text-align: center;
   font-size: 2.5em;
@@ -387,39 +284,23 @@ h5 {
   padding: 0;
   margin-bottom: 1.5em; }
 
-<<<<<<< Updated upstream
-/* line 191, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 293, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .about p {
   font-size: 1.25em;
   line-height: 1.25em; }
 
-<<<<<<< Updated upstream
-/* line 196, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 298, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .sep {
   position: relative;
   width: 80%;
   margin: 2em 10% 2em; }
 
-<<<<<<< Updated upstream
-/* line 205, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 307, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .pic {
   position: relative;
   float: left; }
 
-<<<<<<< Updated upstream
-/* line 210, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 312, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .homepage-pic {
   display: block;
   position: relative;
@@ -430,11 +311,7 @@ h5 {
   padding-bottom: 0;
   transition: all 250ms linear; }
 
-<<<<<<< Updated upstream
-/* line 221, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 323, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .tint {
   position: absolute;
   width: 100%;
@@ -444,25 +321,6 @@ h5 {
   z-index: 5;
   transition: all 250ms linear; }
 
-<<<<<<< Updated upstream
-/* line 231, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-.pic:nth-child(1n) .tint {
-  background-color: cyan; }
-
-/* line 236, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-.pic:nth-child(3n) .tint {
-  background-color: yellow; }
-
-/* line 240, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-.pic:nth-child(2n) .tint {
-  background-color: magenta; }
-
-/* line 244, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-.pic:hover .tint {
-  opacity: 0.7; }
-
-/* line 248, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 333, /Users/Mark/Desktop/2015/scss/components/main */
 .pic:nth-child(1n) .tint {
   background-color: cyan; }
@@ -480,7 +338,6 @@ h5 {
   opacity: 0.7; }
 
 /* line 350, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .grads p {
   float: left;
   position: relative;
@@ -495,11 +352,7 @@ h5 {
   letter-spacing: 1px;
   font-weight: 300; }
 
-<<<<<<< Updated upstream
-/* line 265, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 367, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .l-1-6, .m-1-4, .s-1-2 {
   position: relative;
   display: block;
@@ -507,20 +360,6 @@ h5 {
   margin: 3em 0; }
 
 @media only screen and (min-width: 20em) {
-<<<<<<< Updated upstream
-  /* line 273, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .s-1-2 .pic {
-    width: 50%; }
-
-  /* line 276, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .s-1-2 .pic2 {
-    width: 100%; }
-
-  /* line 280, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .grads .partial {
-    display: block; }
-  /* line 283, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 375, /Users/Mark/Desktop/2015/scss/components/main */
   .s-1-2 .pic {
     width: 50%; }
@@ -533,26 +372,11 @@ h5 {
   .grads .partial {
     display: block; }
   /* line 385, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .grads .full {
     display: none; }
  }
 
 @media only screen and (min-width: 37.5em) {
-<<<<<<< Updated upstream
-  /* line 290, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .m-1-4 .pic {
-    width: 25%; }
-
-  /* line 293, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .m-1-4 .pic2 {
-    width: 50%; }
-
-  /* line 297, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .grads .partial {
-    display: none; }
-  /* line 300, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 392, /Users/Mark/Desktop/2015/scss/components/main */
   .m-1-4 .pic {
     width: 25%; }
@@ -565,7 +389,6 @@ h5 {
   .grads .partial {
     display: none; }
   /* line 402, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .grads .full {
     display: block; }
 
@@ -575,147 +398,84 @@ h5 {
  }
 
 @media only screen and (max-width: 900px) {
-<<<<<<< Updated upstream
-  /* line 308, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .grads .partial {
-    display: block; }
-  /* line 311, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 414, /Users/Mark/Desktop/2015/scss/components/main */
   .grads .partial {
     display: block; }
   /* line 417, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .grads .full {
     display: none; }
  }
 
 @media only screen and (min-width: 75em) {
-<<<<<<< Updated upstream
-  /* line 319, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .l-1-6 .pic {
-    width: 16.6666%; }
-
-  /* line 322, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 426, /Users/Mark/Desktop/2015/scss/components/main */
   .l-1-6 .pic {
     width: 16.6666%; }
 
   /* line 429, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .l-1-6 .pic2 {
     width: 33.3333%; }
 
-<<<<<<< Updated upstream
-/* line 327, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-.teachers {
-  width: 100%; }
-
-/* line 333, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 432, /Users/Mark/Desktop/2015/scss/components/main */
   .teachers {
     width: 100%; }
  }
 
 /* line 441, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .event {
   position: relative;
   display: inline-block;
   padding: 0 10% 3em;
   width: 100%; }
 
-<<<<<<< Updated upstream
-/* line 341, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 449, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .left-event, .right-event {
   float: left;
   text-align: center;
   display: inline-block; }
 
-<<<<<<< Updated upstream
-/* line 347, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 455, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .event p {
   line-height: 1.25em;
   font-size: 1.25em; }
 
-<<<<<<< Updated upstream
-/* line 353, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-.right-event h3 {
-  font-size: 1.5em; }
-
-/* line 357, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 461, /Users/Mark/Desktop/2015/scss/components/main */
 .right-event h3 {
   font-size: 1.5em; }
 
 /* line 465, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .event h4 {
   padding: 0.5em 0;
   margin: 0;
   color: MEDIUMTURQUOISE; }
 
-<<<<<<< Updated upstream
-/* line 363, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 471, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .invite {
   display: inline-block;
   padding: 2em auto;
   border: 5px solid MEDIUMTURQUOISE;
   transition: all 200ms ease; }
 
-<<<<<<< Updated upstream
-/* line 370, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 478, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .right-event a:hover {
   -webkit-transform: scale(1.25);
       -ms-transform: scale(1.25);
           transform: scale(1.25); }
 
 @media only screen and (min-width: 20em) {
-<<<<<<< Updated upstream
-  /* line 376, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .left-event, .right-event {
-    width: 100%; }
-
-  /* line 380, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 484, /Users/Mark/Desktop/2015/scss/components/main */
   .left-event, .right-event {
     width: 100%; }
 
   /* line 488, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .left-event h5, .right-event h5 {
     margin-bottom: 0;
     margin-top: 1em; }
 
-<<<<<<< Updated upstream
-  /* line 384, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .map {
-    width: 300px; }
-
-  /* line 387, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 492, /Users/Mark/Desktop/2015/scss/components/main */
   .map {
     width: 300px; }
 
   /* line 495, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .invite {
     width: 250px;
     font-size: 1.5em;
@@ -723,21 +483,6 @@ h5 {
  }
 
 @media only screen and (min-width: 37.5em) {
-<<<<<<< Updated upstream
-  /* line 396, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .left-event, .right-event {
-    width: 50%; }
-
-  /* line 400, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .left-event h5, .right-event h5 {
-    margin-bottom: 1em; }
-
-  /* line 403, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .map {
-    width: 200px; }
-
-  /* line 406, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 504, /Users/Mark/Desktop/2015/scss/components/main */
   .left-event, .right-event {
     width: 50%; }
@@ -751,7 +496,6 @@ h5 {
     width: 200px; }
 
   /* line 514, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .invite {
     width: 200px;
     font-size: 1em;
@@ -759,112 +503,58 @@ h5 {
  }
 
 @media only screen and (min-width: 75em) {
-<<<<<<< Updated upstream
-  /* line 414, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .map {
-    width: 350px; }
-
-  /* line 417, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 522, /Users/Mark/Desktop/2015/scss/components/main */
   .map {
     width: 350px; }
 
   /* line 525, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .invite {
     width: 300px;
     font-size: 2em; }
  }
 
-<<<<<<< Updated upstream
-/* line 425, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 533, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 footer {
   position: relative;
   background-color: #222;
   padding: 5em 0 3em;
   text-align: center; }
 
-<<<<<<< Updated upstream
-/* line 432, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-ul {
-  list-style-type: none; }
-
-/* line 436, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 540, /Users/Mark/Desktop/2015/scss/components/main */
 ul {
   list-style-type: none; }
 
 /* line 544, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .social-links {
   display: block;
   width: 100%; }
 
-<<<<<<< Updated upstream
-/* line 443, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 551, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .social, .ac-logos {
   display: block;
   width: 100%; }
 
-<<<<<<< Updated upstream
-/* line 448, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-.social-links li {
-  display: inline-block; }
-
-/* line 452, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 556, /Users/Mark/Desktop/2015/scss/components/main */
 .social-links li {
   display: inline-block; }
 
 /* line 560, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .social-links img {
   width: 40px;
   margin: 2em 0;
   transition: all 100ms ease; }
 
-<<<<<<< Updated upstream
-/* line 458, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 566, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .social-links a img:hover {
   -webkit-transform: scale(1.15);
       -ms-transform: scale(1.15);
           transform: scale(1.15); }
 
-<<<<<<< Updated upstream
-/* line 462, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 570, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .ac-logos li {
   display: inline-block;
   margin: 2em 3%; }
 
-<<<<<<< Updated upstream
-/* line 467, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-.ac-logos img {
-  width: 100%; }
-
-/* line 471, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-.footer-social {
-  display: block; }
-  /* line 473, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .footer-social img {
-    width: 100%; }
-
-/* line 478, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 575, /Users/Mark/Desktop/2015/scss/components/main */
 .ac-logos img {
   width: 100%; }
@@ -877,35 +567,19 @@ ul {
     width: 100%; }
 
 /* line 586, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .footer-social li {
   display: inline-block;
   width: 5%;
   margin: 3em 3em;
   transition: all 250ms linear; }
 
-<<<<<<< Updated upstream
-/* line 485, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 593, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .footer-social li:hover {
   -webkit-transform: scale(1.25);
       -ms-transform: scale(1.25);
           transform: scale(1.25); }
 
 @media only screen and (min-width: 20em) {
-<<<<<<< Updated upstream
-  /* line 490, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .social-links li {
-    width: 55px; }
-
-  /* line 493, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .ac-logos li {
-    width: 30%; }
-
-  /* line 497, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 598, /Users/Mark/Desktop/2015/scss/components/main */
   .social-links li {
     width: 55px; }
@@ -915,23 +589,11 @@ ul {
     width: 30%; }
 
   /* line 605, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .tablet li, .desktop li {
     display: none; }
  }
 
 @media only screen and (min-width: 37.5em) {
-<<<<<<< Updated upstream
-  /* line 503, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .social-links li {
-    width: 70px; }
-
-  /* line 506, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .ac-logos li {
-    width: 25%; }
-
-  /* line 509, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 611, /Users/Mark/Desktop/2015/scss/components/main */
   .social-links li {
     width: 70px; }
@@ -941,23 +603,11 @@ ul {
     width: 25%; }
 
   /* line 617, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .tablet li {
     display: inline-block; }
  }
 
 @media only screen and (min-width: 75em) {
-<<<<<<< Updated upstream
-  /* line 515, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .social-links li {
-    width: 85px; }
-
-  /* line 519, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .ac-logos li {
-    width: 15%; }
-
-  /* line 522, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 623, /Users/Mark/Desktop/2015/scss/components/main */
   .social-links li {
     width: 85px; }
@@ -967,16 +617,11 @@ ul {
     width: 15%; }
 
   /* line 630, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .desktop li {
     display: inline-block; }
  }
 
-<<<<<<< Updated upstream
-/* line 530, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 638, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .student-box {
   position: fixed;
   top: 0;
@@ -991,28 +636,13 @@ ul {
   color: #000;
   z-index: 100; }
 
-<<<<<<< Updated upstream
-/* line 545, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 653, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .student-box h2 {
   color: #fff;
   letter-spacing: 1px;
   font-weight: 300;
   margin: 0.5em 0; }
 
-<<<<<<< Updated upstream
-/* line 552, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-.overlay {
-  display: block; }
-
-/* line 556, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-.noscroll {
-  overflow: hidden; }
-
-/* line 563, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 660, /Users/Mark/Desktop/2015/scss/components/main */
 .overlay {
   display: block; }
@@ -1022,7 +652,6 @@ ul {
   overflow: hidden; }
 
 /* line 671, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .cover-buttons {
   right: 0;
   width: 100%;
@@ -1030,54 +659,30 @@ ul {
   bottom: -2.9em;
   overflow: hidden;
   text-align: right; }
-<<<<<<< Updated upstream
-  /* line 570, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 678, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .cover-buttons i {
     display: inline-block;
     font-size: 5em; }
 
-<<<<<<< Updated upstream
-/* line 576, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-.cyan-icon {
-  color: cyan;
-  margin-right: 2%; }
-  /* line 579, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 684, /Users/Mark/Desktop/2015/scss/components/main */
 .cyan-icon {
   color: cyan;
   margin-right: 2%; }
   /* line 687, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .cyan-icon p {
     color: #000;
     font-size: 1em; }
 
-<<<<<<< Updated upstream
-/* line 585, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 693, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .magenta-icon {
   position: relative;
   margin-right: 2%;
   color: magenta; }
-<<<<<<< Updated upstream
-  /* line 589, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .magenta-icon p {
-    color: #000; }
-
-/* line 594, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 697, /Users/Mark/Desktop/2015/scss/components/main */
   .magenta-icon p {
     color: #000; }
 
 /* line 702, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .left {
   padding: 0 7.5%;
   float: left;
@@ -1085,17 +690,6 @@ ul {
   font-size: 1em;
   list-style-type: none; }
 
-<<<<<<< Updated upstream
-/* line 602, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-.left h2 {
-  font-size: 1.5em; }
-
-/* line 606, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-.left .lightbox-pic {
-  width: 100%; }
-
-/* line 610, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 710, /Users/Mark/Desktop/2015/scss/components/main */
 .left h2 {
   font-size: 1.5em; }
@@ -1105,17 +699,12 @@ ul {
   width: 100%; }
 
 /* line 718, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .left .social {
   margin: 1.5em 0;
   width: 100%;
   list-style-type: none; }
 
-<<<<<<< Updated upstream
-/* line 616, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 724, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .skill {
   margin: 0;
   padding: 0;
@@ -1123,11 +712,7 @@ ul {
   letter-spacing: 1px;
   font-weight: 300; }
 
-<<<<<<< Updated upstream
-/* line 624, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 732, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .left p {
   font-size: 1em;
   display: inline-block;
@@ -1136,126 +721,74 @@ ul {
   padding: 0;
   margin: 0 0 0.5em; }
 
-<<<<<<< Updated upstream
-/* line 632, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 740, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .right {
   float: left;
   padding-right: 1%;
   margin-top: 1rem; }
 
-<<<<<<< Updated upstream
-/* line 638, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 746, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .right img {
   width: 50%;
   float: left; }
 
-<<<<<<< Updated upstream
-/* line 644, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
 /* line 752, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
 .site, .email {
   color: #fff;
   font-weight: 300;
   letter-spacing: 1px; }
 
 @media only screen and (min-width: 20em) {
-<<<<<<< Updated upstream
-  /* line 653, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 761, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .right img {
     width: 75%;
     margin: 0.25em 12.5%; }
 
-<<<<<<< Updated upstream
-  /* line 657, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 765, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .left {
     width: 100%;
     text-align: left;
     margin: 1em 0; }
 
-<<<<<<< Updated upstream
-  /* line 662, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 770, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .right {
     width: 100%; }
  }
 
 @media only screen and (min-width: 37.5em) {
-<<<<<<< Updated upstream
-  /* line 668, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 776, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .right img {
     width: 50%;
     margin: 0;
     padding: 0 1% 1em; }
 
-<<<<<<< Updated upstream
-  /* line 673, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 781, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .left .lightbox-pic {
     width: 50%;
     margin: 0 25%; }
 
-<<<<<<< Updated upstream
-  /* line 677, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 785, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .left {
     text-align: center; }
  }
 
 @media only screen and (min-width: 75em) {
-<<<<<<< Updated upstream
-  /* line 683, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 791, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .right img {
     width: 50%;
     margin: 0;
     padding: 0 0.5% 0.5em; }
 
-<<<<<<< Updated upstream
-  /* line 688, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 796, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .left {
     width: 50%;
     text-align: left; }
 
-<<<<<<< Updated upstream
-  /* line 692, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-  .right {
-    width: 50%; }
-
-  /* line 695, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/main */
-=======
   /* line 800, /Users/Mark/Desktop/2015/scss/components/main */
   .right {
     width: 50%; }
 
   /* line 803, /Users/Mark/Desktop/2015/scss/components/main */
->>>>>>> Stashed changes
   .left .lightbox-pic {
     width: 100%;
     margin: 0; }
@@ -1278,11 +811,7 @@ ul {
   }
 }
 */
-<<<<<<< Updated upstream
-/* line 22, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/cover-buttons */
-=======
 /* line 22, /Users/Mark/Desktop/2015/scss/components/cover-buttons */
->>>>>>> Stashed changes
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "cover-buttons";
   font-style: normal;
@@ -1307,29 +836,17 @@ ul {
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-<<<<<<< Updated upstream
-/* line 53, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/cover-buttons */
-=======
 /* line 53, /Users/Mark/Desktop/2015/scss/components/cover-buttons */
->>>>>>> Stashed changes
 .icon-angle-circled-left:before {
   content: '\e800'; }
 
 /* '' */
-<<<<<<< Updated upstream
-/* line 54, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/cover-buttons */
-=======
 /* line 54, /Users/Mark/Desktop/2015/scss/components/cover-buttons */
->>>>>>> Stashed changes
 .icon-cancel-circled:before {
   content: '\e801'; }
 
 /* '' */
-<<<<<<< Updated upstream
-/* line 55, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/Grad/2015/scss/components/cover-buttons */
-=======
 /* line 55, /Users/Mark/Desktop/2015/scss/components/cover-buttons */
->>>>>>> Stashed changes
 .icon-angle-circled-right:before {
   content: '\e802'; }
 
