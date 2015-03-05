@@ -4,20 +4,29 @@ var $topLogo = $('.hp-cont .logo');
 var $arrow = $('.front .arrow');
 var $frontWrp = $('.front-wrap');
 var $fullVid = $('.full-vid');
+var $fullVidCont = $('.full-vid-cont');
 
-
-$fullVid.prop('muted', false);
+$fullVid.prop('muted', true);
+$fullVid.prop('autoplay', false);
 
 $tgglVid.click(function(e) {
 	e.preventDefault();
 	$topLogo.toggleClass('hide');
 	$arrow.toggleClass('hide');
-	$fullVid.toggleClass('show-vid');
+	$fullVidCont.toggleClass('show-vid');
 	$frontWrp.toggleClass('remove-bg');
 	if ( $vid.get(0).paused ) {
 	 $vid.get(0).play();
 	} else {
 		$vid.get(0).pause();
+	}
+
+	if ($fullVid.get(0).paused) {
+		$fullVid.get(0).play();
+		$fullVid.prop('muted', false);
+	} else {
+		$fullVid.get(0).pause();
+		$fullVid.prop('muted', true);
 	}
 });
 

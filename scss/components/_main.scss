@@ -163,10 +163,15 @@ video #bgvideo {
   width: 100%;
 }
 
-.full-vid {
+.full-vid-cont{
   position: absolute;
   top: 0;
   z-index:-200;
+}
+
+
+.full-vid {
+
 }
 
 .show-vid {
