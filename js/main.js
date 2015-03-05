@@ -1,25 +1,26 @@
-var $vid = $('#bgvid');
+var $vid = $('.trailer');
 var $tgglVid = $('.toggle-video');
 var $topLogo = $('.hp-cont .logo');
 var $arrow = $('.front .arrow');
 var $frontWrp = $('.front-wrap');
 var $fullVid = $('.full-vid');
-var $trailer = $('.trailer');
 
+
+$fullVid.prop('muted', false);
 
 $tgglVid.click(function(e) {
 	e.preventDefault();
-	$topLogo.toggleClass('show');
-	$arrow.toggleClass('show');
+	$topLogo.toggleClass('hide');
+	$arrow.toggleClass('hide');
 	$fullVid.toggleClass('show-vid');
-	if ($vid.get(0).paused) {
+	$frontWrp.toggleClass('remove-bg');
+	if ( $vid.get(0).paused ) {
 	 $vid.get(0).play();
-	 $frontWrp.removeClass('fade');
 	} else {
 		$vid.get(0).pause();
-		$frontWrp.addClass('fade');
 	}
 });
+
 
 var hashTagActive = "";
 $(document).ready(function() {

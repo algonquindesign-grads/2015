@@ -142,6 +142,7 @@ video #bgvideo {
   transition: 1s opacity;
 }
 
+
 .embed {
   margin-left: 0;
   margin-right: 0;
@@ -162,17 +163,28 @@ video #bgvideo {
   width: 100%;
 }
 
-.stopfade {
-  opacity: 0.5;
+.full-vid {
+  position: absolute;
+  top: 0;
+  z-index:-200;
+}
+
+.show-vid {
+  z-index: -100;
+}
+
+.hide-vid {
+  z-index: -200;
 }
 
 .front-wrap {
   position: relative;
   transition: all 250ms liear;
+  background-color: rgba(34, 34, 34, 0.85);
 }
 
-.fade {
-  background-color: rgba(34, 34, 34, 0.9);
+.remove-bg {
+  background:none
 }
 
 .front {
@@ -202,7 +214,7 @@ video #bgvideo {
 .logo {
   display: block;
   margin: 0 auto 3em;
-  opacity: 0;
+  opacity: .8;
   transition: all 250ms linear;
 }
 
@@ -211,10 +223,10 @@ video #bgvideo {
   bottom: 1.5em;
   right: 1.5em;
   display: block;
-  width: 50px;
-  height: 50px;
-  background-color: rgba(255, 0, 0, 0.4);
   z-index: 100;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform:uppercase;
 }
 
 .arrow {
@@ -222,30 +234,15 @@ video #bgvideo {
   margin: auto;
   margin-top: 2em;
   width: 80px;
-  opacity: 0;
+  opacity: .8;
   transition: all 250ms linear;
 }
 
-.show {
-  opacity: 0.8;
+.hide  {
+  opacity: 0;
 }
 
-.play {
-  color: #fff;
-  letter-spacing: 2px;
-  display: inline-block;
-  margin: 0;
-  margin-top: -1em;
-  opacity: 0.8;
-}
 
-.slogan {
-  text-transform: uppercase;
-  font-size: 200%;
-  color: #fff;
-  letter-spacing: 2px;
-  font-weight: 600;
-}
 
 @media only screen and (min-width: 20em) {
   .play {
@@ -798,10 +795,9 @@ ul {
 }
 
 .right-content iframe {
-  height: 100%;
-  overflow: auto;
   display: block;
-
+  width: 100%;
+  overflow: auto;
 }
 
 .site, .email {
