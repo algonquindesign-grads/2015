@@ -39,7 +39,8 @@ $playVid.click(function(){
 	playFullVideo();
 });
 
-$closeVid.click(function(){
+$closeVid.click(function(e){
+	e.preventDefault();
 	$fullVid.toggleClass('show-vid');
 	$vid.toggleClass('hide-vid');
 	$frontWrp.toggleClass('remove-bg');
@@ -50,6 +51,7 @@ $closeVid.click(function(){
 	$playVidTxt.toggleClass('show');
 	$fullVid.prop('muted', true);
 	$fullVid.prop('paused', true);
+	toggleTrailer();
 });
 
 

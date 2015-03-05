@@ -320,27 +320,31 @@ video #bgvideo {
     margin-top: 0.9em;
   }
 
-  .hp-cont-alt p {
-    font-size: 1em;
-    margin-top: .5em;
-  }
-
    .controls {
-   bottom: -.5em;
+   bottom: 1em;
    right: 1em;
- }
+   }
 
- .controls p {
-  visibility: hidden;
-  }
+   .controls li {
+    display: inline-block;
+    margin-left: 1em;
 
-  .controls li {
+   }
+
+  .controls p {
+    display:none;
     margin: 0;
- }
+    }
 
  .controls img {
   width: 30px;
+  margin-bottom: 0;
  }
+  .play li,
+  .close li {
+  margin-top: 0;
+ }
+
 
 }
 
@@ -376,11 +380,18 @@ video #bgvideo {
 
     .controls {
    bottom: 2em;
-   right: 1em;
+   right: 2em;
   }
 
+
+   .controls li {
+    display:block;
+    margin-left: 1em;
+
+   }
+
    .controls p {
-    visibility: visible;
+    display: block;
   }
 
  }
@@ -400,7 +411,12 @@ video #bgvideo {
   }
    .controls {
    bottom: calc(100vh - 38em);
- }
+  }
+
+   .controls li {
+   marginb-bottom: 2em;
+  }
+
 
 
  }
