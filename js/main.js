@@ -4,33 +4,44 @@ var $topLogo = $('.hp-cont .logo');
 var $arrow = $('.front .arrow');
 var $frontWrp = $('.front-wrap');
 var $fullVid = $('.full-vid');
-var $fullVidCont = $('.full-vid-cont');
 var $playFullTggl = $('.play-full-toggle');
-var $hpContAlt = $('.hp-cont-alt');
-var $hpContAltTxt = $('.hp-cont-alt p')
-var $hpContAltImg = $('.hp-cont-alt img')
+var $hpCont = $('.hp-cont');
+var $hpContTxt = $('.hp-cont p')
+var $hpContImg = $('.hp-cont img')
 var $closeVid = $('.close-vid');
+
+// Play Vid
+var $playVid = $('.play-vid');
+var $playVidImg = $('.play-img');
+var $playVidTxt = $('.play-txt');
+
+// Close Vid
+var $closeVid = $('.close-vid');
+var $closeVidImg = $('.close-img');
+var $closeVidTxt = $('.close-txt');
 
 $fullVid.prop('muted', true);
 $fullVid.prop('autoplay', false);
 
-$tgglVid.click(function(e) {
-	e.preventDefault();
-	$(this).addClass("hide");
-	$fullVidCont.toggleClass('show-vid');
+$tgglVid.click(function () {
+	$closeVidImg.toggleClass('show');
+	$closeVidTxt.toggleClass('show');
+	$playVidImg.toggleClass('show');
+	$playVidTxt.toggleClass('show');
+	$vid.toggleClass('hide-vid');
+	$fullVid.toggleClass('show-vid');
+	$frontWrp.toggleClass('remove-bg');
+	$hpCont.toggleClass('hide');
 	toggleTrailer();
-	fullVidAltCont();
 });
 
-$playFullTggl.click(function(e) {
-	e.preventDefault();
+$playVid.click(function(){
 	playFullVideo();
 });
 
+
+
 var toggleTrailer = function () {
-	$topLogo.toggleClass('hide');
-	$arrow.toggleClass('hide');
-	$frontWrp.toggleClass('remove-bg');
 	if ( $vid.get(0).paused ) {
 	 $vid.get(0).play();
 	} else {
@@ -39,8 +50,6 @@ var toggleTrailer = function () {
 }
 
 var playFullVideo = function () {
-	$playFullTggl.toggleClass("hide");
-	$hpContAltTxt.toggleClass("hide");
 	if ($fullVid.get(0).paused) {
 		$fullVid.get(0).play();
 		$fullVid.prop('muted', false);
@@ -48,26 +57,10 @@ var playFullVideo = function () {
 		$fullVid.get(0).pause();
 		$fullVid.prop('muted', true);
 	}
-	$closeVid.toggleClass("show");
 }
 
-var showHidCloseVid = function () {
-	$closeVid.toggleClass("show");
-}
 
-var fullVidAltCont = function () {
-	$hpContAlt.toggleClass('show');
-}
 
-$closeVid.click(function(e){
-	e.preventDefault();
-	$tgglVid.removeClass("hide");
-	$hpContAltTxt.addClass("hide");
-	$fullVidCont.removeClass('show-vid');
-	playFullVideo();
-	toggleTrailer();
-	fullVidAltCont();
-});
 
 var hashTagActive = "";
 $(document).ready(function() {

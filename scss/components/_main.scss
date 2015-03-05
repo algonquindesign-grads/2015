@@ -54,7 +54,7 @@ html, body {
 html, body, section, img, ul, li {
   margin: 0;
   padding: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "open-sans", sans-serif;
 }
 
 header {
@@ -233,33 +233,46 @@ video #bgvideo {
   transition: all 250ms linear;
 }
 
-.toggle-video {
+.controls {
   position: absolute;
-  bottom: 3.5em;
-  right: 1.5em;
+  right: 2.5rem;
   display: block;
   z-index: 100;
   transition: all 250ms linear;
 }
 
-.toggle-video img {
-  width: 2.5em;
+.controls li {
+  display:block;
+  margin: .75em 0;
 }
 
-.close-vid {
-  position: absolute;
-  bottom: 1.5em;
-  right: 1.5em;
-  display: block;
-  z-index: 100;
-  display: none;
-  transition: all 250ms  linear;
+.controls p {
+  margin:0;
+  text-transform: uppercase;
+  font-family: "futura-pt", sans-serif;
+  letter-spacing: 2px;
 }
 
-.close-vid img {
-  width: 2.5em;
+.controls a  {
+  color: #ffffff;
+}
+
+.play-vid img,
+.close-vid img,
+.toggle-video img,
+.toggle-video-full img{
+  width: 30px;
   transition: all 250ms linear;
 }
+
+.close-txt,
+.close-img,
+.play-txt,
+.play-img {
+  transition: all 250ms linear;
+  opacity:0;
+}
+
 
 .arrow {
   display: block;
@@ -273,11 +286,11 @@ video #bgvideo {
 .hide  {
   opacity: 0;
   display: none;
+
 }
 
 .show {
   opacity: 1;
-  display:block;
 }
 
 @media only screen and (min-width: 20em) {
@@ -339,7 +352,6 @@ video #bgvideo {
     font-size: 1.5em;
     margin-top: .5em;
   }
-
  }
 
 @media only screen and (min-width: 75em) {
@@ -356,6 +368,10 @@ video #bgvideo {
     top: 45em;
   }
 
+ }
+
+ .controls {
+   bottom: calc(100vh - 38em);
  }
 
 .about {
@@ -389,7 +405,7 @@ h5 {
 
 .gtg {
   display: block;
-  width: 43%;
+  width: 15rem;
   margin: 0 auto;
   margin-top: 2.5em;
 }
@@ -440,7 +456,7 @@ h5 {
   float: left;
   position: relative;
   text-align: center;
-  margin-top: -2em;
+  margin-top: -2.3em;
   margin-bottom: -1em;
   width: 100%;
   z-index: 10;
