@@ -169,11 +169,6 @@ video #bgvideo {
   z-index:-200;
 }
 
-
-.full-vid {
-
-}
-
 .show-vid {
   z-index: -100;
 }
@@ -208,13 +203,36 @@ video #bgvideo {
   margin-top: 10em;
 }
 
+.play-full-toggle {
+  width: 8em;
+  margin-top: 15%;
+  margin-bottom: 0em;
+  transition: all 1ms linear;
+}
+
+.hp-cont-alt p {
+  font-family: 'futura-pt', sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  margin: .75em 0;
+}
+
+.hp-cont-alt {
+  opacity: 0;
+  transition: all 250ms linear;
+}
+
+.play-full-toggle:hover,
+.vid-toggle-btn:hover {
+  opacity: .8;
+}
+
 .front ul li {
   margin-bottom: 0em;
 }
 
-.sn-comp {
-  padding: 8.2em 0;
-}
 
 .logo {
   display: block;
@@ -223,15 +241,32 @@ video #bgvideo {
   transition: all 250ms linear;
 }
 
-#vid-toggle-btn {
+.toggle-video {
   position: absolute;
   bottom: 1.5em;
   right: 1.5em;
   display: block;
   z-index: 100;
-  color: #fff;
-  letter-spacing: 1px;
-  text-transform:uppercase;
+  transition: all 250ms linear;
+}
+
+.toggle-video img {
+  width: 2.5em;
+}
+
+.close-vid {
+  position: absolute;
+  bottom: 1.5em;
+  right: 1.5em;
+  display: block;
+  z-index: 100;
+  display: none;
+  transition: all 250ms  linear;
+}
+
+.close-vid img {
+  width: 2.5em;
+  transition: all 250ms linear;
 }
 
 .arrow {
@@ -245,9 +280,13 @@ video #bgvideo {
 
 .hide  {
   opacity: 0;
+  display: none;
 }
 
-
+.show {
+  opacity: 1;
+  display:block;
+}
 
 @media only screen and (min-width: 20em) {
   .play {
@@ -257,11 +296,27 @@ video #bgvideo {
   }
 
   .logo {
-    width: 200px;
+    width: 60%;
+    margin-bottom: .75em;
   }
 
   .arrow {
-    top: 32em;
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  .hp-cont {
+    margin-top: 3.5em;
+  }
+
+  .play-full-toggle {
+    width: 3.5em;
+    margin-top: 0.9em;
+  }
+
+  .hp-cont-alt p {
+    font-size: 1em;
+    margin-top: .5em;
   }
 
  }
@@ -274,11 +329,26 @@ video #bgvideo {
   }
 
   .logo {
-    width: 300px;
+    width: 250px;
   }
 
   .arrow {
-    top: 40em;
+    margin-top: 1.5em;
+    width: 25%;
+  }
+
+  .hp-cont {
+    margin-top: 5.5em;
+  }
+
+  .play-full-toggle {
+    width: 5em;
+    margin-top: 6em;
+  }
+
+  .hp-cont-alt p {
+    font-size: 1.5em;
+    margin-top: .5em;
   }
 
  }
@@ -690,13 +760,21 @@ ul {
 }
 
 .cover-buttons {
-  //right: 0;
   width: 100%;
-  //position: absolute;
-  //bottom: 1em;
-  //overflow: hidden;
-  text-align: right;
   clear: both;
+  text-align: right;
+}
+
+.cover-buttons img {
+  width: 50px;
+}
+
+.cover-buttons a:last-child {
+  margin-right:5%;
+}
+
+.cover-buttons a {
+  margin-left: 3%;
 }
 
 .cover-buttons i {
@@ -715,7 +793,6 @@ ul {
 }
 
 .magenta-icon {
-  //position: relative;
   margin-right: 2%;
   color: #ec008c;
 }
@@ -838,7 +915,7 @@ ul {
   }
   .right {
     width: 60%;
-    padding: 0 2.5%;
+    padding: 0 5% 0 2.5%;
   }
   .left .lightbox-pic {
     width: 100%;

@@ -5,22 +5,42 @@ var $arrow = $('.front .arrow');
 var $frontWrp = $('.front-wrap');
 var $fullVid = $('.full-vid');
 var $fullVidCont = $('.full-vid-cont');
+var $playFullTggl = $('.play-full-toggle');
+var $hpContAlt = $('.hp-cont-alt');
+var $hpContAltTxt = $('.hp-cont-alt p')
+var $hpContAltImg = $('.hp-cont-alt img')
+var $closeVid = $('.close-vid');
 
 $fullVid.prop('muted', true);
 $fullVid.prop('autoplay', false);
 
 $tgglVid.click(function(e) {
 	e.preventDefault();
+	$(this).addClass("hide");
+	$fullVidCont.toggleClass('show-vid');
+	toggleTrailer();
+	fullVidAltCont();
+});
+
+$playFullTggl.click(function(e) {
+	e.preventDefault();
+	playFullVideo();
+});
+
+var toggleTrailer = function () {
 	$topLogo.toggleClass('hide');
 	$arrow.toggleClass('hide');
-	$fullVidCont.toggleClass('show-vid');
 	$frontWrp.toggleClass('remove-bg');
 	if ( $vid.get(0).paused ) {
 	 $vid.get(0).play();
 	} else {
 		$vid.get(0).pause();
 	}
+}
 
+var playFullVideo = function () {
+	$playFullTggl.toggleClass("hide");
+	$hpContAltTxt.toggleClass("hide");
 	if ($fullVid.get(0).paused) {
 		$fullVid.get(0).play();
 		$fullVid.prop('muted', false);
@@ -28,8 +48,26 @@ $tgglVid.click(function(e) {
 		$fullVid.get(0).pause();
 		$fullVid.prop('muted', true);
 	}
-});
+	$closeVid.toggleClass("show");
+}
 
+var showHidCloseVid = function () {
+	$closeVid.toggleClass("show");
+}
+
+var fullVidAltCont = function () {
+	$hpContAlt.toggleClass('show');
+}
+
+$closeVid.click(function(e){
+	e.preventDefault();
+	$tgglVid.removeClass("hide");
+	$hpContAltTxt.addClass("hide");
+	$fullVidCont.removeClass('show-vid');
+	playFullVideo();
+	toggleTrailer();
+	fullVidAltCont();
+});
 
 var hashTagActive = "";
 $(document).ready(function() {
