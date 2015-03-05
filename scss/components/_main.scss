@@ -588,13 +588,6 @@ ul {
   transition: all 100ms ease;
 }
 
-
-.social-links a img:hover {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
-        }
-
 .ac-logos li {
   display: inline-block;
   margin: 2em 3%;
@@ -609,8 +602,8 @@ ul {
 }
 
 .footer-social img {
-    width: 100%;
-  }
+  width: 100%;
+}
 
 .footer-social li {
   display: inline-block;
@@ -620,10 +613,8 @@ ul {
 }
 
 .footer-social li:hover {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
-        }
+  transform: scale(1.1);
+}
 
 @media only screen and (min-width: 20em) {
   .social-links li {
@@ -644,30 +635,24 @@ ul {
   .social-links li {
     width: 70px;
   }
-
   .ac-logos li {
     width: 25%;
   }
-
   .tablet li {
     display: inline-block;
   }
-
  }
 
 @media only screen and (min-width: 75em) {
   .social-links li {
     width: 85px;
   }
-
   .ac-logos li {
     width: 15%;
   }
-
   .desktop li {
     display: inline-block;
   }
-
  }
 
 .student-box {
@@ -714,32 +699,30 @@ ul {
   clear: both;
 }
 
- .cover-buttons i {
-    display: inline-block;
-    font-size: 5em;
-  }
+.cover-buttons i {
+  display: inline-block;
+  font-size: 5em;
+}
 
 .cyan-icon {
   color: #00aeef;
   margin-right: 2%;
 }
 
-  .cyan-icon p {
-    color: #000;
-    font-size: 1em;
-  }
+.cyan-icon p {
+  color: #000;
+  font-size: 1em;
+}
 
 .magenta-icon {
   //position: relative;
   margin-right: 2%;
   color: #ec008c;
+}
 
-	}
-
-  .magenta-icon p {
-    color: #000;
-
-  }
+.magenta-icon p {
+  color: #000;
+}
 
 .left {
   padding: 0 5%;
@@ -761,7 +744,6 @@ ul {
 .left .social {
   width: 100%;
   list-style-type: none;
-
 }
 
 .skill {
@@ -785,7 +767,6 @@ ul {
 
 .right {
   float: left;
-  padding: 0 5% 0 4.5%;
   margin-top: 1em;
   text-align: center;
 }
@@ -821,34 +802,29 @@ ul {
     width: 100%;
     text-align: center;
   }
-
   .left {
     width: 100%;
     text-align: center;
     margin: 1em 0;
   }
-
   .right {
     width: 100%;
     margin-bottom: 3em;
+    padding: 0 5%;
   }
-
  }
 
 @media only screen and (min-width: 37.5em) {
   .right img {
     margin: 0;
   }
-
   .left .lightbox-pic {
     width: 50%;
     margin: 0 25%;
   }
-
   .left {
     text-align: center;
   }
-
  }
 
 @media only screen and (min-width: 75em) {
@@ -856,17 +832,14 @@ ul {
     margin: 0;
     display: block;
   }
-
-
   .left {
-    width: 50%;
+    width: 40%;
     text-align: left;
   }
-
   .right {
-    width: 50%;
+    width: 60%;
+    padding: 0 2.5%;
   }
-
   .left .lightbox-pic {
     width: 100%;
     margin: 0;
