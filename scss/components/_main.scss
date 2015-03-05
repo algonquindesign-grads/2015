@@ -705,12 +705,13 @@ ul {
 }
 
 .cover-buttons {
-  right: 0;
+  //right: 0;
   width: 100%;
-  position: absolute;
-  bottom: 1em;
-  overflow: hidden;
+  //position: absolute;
+  //bottom: 1em;
+  //overflow: hidden;
   text-align: right;
+  clear: both;
 }
 
  .cover-buttons i {
@@ -729,7 +730,7 @@ ul {
   }
 
 .magenta-icon {
-  position: relative;
+  //position: relative;
   margin-right: 2%;
   color: #ec008c;
 
