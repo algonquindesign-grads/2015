@@ -979,6 +979,7 @@ video #bgvideo {
 
 .fade {
 	background-color: rgba(#222222, 0.9);
+	// background-color: rgba(#ffffff,0.9)
 
 }
 
@@ -995,7 +996,7 @@ video #bgvideo {
 
 .hp-cont {
     display:block;
-    margin-top: 8em;
+    margin-top: 10em;
 }
 
 .front ul li {
@@ -1009,7 +1010,7 @@ video #bgvideo {
 
 .logo {
     display: block;
-    margin: 0 auto 5em;
+    margin: 0 auto 3em;
     opacity: 0;
     transition: all 250ms linear;
 }
@@ -1144,9 +1145,9 @@ h5 {
 
 .gtg {
 	display:block;
-	text-align: center;
-	width: 45%;
-	margin: 0 auto;
+	width: 43%;
+	margin:0 auto;
+	margin-top: 2.5em;
 }
 
 //                                                                                      STUDENTS
@@ -1332,6 +1333,7 @@ h5 {
     .right-event {
         width: 100%;
     }
+
     .left-event h5,
     .right-event h5 {
         margin-bottom: 0;
@@ -1629,11 +1631,12 @@ ul {
     }
     .left {
         width: 100%;
-        text-align: left;
+        text-align: center;
         margin: 1em 0;
     }
     .right {
         width: 100%;
+        margin-bottom: 3em;
     }
 }
 
