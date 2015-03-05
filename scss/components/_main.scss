@@ -265,10 +265,13 @@ video #bgvideo {
   transition: all 250ms linear;
 }
 
+
 .close-txt,
 .close-img,
 .play-txt,
-.play-img {
+.play-img,
+.toggle-vid-full-img,
+.toggle-vid-full-txt {
   transition: all 250ms linear;
   opacity:0;
 }
@@ -321,6 +324,24 @@ video #bgvideo {
     font-size: 1em;
     margin-top: .5em;
   }
+
+   .controls {
+   bottom: -.5em;
+   right: 1em;
+ }
+
+ .controls p {
+  visibility: hidden;
+  }
+
+  .controls li {
+    margin: 0;
+ }
+
+ .controls img {
+  width: 30px;
+ }
+
 }
 
 @media only screen and (min-width: 37.5em) {
@@ -352,6 +373,16 @@ video #bgvideo {
     font-size: 1.5em;
     margin-top: .5em;
   }
+
+    .controls {
+   bottom: 2em;
+   right: 1em;
+  }
+
+   .controls p {
+    visibility: visible;
+  }
+
  }
 
 @media only screen and (min-width: 75em) {
@@ -367,12 +398,13 @@ video #bgvideo {
   .arrow {
     top: 45em;
   }
-
- }
-
- .controls {
+   .controls {
    bottom: calc(100vh - 38em);
  }
+
+
+ }
+
 
 .about {
   padding: 5em 20% 3em;

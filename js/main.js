@@ -1,10 +1,10 @@
 var $vid = $('.trailer');
 var $tgglVid = $('.toggle-video');
+var $tgglVidFull = $('.toggle-video-full');
 var $topLogo = $('.hp-cont .logo');
 var $arrow = $('.front .arrow');
 var $frontWrp = $('.front-wrap');
 var $fullVid = $('.full-vid');
-var $playFullTggl = $('.play-full-toggle');
 var $hpCont = $('.hp-cont');
 var $hpContTxt = $('.hp-cont p')
 var $hpContImg = $('.hp-cont img')
@@ -39,13 +39,28 @@ $playVid.click(function(){
 	playFullVideo();
 });
 
+$closeVid.click(function(){
+	$fullVid.toggleClass('show-vid');
+	$vid.toggleClass('hide-vid');
+	$frontWrp.toggleClass('remove-bg');
+	$hpCont.toggleClass('hide');
+	$closeVidImg.toggleClass('show');
+	$closeVidTxt.toggleClass('show');
+	$playVidImg.toggleClass('show');
+	$playVidTxt.toggleClass('show');
+	$fullVid.prop('muted', true);
+	$fullVid.prop('paused', true);
+});
+
 
 
 var toggleTrailer = function () {
 	if ( $vid.get(0).paused ) {
 	 $vid.get(0).play();
+	 $fullVid.prop('muted', false);
 	} else {
 		$vid.get(0).pause();
+		$fullVid.prop('muted', true);
 	}
 }
 
