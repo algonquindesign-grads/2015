@@ -142,44 +142,44 @@ var changeStudent = function (studentdata) {
 		// Plain image
 		$portImg1.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-' + people.student[studentdata].works[0] + '.jpg');
 		$portImg1.show();
-		$portIframe1.parent().hide();
+		$portIframe1.hide();
 	} else { // Vimeo
 		$portIframe1.attr('src', people.student[studentdata].works[0]);
 		$portImg1.hide();
-		$portIframe1.parent().show();
+		$portIframe1.show();
 	}
 
 		if (people.student[studentdata].works[1].length == 1) {
 		// Plain image
 		$portImg2.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-' + people.student[studentdata].works[1] + '.jpg');
 		$portImg2.show();
-		$portIframe2.parent().hide();
+		$portIframe2.hide();
 	} else { // Vimeo
 		$portIframe2.attr('src', people.student[studentdata].works[1]);
 		$portImg2.hide();
-		$portIframe2.parent().show();
+		$portIframe2.show();
 	}
 
 		if (people.student[studentdata].works[2].length == 1) {
 		// Plain image
 		$portImg3.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-' + people.student[studentdata].works[2] + '.jpg');
 		$portImg3.show();
-		$portIframe3.parent().hide();
+		$portIframe3.hide();
 	} else { // Vimeo
 		$portIframe3.attr('src', people.student[studentdata].works[2]);
 		$portImg3.hide();
-		$portIframe3.parent().show();
+		$portIframe3.show();
 	}
 
 		if (people.student[studentdata].works[3].length == 1) {
 		// Plain image
 		$portImg4.attr('src', 'http://grads.images.algonquindesign.ca/2015/portoflio-pieces/' + people.student[studentdata].id + '-' + people.student[studentdata].works[3] + '.jpg');
 		$portImg4.show();
-		$portIframe4.parent().hide();
+		$portIframe4.hide();
 	} else { // Vimeo
 		$portIframe4.attr('src', people.student[studentdata].works[3]);
 		$portImg4.hide();
-		$portIframe4.parent().show();
+		$portIframe4.show();
 	}
 
 
