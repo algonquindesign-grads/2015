@@ -298,9 +298,9 @@ $(document).keydown(function (e) {
 });
 
 
-var $sbCont = $('.student-box');
+// var $sbCont = $('.student-box');
 
-$sbCont.click(function() {
-	$cover.removeClass('overlay');
-	$html.removeClass('noscroll');
-});
+// $sbCont.click(function() {
+// 	$cover.removeClass('overlay');
+// 	$html.removeClass('noscroll');
+// });
