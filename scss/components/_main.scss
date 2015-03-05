@@ -1408,7 +1408,12 @@ ul {
     transition: all 100ms ease;
 }
 
-.social-links a img:hover {
+.social-links a,
+.social-links img {
+    display: block;
+}
+
+.social-links a:hover img {
     transform: scale(1.1);
 }
 
@@ -1519,15 +1524,18 @@ ul {
 //                                                                          WITHIN COVER
 
 .cover-buttons {
-    right: 0;
+    //right: 0;
     width: 100%;
-    position: absolute;
-    bottom: 1em;
-    overflow: hidden;
+    //position: absolute;
+    //bottom: 1em;
+    //overflow: hidden;
     text-align: right;
     i {
         display: inline-block;
         font-size: 5em;
+    }
+    a {
+        display: inline-block;
     }
 }
 
@@ -1541,7 +1549,7 @@ ul {
 }
 
 .magenta-icon {
-    position: relative;
+    //position: relative;
     margin-right: 2%;
     color: #ec008c;
     p {
@@ -1579,6 +1587,10 @@ ul {
     font-family: 'open-sans', sans-serif;
 }
 
+.col-wrap {
+    overflow: hidden;
+}
+
 .left p {
     font-size: 1em;
     display: inline-block;
@@ -1593,9 +1605,19 @@ ul {
     text-align: center;
 }
 
+.order {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: stretch;
+}
+
 .right-content {
     width: 50%;
-    float: left;
+    //float: left;
+    background-color: #000;
 }
 
 .right-content img {
@@ -1605,9 +1627,10 @@ ul {
 
 
 .right-content iframe {
-    height:100%;
-    overflow:auto;
-    display:block;
+    width:100%;
+    //overflow:auto;
+    //display:block;
+    //align-self: stretch;
 }
 
 .site,

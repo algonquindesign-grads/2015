@@ -25,14 +25,14 @@ SASS uses the '$' to declare variables.*/
   width: device-width;
   scale: 1; }
 
-/* line 818, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 818, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 html {
   box-sizing: border-box;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%; }
 
-/* line 826, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 826, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 ul {
   list-style-type: none;
   -webkit-margin-before: 0;
@@ -41,25 +41,25 @@ ul {
   -webkit-margin-end: 0;
   -webkit-padding-start: 0; }
 
-/* line 835, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 835, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 *, *:before, *:after {
   box-sizing: inherit; }
 
-/* line 839, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 839, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 a {
   text-decoration: none; }
 
-/* line 844, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 844, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 html, body {
   overflow-x: hidden; }
 
-/* line 853, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 853, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 html, body, section, img, ul, li {
   margin: 0;
   padding: 0;
   font-family: Helvetica, Arial, sans-serif; }
 
-/* line 864, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 864, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 header {
   text-align: right;
   position: absolute;
@@ -67,7 +67,7 @@ header {
   padding: 0 3%;
   z-index: 10; }
 
-/* line 873, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 873, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .logo-head {
   float: left;
   left: 5%;
@@ -76,11 +76,11 @@ header {
   top: 0.75em;
   transition: all 250ms linear; }
 
-/* line 882, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 882, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .logo-head:hover {
   opacity: 0.6; }
 
-/* line 886, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 886, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 header h4 {
   display: inline-block;
   padding: 0 2%;
@@ -90,12 +90,12 @@ header h4 {
   margin: 0.5 auto;
   font-family: 'futura-pt', sans-serif; }
 
-/* line 896, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 896, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 header h4:hover {
   opacity: 0.6;
   transition: all 250ms linear; }
 
-/* line 902, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 902, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .sticky-nav {
   transition: all 250ms linear;
   position: fixed;
@@ -105,53 +105,53 @@ header h4:hover {
   background-color: rgba(34, 34, 34, 0.95); }
 
 @media only screen and (min-width: 20em) {
-  /* line 913, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 913, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .logo-head {
     max-height: 30px;
     top: 0.5em; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 920, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 920, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .logo-head {
     max-height: 40px;
     top: 0.75em; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 927, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 927, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .logo-head {
     max-height: 60px;
     top: 1.25em; }
  }
 
-/* line 935, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 935, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 #top {
   display: block;
   width: 100%;
   height: 100%; }
 
-/* line 941, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 941, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 video {
   z-index: -100; }
 
-/* line 945, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 945, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 video #bgvideo {
   transition: 1s opacity; }
 
-/* line 951, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 951, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .embed {
   margin-left: 0;
   margin-right: 0;
   position: relative;
   width: 100%; }
 
-/* line 958, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 958, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .embed--16by9 {
   /* HD TV */
   padding-top: 56.25%; }
 
-/* line 963, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 963, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .embed__item {
   height: 100%;
   left: 0;
@@ -159,20 +159,20 @@ video #bgvideo {
   top: 0;
   width: 100%; }
 
-/* line 971, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 971, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .stopfade {
   opacity: 0.5; }
 
-/* line 975, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 975, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .front-wrap {
   position: relative;
   transition: all 250ms liear; }
 
-/* line 980, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 980, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .fade {
   background-color: rgba(34, 34, 34, 0.9); }
 
-/* line 986, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 985, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .front {
   margin-top: -90px;
   text-align: center;
@@ -183,27 +183,27 @@ video #bgvideo {
   right: 0;
   bottom: 0; }
 
-/* line 997, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 996, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .hp-cont {
   display: block;
-  margin-top: 10em; }
+  margin-top: 8em; }
 
-/* line 1002, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1001, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .front ul li {
   margin-bottom: 0em; }
 
-/* line 1006, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1005, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .sn-comp {
   padding: 8.2em 0; }
 
-/* line 1011, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1010, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .logo {
   display: block;
-  margin: 0 auto 3em;
+  margin: 0 auto 5em;
   opacity: 0;
   transition: all 250ms linear; }
 
-/* line 1018, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1017, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 #vid-toggle-btn {
   position: absolute;
   bottom: 1.5em;
@@ -214,7 +214,7 @@ video #bgvideo {
   background-color: rgba(255, 0, 0, 0.4);
   z-index: 100; }
 
-/* line 1029, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1028, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .arrow {
   display: block;
   margin: auto;
@@ -223,11 +223,11 @@ video #bgvideo {
   opacity: 0;
   transition: all 250ms linear; }
 
-/* line 1039, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1038, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .show {
   opacity: 0.8; }
 
-/* line 1057, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1056, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .play {
   color: #fff;
   letter-spacing: 2px;
@@ -236,7 +236,7 @@ video #bgvideo {
   margin-top: -1em;
   opacity: 0.8; }
 
-/* line 1066, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1065, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .slogan {
   text-transform: uppercase;
   font-size: 200%;
@@ -245,59 +245,59 @@ video #bgvideo {
   font-weight: 600; }
 
 @media only screen and (min-width: 20em) {
-  /* line 1076, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1075, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .play {
     font-size: 1em;
     padding: 0.75em 1em;
     border: 3px #fff solid; }
 
-  /* line 1081, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1080, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .logo {
     width: 200px; }
 
-  /* line 1084, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1083, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .arrow {
     top: 32em; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 1090, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1089, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .play {
     font-size: 2em;
     padding: 0.5em 1em;
     border: 5px #fff solid; }
 
-  /* line 1095, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1094, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .logo {
     width: 300px; }
 
-  /* line 1098, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1097, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .arrow {
     top: 40em; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 1104, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1103, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .play {
     font-size: 2.5em;
     padding: 0.75em 1.2em; }
 
-  /* line 1108, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1107, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .logo {
     width: 400px; }
 
-  /* line 1111, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1110, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .arrow {
     top: 45em; }
  }
 
-/* line 1118, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1117, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .about {
   padding: 5em 20% 3em;
   position: relative;
   background-color: #fff; }
 
-/* line 1124, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1123, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 h5 {
   text-align: center;
   font-size: 2em;
@@ -308,31 +308,24 @@ h5 {
   margin-bottom: 1.5em;
   font-family: 'futura-pt', sans-serif; }
 
-/* line 1134, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1133, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .about p {
   font-size: 1.45em;
   line-height: 1.45em;
   text-align: center; }
 
-/* line 1140, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1139, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .sep {
   position: relative;
   width: 80%;
   margin: 2em 10% 2em; }
 
-/* line 1146, /Users/Mark/Desktop/2015/scss/components/main */
-.gtg {
-  display: block;
-  width: 43%;
-  margin: 0 auto;
-  margin-top: 2.5em; }
-
-/* line 1156, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1148, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .pic {
   position: relative;
   float: left; }
 
-/* line 1161, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1153, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .homepage-pic {
   display: block;
   position: relative;
@@ -343,7 +336,7 @@ h5 {
   padding-bottom: 0;
   transition: all 250ms linear; }
 
-/* line 1172, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1164, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .tint {
   position: absolute;
   width: 100%;
@@ -353,23 +346,23 @@ h5 {
   z-index: 5;
   transition: all 250ms linear; }
 
-/* line 1182, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1174, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .pic:nth-child(1n) .tint {
   background-color: #00aeef; }
 
-/* line 1186, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1178, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .pic:nth-child(3n) .tint {
-  background-color: #fff200; }
+  background-color: yellow; }
 
-/* line 1190, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1182, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .pic:nth-child(2n) .tint {
   background-color: #ec008c; }
 
-/* line 1194, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1186, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .pic:hover .tint {
   opacity: 0.7; }
 
-/* line 1198, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1190, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .grads p {
   float: left;
   position: relative;
@@ -387,7 +380,7 @@ h5 {
   font-size: 0.75rem;
   font-family: 'futura-pt', sans-serif; }
 
-/* line 1218, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1210, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .l-1-6, .m-1-4, .s-1-2 {
   position: relative;
   display: block;
@@ -395,91 +388,91 @@ h5 {
   margin: 3em 0; }
 
 @media only screen and (min-width: 20em) {
-  /* line 1226, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1218, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .s-1-2 .pic {
     width: 50%; }
 
-  /* line 1229, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1221, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .s-1-2 .pic2 {
     width: 100%; }
 
-  /* line 1233, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1225, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .grads .partial {
     display: block; }
-  /* line 1236, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1228, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .grads .full {
     display: none; }
 
-  /* line 1240, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1232, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .teachers {
     width: 100%; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 1246, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1238, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .m-1-4 .pic {
     width: 25%; }
 
-  /* line 1249, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1241, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .m-1-4 .pic2 {
     width: 50%; }
 
-  /* line 1253, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1245, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .grads .partial {
     display: none; }
-  /* line 1256, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1248, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .grads .full {
     display: block; }
  }
 
 @media only screen and (max-width: 900px) {
-  /* line 1264, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1256, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .grads .partial {
     display: block; }
-  /* line 1267, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1259, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .grads .full {
     display: none; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 1276, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1268, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .l-1-6 .pic {
     width: 16.6666%; }
 
-  /* line 1279, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1271, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .l-1-6 .pic2 {
     width: 33.3333%; }
  }
 
-/* line 1288, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1280, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .event {
   position: relative;
   display: inline-block;
   padding: 0 10% 3em;
   width: 100%; }
 
-/* line 1296, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1288, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .left-event, .right-event {
   float: left;
   text-align: center;
   display: inline-block; }
 
-/* line 1302, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1294, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .event p {
   line-height: 1.25em;
   font-size: 1.25em; }
 
-/* line 1308, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1300, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .right-event h3 {
   font-size: 1.5em; }
 
-/* line 1312, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1304, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .event h4 {
   font-family: 'futura-pt', sans-serif;
   margin: 0;
   color: #00aeef; }
 
-/* line 1318, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1310, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .invite {
   padding: 0.65em 1em;
   font-size: 1.5em;
@@ -488,27 +481,27 @@ h5 {
   border: 5px solid #00aeef;
   transition: all 200ms ease; }
 
-/* line 1327, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1319, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .right-event a:hover {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1); }
 
 @media only screen and (min-width: 20em) {
-  /* line 1333, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1325, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .left-event, .right-event {
     width: 100%; }
 
-  /* line 1338, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1329, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .left-event h5, .right-event h5 {
     margin-bottom: 0;
     margin-top: 1em; }
 
-  /* line 1342, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1333, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .map {
     width: 300px; }
 
-  /* line 1345, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1336, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .invite {
     width: 250px;
     font-size: 1.5em;
@@ -516,174 +509,169 @@ h5 {
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 1354, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1345, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .left-event, .right-event {
     width: 50%; }
 
-  /* line 1358, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1349, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .left-event h5, .right-event h5 {
     margin-bottom: 1em; }
 
-  /* line 1361, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1352, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .map {
     width: 350px; }
 
-  /* line 1364, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1355, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .invite {
     width: 350px;
     font-size: 2em;
     margin-top: 1em; }
  }
 
-/* line 1373, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1364, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 footer {
   position: relative;
   background-color: #222;
   padding: 5em 0 3em;
   text-align: center; }
 
-/* line 1380, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1371, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 footer .invite {
   color: #fff;
   border: 5px solid #fff; }
 
-/* line 1385, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1376, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 ul {
   list-style-type: none; }
 
-/* line 1389, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1380, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .social-links {
   display: block;
-  width: 100%;
-  margin: 0.6em 0 0.5em; }
+  width: 100%; }
 
-/* line 1396, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1387, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .social, .ac-logos {
   display: block;
   width: 100%; }
 
-/* line 1401, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1392, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .social-links li {
   display: inline-block; }
 
-/* line 1405, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1396, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .social-links img {
   width: 40px;
-  margin: 0.25em 0;
+  margin: 2em 0;
   transition: all 100ms ease; }
 
-/* line 1411, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1402, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .social-links a img:hover {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1); }
 
-/* line 1415, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1406, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .ac-logos li {
   display: inline-block;
   margin: 2em 3%; }
 
-/* line 1420, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1411, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .ac-logos img {
   width: 100%; }
 
-/* line 1424, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1415, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .footer-social {
   display: block; }
-  /* line 1426, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1417, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .footer-social img {
     width: 100%; }
 
-/* line 1431, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1422, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .footer-social li {
   display: inline-block;
   width: 66px;
   margin: 3em 5%;
   transition: all 250ms linear; }
 
-/* line 1438, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1429, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .footer-social li:hover {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1); }
 
 @media only screen and (min-width: 20em) {
-  /* line 1443, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1434, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .social-links li {
     width: 55px; }
 
-  /* line 1446, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1437, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .ac-logos li {
     width: 30%; }
 
-  /* line 1450, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1441, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .tablet li, .desktop li {
     display: none; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 1456, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1447, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .social-links li {
     width: 70px; }
 
-  /* line 1459, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1450, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .ac-logos li {
     width: 25%; }
 
-  /* line 1462, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1453, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .tablet li {
     display: inline-block; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 1468, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1459, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .social-links li {
     width: 85px; }
 
-  /* line 1472, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1463, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .ac-logos li {
     width: 15%; }
 
-  /* line 1475, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1466, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .desktop li {
     display: inline-block; }
  }
 
-/* line 1483, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1474, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .student-box {
   position: fixed;
   top: 0;
   left: 0;
-  background: white;
+  background: rgba(22, 22, 22, 0.8);
   width: 100%;
   height: 100%;
   display: none;
-  padding-top: 3%;
+  padding-top: 5em;
   color: #000;
   z-index: 1000;
   overflow-y: scroll;
   transition: all 250ms linear; }
 
-/* line 1499, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1490, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .student-box h2 {
-  font-size: 2em;
-  text-transform: uppercase;
-  color: #222222;
+  color: #fff;
   letter-spacing: 1px;
-  font-family: "futura-pt", sans-serif;
-  font-weight: 700;
-  margin: 0.25em 0 0;
-  letter-spacing: 2px; }
+  font-weight: 300;
+  margin: 0.5em 0; }
 
-/* line 1510, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1497, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .overlay {
   display: block; }
 
-/* line 1514, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1501, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .noscroll {
   overflow: hidden; }
 
-/* line 1521, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1508, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .cover-buttons {
   right: 0;
   width: 100%;
@@ -691,149 +679,142 @@ ul {
   bottom: 1em;
   overflow: hidden;
   text-align: right; }
-  /* line 1528, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1515, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .cover-buttons i {
     display: inline-block;
     font-size: 5em; }
 
-/* line 1534, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1521, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .cyan-icon {
   color: #00aeef;
   margin-right: 2%; }
-  /* line 1537, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1524, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .cyan-icon p {
     color: #000;
     font-size: 1em; }
 
-/* line 1543, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1530, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .magenta-icon {
   position: relative;
   margin-right: 2%;
   color: #ec008c; }
-  /* line 1547, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1534, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .magenta-icon p {
     color: #000; }
 
-/* line 1552, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1539, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .left {
-  padding: 0 5%;
+  padding: 0 7.5%;
   float: left;
   margin: 0.25em 0;
   font-size: 1em;
   list-style-type: none; }
 
-/* line 1560, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1547, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
+.left h2 {
+  font-size: 1.5em; }
+
+/* line 1551, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .left .lightbox-pic {
   width: 100%; }
 
-/* line 1564, /Users/Mark/Desktop/2015/scss/components/main */
-.lightbox-pic {
-  border-bottom: 5px solid #222222; }
-
-/* line 1568, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1555, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .left .social {
+  margin: 1.5em 0;
   width: 100%;
   list-style-type: none; }
 
-/* line 1573, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1561, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .skill {
   margin: 0;
   padding: 0;
-  color: #222222;
+  color: #fff;
   letter-spacing: 1px;
-  font-weight: 400;
-  font-family: 'open-sans', sans-serif; }
+  font-weight: 300; }
 
-/* line 1582, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1569, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .left p {
   font-size: 1em;
   display: inline-block;
   width: 100%;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  margin: 0 0 0.5em; }
 
-/* line 1589, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1577, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .right {
   float: left;
-  padding: 0 5% 0 4.5%;
+  padding-right: 1%;
   margin-top: 1em;
   text-align: center; }
 
-/* line 1596, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1584, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .right-content {
   width: 50%;
-  float: left; }
+  float: left;
+  margin-bottom: 0.75em; }
 
-/* line 1601, /Users/Mark/Desktop/2015/scss/components/main */
-.right-content img {
-  display: block;
-  width: 100%; }
-
-/* line 1607, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1590, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .right-content iframe {
   height: 100%;
-  overflow: auto;
-  display: block; }
+  overflow: auto; }
 
-/* line 1614, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1596, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
 .site, .email {
-  color: #222222;
-  display: inline-block;
-  font-weight: 400;
-  letter-spacing: 1px;
-  font-family: "open-sans", sans-serif;
-  margin-bottom: 0.09em;
-  font-size: 0.95em; }
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 1px; }
 
 @media only screen and (min-width: 20em) {
-  /* line 1628, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1605, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .right img {
-    width: 100%;
+    width: 75%;
+    margin: 0.25em 12 0.5%;
     text-align: center; }
 
-  /* line 1632, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1610, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .left {
     width: 100%;
-    text-align: center;
+    text-align: left;
     margin: 1em 0; }
 
-  /* line 1637, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1615, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .right {
-    width: 100%;
-    margin-bottom: 3em; }
+    width: 100%; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 1644, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1621, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .right img {
     margin: 0; }
 
-  /* line 1647, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1624, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .left .lightbox-pic {
     width: 50%;
     margin: 0 25%; }
 
-  /* line 1651, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1628, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .left {
     text-align: center; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 1657, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1634, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .right img {
+    width: 50%;
     margin: 0;
-    display: block; }
+    padding: 0 0.5% 0.5em; }
 
-  /* line 1661, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1639, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .left {
     width: 50%;
     text-align: left; }
 
-  /* line 1665, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1643, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .right {
     width: 50%; }
 
-  /* line 1668, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1646, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/main */
   .left .lightbox-pic {
     width: 100%;
     margin: 0; }
@@ -841,8 +822,8 @@ ul {
 
 @font-face {
   font-family: 'cover-buttons';
-  src: url('../fonts/cover-buttons.eot?85419171');
-  src: url('../fonts/cover-buttons.eot?85419171#iefix') format('embedded-opentype'), url('../fonts/cover-buttons.woff?85419171') format('woff'), url('../fonts/cover-buttons.ttf?85419171') format('truetype'), url('../fonts/cover-buttons.svg?85419171#fontello') format('svg');
+  src: url('http://grads.images.algonquindesign.ca/2015/fonts/cover-buttons.eot?85419171');
+  src: url('http://grads.images.algonquindesign.ca/2015/fonts/cover-buttons.eot?85419171#iefix') format('embedded-opentype'), url('http://grads.images.algonquindesign.ca/2015/fonts/cover-buttons.woff?85419171') format('woff'), url('http://grads.images.algonquindesign.ca/2015/fonts/cover-buttons.ttf?85419171') format('truetype'), url('http://grads.images.algonquindesign.ca/2015/fonts/cover-buttons.svg?85419171#fontello') format('svg');
   font-weight: normal;
   font-style: normal; }
 
@@ -856,7 +837,7 @@ ul {
   }
 }
 */
-/* line 22, /Users/Mark/Desktop/2015/scss/components/cover-buttons */
+/* line 22, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/cover-buttons */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "cover-buttons";
   font-style: normal;
@@ -881,17 +862,17 @@ ul {
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-/* line 53, /Users/Mark/Desktop/2015/scss/components/cover-buttons */
+/* line 53, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/cover-buttons */
 .icon-angle-circled-left:before {
   content: '\e800'; }
 
 /* '' */
-/* line 54, /Users/Mark/Desktop/2015/scss/components/cover-buttons */
+/* line 54, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/cover-buttons */
 .icon-cancel-circled:before {
   content: '\e801'; }
 
 /* '' */
-/* line 55, /Users/Mark/Desktop/2015/scss/components/cover-buttons */
+/* line 55, /Users/thomasjbradley/Dropbox/www/alg-2015/scss/components/cover-buttons */
 .icon-angle-circled-right:before {
   content: '\e802'; }
 
