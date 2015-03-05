@@ -65,7 +65,6 @@ header {
   z-index: 10;
 }
 
-
 .logo-head {
   float: left;
   left: 5%;
@@ -89,7 +88,6 @@ header h4 {
   font-family: 'futura-pt', sans-serif;
 }
 
-
 header h4:hover {
   opacity: 0.6;
   transition: all 250ms linear;
@@ -107,25 +105,20 @@ header h4:hover {
 @media only screen and (min-width: 20em) {
   .logo-head {
     max-height: 30px;
-    top: 0.5em;
+    top: 0.75em;
   }
-
  }
 
 @media only screen and (min-width: 37.5em) {
   .logo-head {
     max-height: 40px;
-    top: 0.75em;
   }
-
  }
 
 @media only screen and (min-width: 75em) {
   .logo-head {
     max-height: 60px;
-    top: 1.25em;
   }
-
  }
 
 #top {
@@ -141,7 +134,6 @@ video {
 video #bgvideo {
   transition: 1s opacity;
 }
-
 
 .embed {
   margin-left: 0;
@@ -167,11 +159,6 @@ video #bgvideo {
   position: absolute;
   top: 0;
   z-index:-200;
-}
-
-
-.full-vid {
-
 }
 
 .show-vid {
@@ -225,7 +212,7 @@ video #bgvideo {
 
 #vid-toggle-btn {
   position: absolute;
-  bottom: 1.5em;
+  bottom: 3.5em;
   right: 1.5em;
   display: block;
   z-index: 100;
@@ -247,24 +234,19 @@ video #bgvideo {
   opacity: 0;
 }
 
-
-
 @media only screen and (min-width: 20em) {
   .play {
     font-size: 1em;
     padding: 0.75em 1em;
     border: 3px #fff solid;
   }
-
   .logo {
     width: 200px;
   }
-
   .arrow {
     top: 32em;
   }
-
- }
+}
 
 @media only screen and (min-width: 37.5em) {
   .play {
