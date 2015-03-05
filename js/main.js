@@ -32,6 +32,8 @@ $tgglVid.click(function () {
 	$fullVid.toggleClass('show-vid');
 	$frontWrp.toggleClass('remove-bg');
 	$hpCont.toggleClass('hide');
+	$fullVid.get(0).pause();
+	$fullVid.prop('muted', true);
 	toggleTrailer();
 });
 
@@ -49,8 +51,8 @@ $closeVid.click(function(e){
 	$closeVidTxt.toggleClass('show');
 	$playVidImg.toggleClass('show');
 	$playVidTxt.toggleClass('show');
+	$fullVid.get(0).pause();
 	$fullVid.prop('muted', true);
-	$fullVid.prop('paused', true);
 	toggleTrailer();
 });
 
