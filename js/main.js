@@ -3,11 +3,15 @@ var $tgglVid = $('.toggle-video');
 var $topLogo = $('.hp-cont .logo');
 var $arrow = $('.front .arrow');
 var $frontWrp = $('.front-wrap');
+var $fullVid = $('.full-vid');
+var $trailer = $('.trailer');
+
 
 $tgglVid.click(function(e) {
 	e.preventDefault();
 	$topLogo.toggleClass('show');
 	$arrow.toggleClass('show');
+	$fullVid.toggleClass('show-vid');
 	if ($vid.get(0).paused) {
 	 $vid.get(0).play();
 	 $frontWrp.removeClass('fade');
