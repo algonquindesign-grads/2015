@@ -1,3 +1,4 @@
+
 @-moz-viewport {
   width: device-width;
   scale: 1;
@@ -234,10 +235,7 @@ video #bgvideo {
 
 .controls {
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: calc(100vh);
-  width: 100%;
+  right: 2em;
   display: block;
   z-index: 100;
   transition: all 250ms linear;
@@ -296,8 +294,13 @@ video #bgvideo {
   margin-top: 2em;
   width: 80px;
   opacity: .8;
-  transition: all 250ms linear;
+  transition: all 100ms linear;
 }
+
+.arrow:hover {
+  margin-top:2em;
+}
+
 
 .hide  {
   opacity: 0;
@@ -310,18 +313,13 @@ video #bgvideo {
 }
 
 @media only screen and (min-width: 20em) {
-  .play {
-    font-size: 1em;
-    padding: 0.75em 1em;
-    border: 3px #fff solid;
-  }
   .logo {
     width: 60%;
     margin-bottom: .75em;
   }
   .arrow {
-    width: 25%;
-    margin: 0 auto;
+    width: 40px;
+    margin: .5em auto;
   }
 
   .hp-cont {
@@ -334,8 +332,8 @@ video #bgvideo {
   }
 
    .controls {
-   bottom: 1em;
-   right: 1em;
+   top: 9em;
+   right: 5%;
    }
 
   .controls p {
@@ -343,10 +341,9 @@ video #bgvideo {
     margin: 0;
     }
 
- .controls img {
-  width: 30px;
-  margin-bottom: 0;
- }
+  .controls img {
+    width: 30px;
+   }
 
  .watch-full-video {
   margin: .75em 0 0 0;
@@ -359,33 +356,22 @@ video #bgvideo {
 }
 
 @media only screen and (min-width: 37.5em) {
-  .play {
-    font-size: 2em;
-    padding: 0.5em 1em;
-    border: 5px #fff solid;
-  }
-
   .logo {
     width: 230px;
   }
 
   .arrow {
     margin-top: 1.5em;
-    width: 20%;
+    width: 60px;
   }
 
   .hp-cont {
-    margin-top: 30%;
+    margin-top: 20%;
   }
 
-  .play-full-toggle {
-    width: 5em;
-    margin-top: 6em;
-  }
-
-    .controls {
-   bottom: 2em;
-   right: 2em;
+  .controls {
+    top: 10em;
+    right: 5%;
   }
 
    .controls p {
@@ -403,35 +389,36 @@ video #bgvideo {
     width: 320px;
   }
   .arrow {
-    margin-top: 2em;
-    width: 20%;
+    width: 60px;
+  }
+
+  .watch-full-video a {
+    font-size: 1.25em;
   }
 
  }
 
 @media only screen and (min-width: 75em) {
-  .play {
-    font-size: 2.5em;
-    padding: 0.75em 1.2em;
-  }
 
   .logo {
     width: 400px;
   }
 
   .arrow {
-    width: 18%;
-    top: 45em;
+    width: 60px;
   }
-   .controls {
-   bottom: calc(100vh - 65%);
+  .controls {
+   top:12em;
   }
 
   .hp-cont {
-  display: block;
-  margin-top: calc(100vh * 25%);
+    display: block;
+    margin-top: calc(100vh * 25%);
   }
 
+  .watch-full-video {
+    margin: 1.5em 0 0 0;
+  }
 
  }
 
@@ -514,7 +501,7 @@ h5 {
   opacity: 0.7;
 }
 
-.grads p {
+.student p {
   float: left;
   position: relative;
   text-align: center;
@@ -833,10 +820,6 @@ ul {
   margin-right:5%;
 }
 
-.cover-buttons a {
-  margin-left: 3%;
-}
-
 .cover-buttons i {
   display: inline-block;
   font-size: 5em;
@@ -949,6 +932,27 @@ ul {
     margin-bottom: 3em;
     padding: 0 5%;
   }
+  .site {
+    margin: .5em 0 1em 0;
+  }
+
+  .social-links {
+    margin-top: 1em;
+  }
+
+  .cover-buttons {
+    text-align: center;
+  }
+
+  .cover-buttons a:last-child {
+    margin-right:0;
+  }
+
+  .cover-buttons img {
+    width: 40px;
+    margin:0 11.6%;
+  }
+
  }
 
 @media only screen and (min-width: 37.5em) {
@@ -959,9 +963,23 @@ ul {
     width: 50%;
     margin: 0 25%;
   }
+  .right {
+    width: 100%;
+  }
   .left {
     text-align: center;
   }
+
+  .cover-buttons {
+    margin-bottom: 1em;
+  }
+
+  .cover-buttons img {
+    width: 40px;
+    margin: 0;
+    margin: 0 1em;
+  }
+
  }
 
 @media only screen and (min-width: 75em) {
@@ -980,5 +998,132 @@ ul {
   .left .lightbox-pic {
     width: 100%;
     margin: 0;
-  	}
+  }
+  .cover-buttons {
+    text-align: right;
+  }
+
+  .cover-buttons img {
+    margin:0;
+  }
+
+  .close-overlay img {
+    margin-right:5%;
+  }
+
+  .next-student img,
+  .prev-student img {
+    margin-right:4%;
+  }
+
+}
+
+// Toggle
+.toggle {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+}
+.toggle + label {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input.toggle-round-flat + label {
+    padding: 2px;
+    width: 60px;
+    height: 30px;
+    margin: 2rem auto;
+    background-color: #ec008b;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 60px;
+    -webkit-transition: background 0.4s;
+    -moz-transition: background 0.4s;
+    -o-transition: background 0.4s;
+    transition: background 0.4s;
+}
+
+input.toggle-round-flat + label:before, input.toggle-round-flat + label:after {
+    display: block;
+    position: absolute;
+    content: "";
+}
+
+input.toggle-round-flat + label:before {
+    top: 4px;
+    left: 4px;
+    bottom: 4px;
+    right: 4px;
+    background-color: #fff;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+    border-radius: 70px;
+    -webkit-transition: background 0.4s;
+    -moz-transition: background 0.4s;
+    -o-transition: background 0.4s;
+    transition: background 0.4s;
+}
+
+input.toggle-round-flat + label:after {
+    top: 7px;
+    left: 7px;
+    bottom: 7px;
+    width: 28px;
+    background-color: #ec008b;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+    border-radius: 70px;
+    -webkit-transition: margin 0.4s, background 0.4s;
+    -moz-transition: margin 0.4s, background 0.4s;
+    -o-transition: margin 0.4s, background 0.4s;
+    transition: margin 0.4s, background 0.4s;
+}
+
+input.toggle-round-flat:checked + label {
+    background-color: #00aeef;
+}
+
+input.toggle-round-flat:checked + label:after {
+    margin-left: 18px;
+    background-color: #00aeef;
+}
+
+.label {
+    position: absolute;
+    bottom: 8px;
+    font-size: .75em;
+    color: #222222;
+    text-align: center;
+    font-family: 'Futura Std', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+input.toggle-round-flat:checked + .label {
+    color: #00aeef;
+}
+
+.left {
+    right:150px;
+    top: 40px;
+}
+
+.right {
+    left:70px
+    top:40px;
 }

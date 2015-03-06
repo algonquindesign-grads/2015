@@ -335,11 +335,3 @@ $(document).keydown(function (e) {
 		break;
 	}
 });
-
-
-// var $sbCont = $('.student-box');
-
-// $sbCont.click(function() {
-// 	$cover.removeClass('overlay');
-// 	$html.removeClass('noscroll');
-// });

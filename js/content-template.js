@@ -1860,8 +1860,18 @@ shuffle(people.student);
 
 
 
+var $orderTggl = $('.order-toggle');
 
 
+$orderTggl.click(function(e) {
+});
+
+
+var orderPeople = people.student.sort(function(a, b) {
+		var $nameA = a.name.full.toUpperCase();
+		var $nameB = b.name.full.toUpperCase();
+		return ($nameA < $nameB) ? -1 : ($nameA > $nameB) ? 1 : 0;
+	});
 
 
 
