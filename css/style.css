@@ -1097,18 +1097,19 @@ input.toggle-round-flat:checked + label:after {
   letter-spacing: 2px;
   text-transform: uppercase; }
 
-/* line 1118, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1117, /Users/Mark/Desktop/2015/scss/components/main */
 input.toggle-round-flat:checked + .label {
   color: #00aeef; }
 
-/* line 1122, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1121, /Users/Mark/Desktop/2015/scss/components/main */
 .left {
-  right: 150px;
+  right: 115px;
   top: 40px; }
 
-/* line 1127, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1126, /Users/Mark/Desktop/2015/scss/components/main */
 .right {
-  left: 70px; }
+  left: 80px;
+  top: 40px; }
 
 @font-face {
   font-family: 'cover-buttons';
