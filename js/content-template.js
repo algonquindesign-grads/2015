@@ -1471,7 +1471,7 @@ var people = {
 
 	{
 		name: {
-			full: 'Caterina O Leary',
+			full: "Caterina O'Leary",
 			partial: 'Caterina O.'
 		},
 		id: 'oleary-caterina',
