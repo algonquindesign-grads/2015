@@ -1,5 +1,6 @@
 var $vid = $('.trailer');
-var $tgglVid = $('.toggle-video');
+var $watchFullVid = $('.watch-full-video');
+var $tgglVid = $('.toggle-video')
 var $tgglVidFull = $('.toggle-video-full');
 var $topLogo = $('.hp-cont .logo');
 var $arrow = $('.front .arrow');
@@ -10,11 +11,6 @@ var $hpContTxt = $('.hp-cont p')
 var $hpContImg = $('.hp-cont img')
 var $closeVid = $('.close-vid');
 
-// Play Vid
-var $playVid = $('.play-vid');
-var $playVidImg = $('.play-img');
-var $playVidTxt = $('.play-txt');
-
 // Close Vid
 var $closeVid = $('.close-vid');
 var $closeVidImg = $('.close-img');
@@ -23,23 +19,17 @@ var $closeVidTxt = $('.close-txt');
 $fullVid.prop('muted', true);
 $fullVid.prop('autoplay', false);
 
-$tgglVid.click(function () {
+$watchFullVid.click(function () {
 	$closeVidImg.toggleClass('show');
 	$closeVidTxt.toggleClass('show');
-	$playVidImg.toggleClass('show');
-	$playVidTxt.toggleClass('show');
 	$vid.toggleClass('hide-vid');
 	$fullVid.toggleClass('show-vid');
 	$frontWrp.toggleClass('remove-bg');
 	$hpCont.toggleClass('hide');
-	$fullVid.get(0).pause();
-	$fullVid.prop('muted', true);
-	toggleTrailer();
+	$fullVid.get(0).play();
+	$fullVid.prop('muted', false);
 });
 
-$playVid.click(function(){
-	playFullVideo();
-});
 
 $closeVid.click(function(e){
 	e.preventDefault();
@@ -49,24 +39,9 @@ $closeVid.click(function(e){
 	$hpCont.toggleClass('hide');
 	$closeVidImg.toggleClass('show');
 	$closeVidTxt.toggleClass('show');
-	$playVidImg.toggleClass('show');
-	$playVidTxt.toggleClass('show');
 	$fullVid.get(0).pause();
 	$fullVid.prop('muted', true);
-	toggleTrailer();
 });
-
-
-
-var toggleTrailer = function () {
-	if ( $vid.get(0).paused ) {
-	 $vid.get(0).play();
-	 $fullVid.prop('muted', false);
-	} else {
-		$vid.get(0).pause();
-		$fullVid.prop('muted', true);
-	}
-}
 
 var playFullVideo = function () {
 	if ($fullVid.get(0).paused) {

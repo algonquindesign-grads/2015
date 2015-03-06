@@ -25,14 +25,14 @@ SASS uses the '$' to declare variables.*/
   width: device-width;
   scale: 1; }
 
-/* line 26, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 26, /Users/Mark/Desktop/2015/scss/components/main */
 html {
   box-sizing: border-box;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%; }
 
-/* line 33, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 33, /Users/Mark/Desktop/2015/scss/components/main */
 ul {
   list-style-type: none;
   -webkit-margin-before: 0;
@@ -41,25 +41,25 @@ ul {
   -webkit-margin-end: 0;
   -webkit-padding-start: 0; }
 
-/* line 42, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 42, /Users/Mark/Desktop/2015/scss/components/main */
 *, *:before, *:after {
   box-sizing: inherit; }
 
-/* line 46, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 46, /Users/Mark/Desktop/2015/scss/components/main */
 a {
   text-decoration: none; }
 
-/* line 50, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 50, /Users/Mark/Desktop/2015/scss/components/main */
 html, body {
   overflow-x: hidden; }
 
-/* line 54, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 54, /Users/Mark/Desktop/2015/scss/components/main */
 html, body, section, img, ul, li {
   margin: 0;
   padding: 0;
   font-family: "open-sans", sans-serif; }
 
-/* line 60, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 60, /Users/Mark/Desktop/2015/scss/components/main */
 header {
   text-align: right;
   position: absolute;
@@ -67,7 +67,7 @@ header {
   padding: 0 3%;
   z-index: 10; }
 
-/* line 68, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 68, /Users/Mark/Desktop/2015/scss/components/main */
 .logo-head {
   float: left;
   left: 5%;
@@ -76,11 +76,11 @@ header {
   top: 0.75em;
   transition: all 250ms linear; }
 
-/* line 77, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 77, /Users/Mark/Desktop/2015/scss/components/main */
 .logo-head:hover {
   opacity: 0.6; }
 
-/* line 81, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 81, /Users/Mark/Desktop/2015/scss/components/main */
 header h4 {
   display: inline-block;
   padding: 0 2%;
@@ -90,12 +90,12 @@ header h4 {
   margin: 0.5 auto;
   font-family: 'futura-pt', sans-serif; }
 
-/* line 91, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 91, /Users/Mark/Desktop/2015/scss/components/main */
 header h4:hover {
   opacity: 0.6;
   transition: all 250ms linear; }
 
-/* line 96, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 96, /Users/Mark/Desktop/2015/scss/components/main */
 .sticky-nav {
   transition: all 250ms linear;
   position: fixed;
@@ -105,51 +105,51 @@ header h4:hover {
   background-color: rgba(34, 34, 34, 0.95); }
 
 @media only screen and (min-width: 20em) {
-  /* line 106, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 106, /Users/Mark/Desktop/2015/scss/components/main */
   .logo-head {
     max-height: 30px;
     top: 0.75em; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 113, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 113, /Users/Mark/Desktop/2015/scss/components/main */
   .logo-head {
     max-height: 40px; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 119, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 119, /Users/Mark/Desktop/2015/scss/components/main */
   .logo-head {
     max-height: 60px; }
  }
 
-/* line 124, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 124, /Users/Mark/Desktop/2015/scss/components/main */
 #top {
   display: block;
   width: 100%;
   height: 100%; }
 
-/* line 130, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 130, /Users/Mark/Desktop/2015/scss/components/main */
 video {
   z-index: -100; }
 
-/* line 134, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 134, /Users/Mark/Desktop/2015/scss/components/main */
 video #bgvideo {
   transition: 1s opacity; }
 
-/* line 138, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 138, /Users/Mark/Desktop/2015/scss/components/main */
 .embed {
   margin-left: 0;
   margin-right: 0;
   position: relative;
   width: 100%; }
 
-/* line 145, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 145, /Users/Mark/Desktop/2015/scss/components/main */
 .embed--16by9 {
   /* HD TV */
   padding-top: 56.25%; }
 
-/* line 150, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 150, /Users/Mark/Desktop/2015/scss/components/main */
 .embed__item {
   height: 100%;
   left: 0;
@@ -157,31 +157,31 @@ video #bgvideo {
   top: 0;
   width: 100%; }
 
-/* line 158, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 158, /Users/Mark/Desktop/2015/scss/components/main */
 .full-vid-cont {
   position: absolute;
   top: 0;
   z-index: -200; }
 
-/* line 164, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 164, /Users/Mark/Desktop/2015/scss/components/main */
 .show-vid {
   z-index: -100; }
 
-/* line 168, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 168, /Users/Mark/Desktop/2015/scss/components/main */
 .hide-vid {
   z-index: -200; }
 
-/* line 172, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 172, /Users/Mark/Desktop/2015/scss/components/main */
 .front-wrap {
   position: relative;
   transition: all 250ms liear;
   background-color: rgba(34, 34, 34, 0.85); }
 
-/* line 178, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 178, /Users/Mark/Desktop/2015/scss/components/main */
 .remove-bg {
   background: none; }
 
-/* line 182, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 182, /Users/Mark/Desktop/2015/scss/components/main */
 .front {
   margin-top: -90px;
   text-align: center;
@@ -192,19 +192,18 @@ video #bgvideo {
   right: 0;
   bottom: 0; }
 
-/* line 193, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 193, /Users/Mark/Desktop/2015/scss/components/main */
 .hp-cont {
-  display: block;
-  margin-top: 10em; }
+  display: block; }
 
-/* line 198, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 197, /Users/Mark/Desktop/2015/scss/components/main */
 .play-full-toggle {
   width: 8em;
   margin-top: 15%;
   margin-bottom: 0em;
   transition: all 1ms linear; }
 
-/* line 205, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 204, /Users/Mark/Desktop/2015/scss/components/main */
 .hp-cont-alt p {
   font-family: 'futura-pt', sans-serif;
   text-transform: uppercase;
@@ -213,61 +212,75 @@ video #bgvideo {
   font-size: 1.5em;
   margin: 0.75em 0; }
 
-/* line 214, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 213, /Users/Mark/Desktop/2015/scss/components/main */
 .hp-cont-alt {
   opacity: 0;
   transition: all 250ms linear; }
 
-/* line 220, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 219, /Users/Mark/Desktop/2015/scss/components/main */
 .play-full-toggle:hover, .vid-toggle-btn:hover {
   opacity: 0.8; }
 
-/* line 224, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 223, /Users/Mark/Desktop/2015/scss/components/main */
 .front ul li {
   margin-bottom: 0em; }
 
-/* line 229, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 228, /Users/Mark/Desktop/2015/scss/components/main */
 .logo {
   display: block;
   margin: 0 auto 3em;
   opacity: 0.8;
   transition: all 250ms linear; }
 
-/* line 236, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 235, /Users/Mark/Desktop/2015/scss/components/main */
 .controls {
   position: absolute;
-  right: 2.5rem;
+  left: 0;
+  right: 0;
+  bottom: calc(100vh);
+  width: 100%;
   display: block;
   z-index: 100;
   transition: all 250ms linear; }
 
-/* line 244, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 246, /Users/Mark/Desktop/2015/scss/components/main */
 .controls li {
-  display: block;
-  margin: 0.75em 0; }
+  display: inline-block;
+  margin: 0 1em; }
 
-/* line 249, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 251, /Users/Mark/Desktop/2015/scss/components/main */
 .controls p {
   margin: 0;
   text-transform: uppercase;
   font-family: "futura-pt", sans-serif;
   letter-spacing: 2px; }
 
-/* line 256, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 258, /Users/Mark/Desktop/2015/scss/components/main */
 .controls a {
   color: #ffffff; }
 
-/* line 263, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 265, /Users/Mark/Desktop/2015/scss/components/main */
 .play-vid img, .close-vid img, .toggle-video img, .toggle-video-full img {
   width: 30px;
   transition: all 250ms linear; }
 
-/* line 274, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
-.close-txt, .close-img, .play-txt, .play-img, .toggle-vid-full-img, .toggle-vid-full-txt {
+/* line 276, /Users/Mark/Desktop/2015/scss/components/main */
+.close-txt, .close-img, .play-txt, .play-img, .toggle-video-img, .toggle-video-txt {
   transition: all 250ms linear;
   opacity: 0; }
 
-/* line 280, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 281, /Users/Mark/Desktop/2015/scss/components/main */
+.watch-full-video {
+  margin: 2em 0 0 0; }
+
+/* line 285, /Users/Mark/Desktop/2015/scss/components/main */
+.watch-full-video a {
+  color: #fff;
+  font-family: 'futura-pt', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+/* line 293, /Users/Mark/Desktop/2015/scss/components/main */
 .arrow {
   display: block;
   margin: auto;
@@ -276,141 +289,147 @@ video #bgvideo {
   opacity: 0.8;
   transition: all 250ms linear; }
 
-/* line 289, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 302, /Users/Mark/Desktop/2015/scss/components/main */
 .hide {
   opacity: 0;
   display: none; }
 
-/* line 295, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 308, /Users/Mark/Desktop/2015/scss/components/main */
 .show {
   opacity: 1; }
 
 @media only screen and (min-width: 20em) {
-  /* line 300, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 313, /Users/Mark/Desktop/2015/scss/components/main */
   .play {
     font-size: 1em;
     padding: 0.75em 1em;
     border: 3px #fff solid; }
 
-  /* line 305, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 318, /Users/Mark/Desktop/2015/scss/components/main */
   .logo {
     width: 60%;
     margin-bottom: 0.75em; }
 
-  /* line 309, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 322, /Users/Mark/Desktop/2015/scss/components/main */
   .arrow {
-    width: 30%;
+    width: 25%;
     margin: 0 auto; }
 
-  /* line 314, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 327, /Users/Mark/Desktop/2015/scss/components/main */
   .hp-cont {
-    margin-top: 3.5em; }
+    margin-top: 3.8em; }
 
-  /* line 318, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 331, /Users/Mark/Desktop/2015/scss/components/main */
   .play-full-toggle {
     width: 3.5em;
     margin-top: 0.9em; }
 
-  /* line 323, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 336, /Users/Mark/Desktop/2015/scss/components/main */
   .controls {
     bottom: 1em;
     right: 1em; }
 
-  /* line 328, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
-  .controls li {
-    display: inline-block;
-    margin-left: 1em; }
-
-  /* line 334, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 341, /Users/Mark/Desktop/2015/scss/components/main */
   .controls p {
     display: none;
     margin: 0; }
 
-  /* line 339, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 346, /Users/Mark/Desktop/2015/scss/components/main */
   .controls img {
     width: 30px;
     margin-bottom: 0; }
 
-  /* line 344, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
-  .play li, .close li {
-    margin-top: 0; }
+  /* line 351, /Users/Mark/Desktop/2015/scss/components/main */
+  .watch-full-video {
+    margin: 0.75em 0 0 0; }
+
+  /* line 355, /Users/Mark/Desktop/2015/scss/components/main */
+  .arrow {
+    margin-top: 0.75em; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 352, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 362, /Users/Mark/Desktop/2015/scss/components/main */
   .play {
     font-size: 2em;
     padding: 0.5em 1em;
     border: 5px #fff solid; }
 
-  /* line 358, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 368, /Users/Mark/Desktop/2015/scss/components/main */
   .logo {
-    width: 250px; }
+    width: 230px; }
 
-  /* line 362, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 372, /Users/Mark/Desktop/2015/scss/components/main */
   .arrow {
     margin-top: 1.5em;
-    width: 25%; }
+    width: 20%; }
 
-  /* line 367, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 377, /Users/Mark/Desktop/2015/scss/components/main */
   .hp-cont {
-    margin-top: 5.5em; }
+    margin-top: 30%; }
 
-  /* line 371, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 381, /Users/Mark/Desktop/2015/scss/components/main */
   .play-full-toggle {
     width: 5em;
     margin-top: 6em; }
 
-  /* line 376, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
-  .hp-cont-alt p {
-    font-size: 1.5em;
-    margin-top: 0.5em; }
-
-  /* line 381, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 386, /Users/Mark/Desktop/2015/scss/components/main */
   .controls {
     bottom: 2em;
     right: 2em; }
 
-  /* line 387, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
-  .controls li {
-    display: block;
-    margin-left: 1em; }
-
-  /* line 393, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 391, /Users/Mark/Desktop/2015/scss/components/main */
   .controls p {
     display: block; }
  }
 
+@media only screen and (min-width: 56em) {
+  /* line 398, /Users/Mark/Desktop/2015/scss/components/main */
+  .hp-cont {
+    margin-top: 29%; }
+
+  /* line 402, /Users/Mark/Desktop/2015/scss/components/main */
+  .logo {
+    width: 320px; }
+
+  /* line 405, /Users/Mark/Desktop/2015/scss/components/main */
+  .arrow {
+    margin-top: 2em;
+    width: 20%; }
+ }
+
 @media only screen and (min-width: 75em) {
-  /* line 400, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 413, /Users/Mark/Desktop/2015/scss/components/main */
   .play {
     font-size: 2.5em;
     padding: 0.75em 1.2em; }
 
-  /* line 405, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 418, /Users/Mark/Desktop/2015/scss/components/main */
   .logo {
     width: 400px; }
 
-  /* line 409, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 422, /Users/Mark/Desktop/2015/scss/components/main */
   .arrow {
+    width: 18%;
     top: 45em; }
 
-  /* line 412, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 426, /Users/Mark/Desktop/2015/scss/components/main */
   .controls {
-    bottom: calc(100vh - 38em); }
+    bottom: calc(100vh - 65%); }
 
-  /* line 416, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
-  .controls li {
-    marginb-bottom: 2em; }
+  /* line 430, /Users/Mark/Desktop/2015/scss/components/main */
+  .hp-cont {
+    display: block;
+    margin-top: calc(100vh * 25%); }
  }
 
-/* line 425, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 439, /Users/Mark/Desktop/2015/scss/components/main */
 .about {
   padding: 5em 20% 3em;
   position: relative;
   background-color: #fff; }
 
-/* line 431, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 445, /Users/Mark/Desktop/2015/scss/components/main */
 h5 {
   text-align: center;
   font-size: 2em;
@@ -421,31 +440,31 @@ h5 {
   margin-bottom: 1.5em;
   font-family: 'futura-pt', sans-serif; }
 
-/* line 442, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 456, /Users/Mark/Desktop/2015/scss/components/main */
 .about p {
   font-size: 1.45em;
   line-height: 1.45em;
   text-align: center; }
 
-/* line 448, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 462, /Users/Mark/Desktop/2015/scss/components/main */
 .sep {
   position: relative;
   width: 80%;
   margin: 2em 10% 2em; }
 
-/* line 454, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 468, /Users/Mark/Desktop/2015/scss/components/main */
 .gtg {
   display: block;
   width: 15rem;
   margin: 0 auto;
   margin-top: 2.5em; }
 
-/* line 461, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 475, /Users/Mark/Desktop/2015/scss/components/main */
 .pic {
   position: relative;
   float: left; }
 
-/* line 466, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 480, /Users/Mark/Desktop/2015/scss/components/main */
 .homepage-pic {
   display: block;
   position: relative;
@@ -456,7 +475,7 @@ h5 {
   padding-bottom: 0;
   transition: all 250ms linear; }
 
-/* line 477, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 491, /Users/Mark/Desktop/2015/scss/components/main */
 .tint {
   position: absolute;
   width: 100%;
@@ -466,23 +485,23 @@ h5 {
   z-index: 5;
   transition: all 250ms linear; }
 
-/* line 487, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 501, /Users/Mark/Desktop/2015/scss/components/main */
 .pic:nth-child(1n) .tint {
   background-color: #00aeef; }
 
-/* line 491, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 505, /Users/Mark/Desktop/2015/scss/components/main */
 .pic:nth-child(3n) .tint {
   background-color: #fff200; }
 
-/* line 495, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 509, /Users/Mark/Desktop/2015/scss/components/main */
 .pic:nth-child(2n) .tint {
   background-color: #ec008c; }
 
-/* line 499, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 513, /Users/Mark/Desktop/2015/scss/components/main */
 .pic:hover .tint {
   opacity: 0.7; }
 
-/* line 503, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 517, /Users/Mark/Desktop/2015/scss/components/main */
 .grads p {
   float: left;
   position: relative;
@@ -499,7 +518,7 @@ h5 {
   font-size: 0.75rem;
   font-family: 'futura-pt', sans-serif; }
 
-/* line 520, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 534, /Users/Mark/Desktop/2015/scss/components/main */
 .l-1-6, .m-1-4, .s-1-2 {
   position: relative;
   display: block;
@@ -507,102 +526,102 @@ h5 {
   margin: 3em 0; }
 
 @media only screen and (min-width: 20em) {
-  /* line 528, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 542, /Users/Mark/Desktop/2015/scss/components/main */
   .grads p {
     margin-top: -2.35em; }
 
-  /* line 531, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 545, /Users/Mark/Desktop/2015/scss/components/main */
   .s-1-2 .pic {
     width: 50%; }
 
-  /* line 534, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 548, /Users/Mark/Desktop/2015/scss/components/main */
   .s-1-2 .pic2 {
     width: 100%; }
 
-  /* line 537, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 551, /Users/Mark/Desktop/2015/scss/components/main */
   .grads .partial {
     display: block; }
 
-  /* line 540, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 554, /Users/Mark/Desktop/2015/scss/components/main */
   .grads .full {
     display: none; }
 
-  /* line 543, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 557, /Users/Mark/Desktop/2015/scss/components/main */
   .teachers {
     width: 100%; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 549, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 563, /Users/Mark/Desktop/2015/scss/components/main */
   .m-1-4 .pic {
     width: 25%; }
 
-  /* line 552, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 566, /Users/Mark/Desktop/2015/scss/components/main */
   .m-1-4 .pic2 {
     width: 50%; }
 
-  /* line 555, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 569, /Users/Mark/Desktop/2015/scss/components/main */
   .grads .partial {
     display: none; }
 
-  /* line 558, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 572, /Users/Mark/Desktop/2015/scss/components/main */
   .grads .full {
     display: block; }
  }
 
 @media only screen and (max-width: 900px) {
-  /* line 564, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 578, /Users/Mark/Desktop/2015/scss/components/main */
   .grads .partial {
     display: block; }
 
-  /* line 567, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 581, /Users/Mark/Desktop/2015/scss/components/main */
   .grads .full {
     display: none; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 573, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 587, /Users/Mark/Desktop/2015/scss/components/main */
   .grads p {
     margin-top: -2.3em; }
 
-  /* line 576, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 590, /Users/Mark/Desktop/2015/scss/components/main */
   .l-1-6 .pic {
     width: 16.6666%; }
 
-  /* line 579, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 593, /Users/Mark/Desktop/2015/scss/components/main */
   .l-1-6 .pic2 {
     width: 33.3333%; }
  }
 
-/* line 584, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 598, /Users/Mark/Desktop/2015/scss/components/main */
 .event {
   position: relative;
   display: inline-block;
   padding: 0 10% 3em;
   width: 100%; }
 
-/* line 591, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 605, /Users/Mark/Desktop/2015/scss/components/main */
 .left-event, .right-event {
   float: left;
   text-align: center;
   display: inline-block; }
 
-/* line 597, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 611, /Users/Mark/Desktop/2015/scss/components/main */
 .event p {
   line-height: 1.25em;
   font-size: 1.25em; }
 
-/* line 602, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 616, /Users/Mark/Desktop/2015/scss/components/main */
 .right-event h3 {
   font-size: 1.5em; }
 
-/* line 606, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 620, /Users/Mark/Desktop/2015/scss/components/main */
 .event h4 {
   font-family: 'futura-pt', sans-serif;
   margin: 0;
   color: #00aeef; }
 
-/* line 612, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 626, /Users/Mark/Desktop/2015/scss/components/main */
 .invite {
   padding: 0.65em 1em;
   font-size: 1.5em;
@@ -611,27 +630,27 @@ h5 {
   border: 5px solid #00aeef;
   transition: all 200ms ease; }
 
-/* line 621, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 635, /Users/Mark/Desktop/2015/scss/components/main */
 .right-event a:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1); }
 
 @media only screen and (min-width: 20em) {
-  /* line 628, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 642, /Users/Mark/Desktop/2015/scss/components/main */
   .left-event, .right-event {
     width: 100%; }
 
-  /* line 632, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 646, /Users/Mark/Desktop/2015/scss/components/main */
   .left-event h5, .right-event h5 {
     margin-bottom: 0;
     margin-top: 1em; }
 
-  /* line 637, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 651, /Users/Mark/Desktop/2015/scss/components/main */
   .map {
     width: 300px; }
 
-  /* line 641, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 655, /Users/Mark/Desktop/2015/scss/components/main */
   .invite {
     width: 250px;
     font-size: 1.5em;
@@ -639,135 +658,135 @@ h5 {
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 650, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 664, /Users/Mark/Desktop/2015/scss/components/main */
   .left-event, .right-event {
     width: 50%; }
 
-  /* line 654, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 668, /Users/Mark/Desktop/2015/scss/components/main */
   .left-event h5, .right-event h5 {
     margin-bottom: 1em; }
 
-  /* line 658, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 672, /Users/Mark/Desktop/2015/scss/components/main */
   .map {
     width: 350px; }
 
-  /* line 662, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 676, /Users/Mark/Desktop/2015/scss/components/main */
   .invite {
     width: 350px;
     font-size: 2em;
     margin-top: 1em; }
  }
 
-/* line 670, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 684, /Users/Mark/Desktop/2015/scss/components/main */
 footer {
   position: relative;
   background-color: #222;
   padding: 5em 0 3em;
   text-align: center; }
 
-/* line 677, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 691, /Users/Mark/Desktop/2015/scss/components/main */
 footer .invite {
   color: #fff;
   border: 5px solid #fff; }
 
-/* line 682, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 696, /Users/Mark/Desktop/2015/scss/components/main */
 ul {
   list-style-type: none; }
 
-/* line 686, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 700, /Users/Mark/Desktop/2015/scss/components/main */
 .social-links {
   display: block;
   width: 100%;
   margin: 0.6em 0 0.5em; }
 
-/* line 692, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 706, /Users/Mark/Desktop/2015/scss/components/main */
 .social, .ac-logos {
   display: block;
   width: 100%; }
 
-/* line 697, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 711, /Users/Mark/Desktop/2015/scss/components/main */
 .social-links li {
   display: inline-block; }
 
-/* line 701, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 715, /Users/Mark/Desktop/2015/scss/components/main */
 .social-links img {
   width: 40px;
   margin: 0.25em 0;
   transition: all 100ms ease; }
 
-/* line 707, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 721, /Users/Mark/Desktop/2015/scss/components/main */
 .ac-logos li {
   display: inline-block;
   margin: 2em 3%; }
 
-/* line 712, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 726, /Users/Mark/Desktop/2015/scss/components/main */
 .ac-logos img {
   width: 100%; }
 
-/* line 716, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 730, /Users/Mark/Desktop/2015/scss/components/main */
 .footer-social {
   display: block; }
 
-/* line 720, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 734, /Users/Mark/Desktop/2015/scss/components/main */
 .footer-social img {
   width: 100%; }
 
-/* line 724, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 738, /Users/Mark/Desktop/2015/scss/components/main */
 .footer-social li {
   display: inline-block;
   width: 66px;
   margin: 3em 5%;
   transition: all 250ms linear; }
 
-/* line 731, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 745, /Users/Mark/Desktop/2015/scss/components/main */
 .footer-social li:hover {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1); }
 
 @media only screen and (min-width: 20em) {
-  /* line 736, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 750, /Users/Mark/Desktop/2015/scss/components/main */
   .social-links li {
     width: 55px; }
 
-  /* line 740, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 754, /Users/Mark/Desktop/2015/scss/components/main */
   .ac-logos li {
     width: 30%; }
 
-  /* line 744, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 758, /Users/Mark/Desktop/2015/scss/components/main */
   .tablet li, .desktop li {
     display: none; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 751, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 765, /Users/Mark/Desktop/2015/scss/components/main */
   .social-links li {
     width: 70px; }
 
-  /* line 754, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 768, /Users/Mark/Desktop/2015/scss/components/main */
   .ac-logos li {
     width: 25%; }
 
-  /* line 757, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 771, /Users/Mark/Desktop/2015/scss/components/main */
   .tablet li {
     display: inline-block; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 763, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 777, /Users/Mark/Desktop/2015/scss/components/main */
   .social-links li {
     width: 85px; }
 
-  /* line 766, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 780, /Users/Mark/Desktop/2015/scss/components/main */
   .ac-logos li {
     width: 15%; }
 
-  /* line 769, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 783, /Users/Mark/Desktop/2015/scss/components/main */
   .desktop li {
     display: inline-block; }
  }
 
-/* line 774, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 788, /Users/Mark/Desktop/2015/scss/components/main */
 .student-box {
   position: fixed;
   top: 0;
@@ -782,7 +801,7 @@ ul {
   overflow-y: scroll;
   transition: all 250ms linear; }
 
-/* line 789, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 803, /Users/Mark/Desktop/2015/scss/components/main */
 .student-box h2 {
   font-size: 2em;
   text-transform: uppercase;
@@ -793,57 +812,57 @@ ul {
   margin: 0.25em 0 0;
   letter-spacing: 2px; }
 
-/* line 800, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 814, /Users/Mark/Desktop/2015/scss/components/main */
 .overlay {
   display: block; }
 
-/* line 804, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 818, /Users/Mark/Desktop/2015/scss/components/main */
 .noscroll {
   overflow: hidden; }
 
-/* line 808, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 822, /Users/Mark/Desktop/2015/scss/components/main */
 .cover-buttons {
   width: 100%;
   clear: both;
   text-align: right; }
 
-/* line 814, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 828, /Users/Mark/Desktop/2015/scss/components/main */
 .cover-buttons img {
   width: 50px; }
 
-/* line 818, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 832, /Users/Mark/Desktop/2015/scss/components/main */
 .cover-buttons a:last-child {
   margin-right: 5%; }
 
-/* line 822, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 836, /Users/Mark/Desktop/2015/scss/components/main */
 .cover-buttons a {
   margin-left: 3%; }
 
-/* line 826, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 840, /Users/Mark/Desktop/2015/scss/components/main */
 .cover-buttons i {
   display: inline-block;
   font-size: 5em; }
 
-/* line 831, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 845, /Users/Mark/Desktop/2015/scss/components/main */
 .cyan-icon {
   color: #00aeef;
   margin-right: 2%; }
 
-/* line 836, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 850, /Users/Mark/Desktop/2015/scss/components/main */
 .cyan-icon p {
   color: #000;
   font-size: 1em; }
 
-/* line 841, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 855, /Users/Mark/Desktop/2015/scss/components/main */
 .magenta-icon {
   margin-right: 2%;
   color: #ec008c; }
 
-/* line 846, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 860, /Users/Mark/Desktop/2015/scss/components/main */
 .magenta-icon p {
   color: #000; }
 
-/* line 850, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 864, /Users/Mark/Desktop/2015/scss/components/main */
 .left {
   padding: 0 5%;
   float: left;
@@ -851,20 +870,20 @@ ul {
   font-size: 1em;
   list-style-type: none; }
 
-/* line 858, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 872, /Users/Mark/Desktop/2015/scss/components/main */
 .left .lightbox-pic {
   width: 100%; }
 
-/* line 862, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 876, /Users/Mark/Desktop/2015/scss/components/main */
 .lightbox-pic {
   border-bottom: 5px solid #222222; }
 
-/* line 867, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 881, /Users/Mark/Desktop/2015/scss/components/main */
 .left .social {
   width: 100%;
   list-style-type: none; }
 
-/* line 872, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 886, /Users/Mark/Desktop/2015/scss/components/main */
 .skill {
   margin: 0;
   padding: 0;
@@ -873,7 +892,7 @@ ul {
   font-weight: 400;
   font-family: 'open-sans', sans-serif; }
 
-/* line 882, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 896, /Users/Mark/Desktop/2015/scss/components/main */
 .left p {
   font-size: 1em;
   display: inline-block;
@@ -881,29 +900,29 @@ ul {
   margin: 0;
   padding: 0; }
 
-/* line 891, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 905, /Users/Mark/Desktop/2015/scss/components/main */
 .right {
   float: left;
   margin-top: 1em;
   text-align: center; }
 
-/* line 897, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 911, /Users/Mark/Desktop/2015/scss/components/main */
 .right-content {
   width: 50%;
   float: left; }
 
-/* line 902, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 916, /Users/Mark/Desktop/2015/scss/components/main */
 .right-content img {
   display: block;
   width: 100%; }
 
-/* line 907, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 921, /Users/Mark/Desktop/2015/scss/components/main */
 .right-content iframe {
   display: block;
   width: 100%;
   overflow: auto; }
 
-/* line 913, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+/* line 927, /Users/Mark/Desktop/2015/scss/components/main */
 .site, .email {
   color: #222222;
   display: inline-block;
@@ -914,18 +933,18 @@ ul {
   font-size: 0.95em; }
 
 @media only screen and (min-width: 20em) {
-  /* line 924, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 938, /Users/Mark/Desktop/2015/scss/components/main */
   .right img {
     width: 100%;
     text-align: center; }
 
-  /* line 928, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 942, /Users/Mark/Desktop/2015/scss/components/main */
   .left {
     width: 100%;
     text-align: center;
     margin: 1em 0; }
 
-  /* line 933, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 947, /Users/Mark/Desktop/2015/scss/components/main */
   .right {
     width: 100%;
     margin-bottom: 3em;
@@ -933,37 +952,37 @@ ul {
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 941, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 955, /Users/Mark/Desktop/2015/scss/components/main */
   .right img {
     margin: 0; }
 
-  /* line 944, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 958, /Users/Mark/Desktop/2015/scss/components/main */
   .left .lightbox-pic {
     width: 50%;
     margin: 0 25%; }
 
-  /* line 948, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 962, /Users/Mark/Desktop/2015/scss/components/main */
   .left {
     text-align: center; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 954, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 968, /Users/Mark/Desktop/2015/scss/components/main */
   .right img {
     margin: 0;
     display: block; }
 
-  /* line 958, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 972, /Users/Mark/Desktop/2015/scss/components/main */
   .left {
     width: 40%;
     text-align: left; }
 
-  /* line 962, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 976, /Users/Mark/Desktop/2015/scss/components/main */
   .right {
     width: 60%;
     padding: 0 5% 0 2.5%; }
 
-  /* line 966, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/main */
+  /* line 980, /Users/Mark/Desktop/2015/scss/components/main */
   .left .lightbox-pic {
     width: 100%;
     margin: 0; }
@@ -986,7 +1005,7 @@ ul {
   }
 }
 */
-/* line 22, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/cover-buttons */
+/* line 22, /Users/Mark/Desktop/2015/scss/components/cover-buttons */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "cover-buttons";
   font-style: normal;
@@ -1011,17 +1030,17 @@ ul {
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-/* line 53, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/cover-buttons */
+/* line 53, /Users/Mark/Desktop/2015/scss/components/cover-buttons */
 .icon-angle-circled-left:before {
   content: '\e800'; }
 
 /* '' */
-/* line 54, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/cover-buttons */
+/* line 54, /Users/Mark/Desktop/2015/scss/components/cover-buttons */
 .icon-cancel-circled:before {
   content: '\e801'; }
 
 /* '' */
-/* line 55, /Users/birchy009/Desktop/GD-Y3S2/Project Management/2015/scss/components/cover-buttons */
+/* line 55, /Users/Mark/Desktop/2015/scss/components/cover-buttons */
 .icon-angle-circled-right:before {
   content: '\e802'; }
 

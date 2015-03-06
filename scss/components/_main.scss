@@ -192,7 +192,6 @@ video #bgvideo {
 
 .hp-cont {
   display: block;
-  margin-top: 10em;
 }
 
 .play-full-toggle {
@@ -235,15 +234,18 @@ video #bgvideo {
 
 .controls {
   position: absolute;
-  right: 2.5rem;
+  left: 0;
+  right: 0;
+  bottom: calc(100vh);
+  width: 100%;
   display: block;
   z-index: 100;
   transition: all 250ms linear;
 }
 
 .controls li {
-  display:block;
-  margin: .75em 0;
+  display:inline-block;
+  margin: 0 1em;
 }
 
 .controls p {
@@ -270,10 +272,21 @@ video #bgvideo {
 .close-img,
 .play-txt,
 .play-img,
-.toggle-vid-full-img,
-.toggle-vid-full-txt {
+.toggle-video-img,
+.toggle-video-txt {
   transition: all 250ms linear;
   opacity:0;
+}
+
+.watch-full-video {
+  margin: 2em 0 0 0;
+}
+
+.watch-full-video a {
+  color: #fff;
+  font-family: 'futura-pt', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 
@@ -307,12 +320,12 @@ video #bgvideo {
     margin-bottom: .75em;
   }
   .arrow {
-    width: 30%;
+    width: 25%;
     margin: 0 auto;
   }
 
   .hp-cont {
-    margin-top: 3.5em;
+    margin-top: 3.8em;
   }
 
   .play-full-toggle {
@@ -325,12 +338,6 @@ video #bgvideo {
    right: 1em;
    }
 
-   .controls li {
-    display: inline-block;
-    margin-left: 1em;
-
-   }
-
   .controls p {
     display:none;
     margin: 0;
@@ -340,11 +347,14 @@ video #bgvideo {
   width: 30px;
   margin-bottom: 0;
  }
-  .play li,
-  .close li {
-  margin-top: 0;
- }
 
+ .watch-full-video {
+  margin: .75em 0 0 0;
+  }
+
+  .arrow {
+    margin-top: .75em;
+  }
 
 }
 
@@ -356,16 +366,16 @@ video #bgvideo {
   }
 
   .logo {
-    width: 250px;
+    width: 230px;
   }
 
   .arrow {
     margin-top: 1.5em;
-    width: 25%;
+    width: 20%;
   }
 
   .hp-cont {
-    margin-top: 5.5em;
+    margin-top: 30%;
   }
 
   .play-full-toggle {
@@ -373,25 +383,28 @@ video #bgvideo {
     margin-top: 6em;
   }
 
-  .hp-cont-alt p {
-    font-size: 1.5em;
-    margin-top: .5em;
-  }
-
     .controls {
    bottom: 2em;
    right: 2em;
   }
 
-
-   .controls li {
-    display:block;
-    margin-left: 1em;
-
-   }
-
    .controls p {
     display: block;
+  }
+
+ }
+
+ @media only screen and (min-width: 56em) {
+    .hp-cont {
+    margin-top: 29%;
+  }
+
+  .logo {
+    width: 320px;
+  }
+  .arrow {
+    margin-top: 2em;
+    width: 20%;
   }
 
  }
@@ -407,16 +420,17 @@ video #bgvideo {
   }
 
   .arrow {
+    width: 18%;
     top: 45em;
   }
    .controls {
-   bottom: calc(100vh - 38em);
+   bottom: calc(100vh - 65%);
   }
 
-   .controls li {
-   marginb-bottom: 2em;
+  .hp-cont {
+  display: block;
+  margin-top: calc(100vh * 25%);
   }
-
 
 
  }
