@@ -42,7 +42,7 @@ var people = {
 
 		{
 		name: {
-			full: 'Colombina-Anzivino',
+			full: 'Colombina Anzivino',
 			partial: 'Colombina A.'
 		},
 		id: 'anzivino-colombina',
@@ -365,8 +365,8 @@ var people = {
 
 	{
 		name: {
-			full: 'Alexandra Chama',
-			partial: 'Alexandra C.'
+			full: 'Sasha Chama',
+			partial: 'Sasha C.'
 		},
 		id: 'chama-alexandra',
 		website: 'http://sashachama.com',
@@ -399,12 +399,12 @@ var people = {
 		website: 'http://namastechris.ca',
 		email: 'chris.noel.chan@gmail.com',
 		skills: 'Motion, UI/UX, Web',
-		behance: false,
+		behance: 'https://www.behance.net/namastechris',
 		dribbble: false,
 		facebook: false,
 		github: false,
 		instagram: false,
-		linkedin: 'https://www.linkedin.com/in/namastechris',
+		linkedin: false,
 		pinterest: false,
 		twitter: 'https://www.twitter.com/NerdyFeely',
 		vimeo: 'https://www.vimeo.com/namastechris',
@@ -770,7 +770,7 @@ var people = {
 
 	{
 		name: {
-			full: 'Madeleine Gagne',
+			full: 'Madeleine Gagné',
 			partial: 'Madeleine G.'
 		},
 		id: 'gagne-madeleine',
@@ -782,7 +782,7 @@ var people = {
 		facebook: false,
 		github: false,
 		instagram: false,
-		linkedin: 'ca.linkedin.com/in/madeleineadele',
+		linkedin: 'https://www.linkedin.com/in/madeleineadele',
 		pinterest: false,
 		twitter: 'https://www.twitter.com/madeleineadele',
 		vimeo: false,
@@ -797,7 +797,7 @@ var people = {
 
 	{
 		name: {
-			full: 'Laura Natalia Garcias V.',
+			full: 'Laura Garcia V.',
 			partial: 'Laura G.'
 		},
 		id: 'garcias-laura',
@@ -911,7 +911,7 @@ var people = {
 		id: 'grice-evan',
 		website: 'http://evanandgrice.ca',
 		email: 'hello@evanandgrice.ca',
-		skills: 'Branding, Print, UI/UX',
+		skills: 'Branding, Print, Illustration',
 		behance: 'http://www.behance.net/EvanGrice',
 		dribbble: false,
 		facebook: false,
@@ -1153,7 +1153,7 @@ var people = {
 		},
 		id: 'lebel-jared',
 		website: 'http://meetjared.ca',
-		email: 'jared.lebel87@gmail.com',
+		email: 'hey@meetjared.ca',
 		skills: 'Branding, Illustration, Typography',
 		behance: false,
 		dribbble: false,
@@ -1537,7 +1537,7 @@ var people = {
 		facebook: false,
 		github: false,
 		instagram: false,
-		linkedin: false,
+		linkedin: 'ca.linkedin.com/pub/stephen-pollock/47/baa/356/',
 		pinterest: false,
 		twitter: false,
 		vimeo: false,
