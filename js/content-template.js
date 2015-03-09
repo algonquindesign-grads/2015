@@ -1537,7 +1537,7 @@ var people = {
 		facebook: false,
 		github: false,
 		instagram: false,
-		linkedin: 'ca.linkedin.com/pub/stephen-pollock/47/baa/356/',
+		linkedin: 'http://ca.linkedin.com/pub/stephen-pollock/47/baa/356/',
 		pinterest: false,
 		twitter: false,
 		vimeo: false,
