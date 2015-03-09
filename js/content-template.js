@@ -80,7 +80,7 @@ var people = {
 		facebook: false,
 		github: false,
 		instagram: false,
-		linkedin: 'ca.linkedin.com/pub/kayla-araujo/31/a82/787/',
+		linkedin: 'https://ca.linkedin.com/pub/kayla-araujo/31/a82/787/',
 		pinterest: false,
 		twitter: 'https://www.twitter.com/kaylafordesign',
 		vimeo: false,
@@ -350,7 +350,7 @@ var people = {
 		facebook: false,
 		github: false,
 		instagram: false,
-		linkedin: 'ca.linkedin.com/in/pcardososantos',
+		linkedin: 'https://ca.linkedin.com/in/pcardososantos',
 		pinterest: false,
 		twitter: false,
 		vimeo: 'https://www.vimeo.com/user24145531',
@@ -377,7 +377,7 @@ var people = {
 		facebook: false,
 		github: false,
 		instagram: false,
-		linkedin: 'ca.linkedin.com/pub/alexandra-chama/64/534/a3b/',
+		linkedin: 'https://www.linkedin.com/pub/sasha-chama/64/534/a3b',
 		pinterest: false,
 		twitter: 'https://www.twitter.com/Sashoul',
 		vimeo: false,
@@ -566,7 +566,7 @@ var people = {
 		facebook: false,
 		github: false,
 		instagram: false,
-		linkedin: 'ca.linkedin.com/in/alysonconner',
+		linkedin: 'http://ca.linkedin.com/in/alysonconner',
 		pinterest: false,
 		twitter: false,
 		vimeo: 'http://www.vimeo.com/user24150086',
@@ -728,7 +728,7 @@ var people = {
 		facebook: false,
 		github: false,
 		instagram: false,
-		linkedin: 'ca.linkedin.com/pub/lorena-franco/64/490/745',
+		linkedin: 'https://ca.linkedin.com/pub/lorena-franco/64/490/745',
 		pinterest: false,
 		twitter: 'https://www.twitter.com/loreclap',
 		vimeo: false,
@@ -890,7 +890,7 @@ var people = {
 		facebook: false,
 		github: false,
 		instagram: false,
-		linkedin: 'ca.linkedin.com/pub/kathrine-greenberg/64/819/650/',
+		linkedin: 'https://ca.linkedin.com/pub/kathrine-greenberg/64/819/650/',
 		pinterest: false,
 		twitter: 'https://www.twitter.com/kathrine_rae',
 		vimeo: false,
@@ -1287,7 +1287,7 @@ var people = {
 		},
 		id: 'mcinall-emma',
 		website: 'http://emmamcinall.ca',
-		email: 'emcinall93@gmail.com',
+		email: 'hello@emmamcinall.ca',
 		skills: 'Branding, Print, UI/UX',
 		behance: 'https://www.behance.net/emmaleemcinall',
 		dribbble: false,
@@ -1374,7 +1374,7 @@ var people = {
 		dribbble: false,
 		facebook: false,
 		github: false,
-		instagram: 'http://www,instagram.com/gabedrawstype',
+		instagram: 'https://instagram.com/gabedrawstype/',
 		linkedin: 'https://www.linkedin.com/profile/view?id=248691214 ',
 		pinterest: false,
 		twitter: false,
@@ -1537,7 +1537,7 @@ var people = {
 		facebook: false,
 		github: false,
 		instagram: false,
-		linkedin: 'http://ca.linkedin.com/pub/stephen-pollock/47/baa/356/',
+		linkedin: 'https://ca.linkedin.com/pub/stephen-pollock/47/baa/356/',
 		pinterest: false,
 		twitter: false,
 		vimeo: false,
@@ -1868,12 +1868,12 @@ shuffle(people.student);
 
 
 // var orderPeople = people.student.sort(function(a, b) {
-// 		var $nameA = a.name.partial.toUpperCase();
-// 		var $nameB = b.name.partial.toUpperCase();
+// 		var $nameA = a.name.full.toUpperCase();
+// 		var $nameB = b.name.full.toUpperCase();
 // 		return ($nameA < $nameB) ? -1 : ($nameA > $nameB) ? 1 : 0;
 // 	});
 
-// var $name = name.full.charAt(people.student.name.partial.length-2)
+
 
 
 
