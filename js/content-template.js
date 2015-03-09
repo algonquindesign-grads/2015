@@ -1868,12 +1868,12 @@ shuffle(people.student);
 
 
 // var orderPeople = people.student.sort(function(a, b) {
-// 		var $nameA = a.name.full.toUpperCase();
-// 		var $nameB = b.name.full.toUpperCase();
+// 		var $nameA = a.name.partial.toUpperCase();
+// 		var $nameB = b.name.partial.toUpperCase();
 // 		return ($nameA < $nameB) ? -1 : ($nameA > $nameB) ? 1 : 0;
 // 	});
 
-
+var $name = name.full.charAt(people.student.name.partial.length-2)
 
 
 

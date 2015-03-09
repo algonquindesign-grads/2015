@@ -981,51 +981,65 @@ ul {
     margin: 0 1em; }
  }
 
+/* line 985, /Users/Mark/Desktop/2015/scss/components/main */
+.cb-top {
+  margin-top: 0.5em; }
+
+@media only screen and (min-width: 37.5em) {
+  /* line 990, /Users/Mark/Desktop/2015/scss/components/main */
+  .cb-top {
+    display: none; }
+ }
+
 @media only screen and (min-width: 75em) {
-  /* line 986, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 996, /Users/Mark/Desktop/2015/scss/components/main */
   .right img {
     margin: 0;
     display: block; }
 
-  /* line 990, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1000, /Users/Mark/Desktop/2015/scss/components/main */
   .left {
     width: 40%;
     text-align: left; }
 
-  /* line 994, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1004, /Users/Mark/Desktop/2015/scss/components/main */
   .right {
     width: 60%;
     padding: 0 5% 0 2.5%; }
 
-  /* line 998, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1008, /Users/Mark/Desktop/2015/scss/components/main */
   .left .lightbox-pic {
     width: 100%;
     margin: 0; }
 
-  /* line 1002, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1012, /Users/Mark/Desktop/2015/scss/components/main */
   .cover-buttons {
     text-align: right; }
 
-  /* line 1006, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1016, /Users/Mark/Desktop/2015/scss/components/main */
   .cover-buttons img {
     margin: 0; }
 
-  /* line 1010, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1020, /Users/Mark/Desktop/2015/scss/components/main */
   .close-overlay img {
     margin-right: 5%; }
 
-  /* line 1015, /Users/Mark/Desktop/2015/scss/components/main */
+  /* line 1025, /Users/Mark/Desktop/2015/scss/components/main */
   .next-student img, .prev-student img {
     margin-right: 4%; }
+
+  /* line 1029, /Users/Mark/Desktop/2015/scss/components/main */
+  .cb-top {
+    display: none; }
  }
 
-/* line 1022, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1036, /Users/Mark/Desktop/2015/scss/components/main */
 .toggle {
   position: absolute;
   margin-left: -9999px;
   visibility: hidden; }
 
-/* line 1027, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1041, /Users/Mark/Desktop/2015/scss/components/main */
 .toggle + label {
   display: block;
   margin: 0 auto;
@@ -1037,7 +1051,7 @@ ul {
   -ms-user-select: none;
   user-select: none; }
 
-/* line 1039, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1053, /Users/Mark/Desktop/2015/scss/components/main */
 input.toggle-round-flat + label {
   padding: 2px;
   width: 60px;
@@ -1048,13 +1062,13 @@ input.toggle-round-flat + label {
   border-radius: 60px;
   transition: background 0.4s; }
 
-/* line 1056, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1070, /Users/Mark/Desktop/2015/scss/components/main */
 input.toggle-round-flat + label:before, input.toggle-round-flat + label:after {
   display: block;
   position: absolute;
   content: ""; }
 
-/* line 1062, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1076, /Users/Mark/Desktop/2015/scss/components/main */
 input.toggle-round-flat + label:before {
   top: 4px;
   left: 4px;
@@ -1065,7 +1079,7 @@ input.toggle-round-flat + label:before {
   border-radius: 70px;
   transition: background 0.4s; }
 
-/* line 1079, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1093, /Users/Mark/Desktop/2015/scss/components/main */
 input.toggle-round-flat + label:after {
   top: 7px;
   left: 7px;
@@ -1076,16 +1090,16 @@ input.toggle-round-flat + label:after {
   border-radius: 70px;
   transition: margin 0.4s, background 0.4s; }
 
-/* line 1096, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1110, /Users/Mark/Desktop/2015/scss/components/main */
 input.toggle-round-flat:checked + label {
   background-color: #00aeef; }
 
-/* line 1100, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1114, /Users/Mark/Desktop/2015/scss/components/main */
 input.toggle-round-flat:checked + label:after {
   margin-left: 18px;
   background-color: #00aeef; }
 
-/* line 1105, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1119, /Users/Mark/Desktop/2015/scss/components/main */
 .label {
   position: absolute;
   bottom: 8px;
@@ -1097,19 +1111,26 @@ input.toggle-round-flat:checked + label:after {
   letter-spacing: 2px;
   text-transform: uppercase; }
 
-/* line 1117, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1131, /Users/Mark/Desktop/2015/scss/components/main */
 input.toggle-round-flat:checked + .label {
   color: #00aeef; }
 
-/* line 1121, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1135, /Users/Mark/Desktop/2015/scss/components/main */
 .left {
-  right: 115px;
+  right: 120px;
   top: 40px; }
 
-/* line 1126, /Users/Mark/Desktop/2015/scss/components/main */
+/* line 1140, /Users/Mark/Desktop/2015/scss/components/main */
 .right {
   left: 80px;
   top: 40px; }
+
+@media only screen and (min-width: 75em) {
+  /* line 1146, /Users/Mark/Desktop/2015/scss/components/main */
+  .left {
+    right: 160px;
+    top: 40px; }
+ }
 
 @font-face {
   font-family: 'cover-buttons';

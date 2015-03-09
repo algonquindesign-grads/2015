@@ -982,6 +982,16 @@ ul {
 
  }
 
+ .cb-top {
+  margin-top: .5em;
+ }
+
+ @media only screen and (min-width: 37.5em) {
+    .cb-top {
+    display:none;
+  }
+ }
+
 @media only screen and (min-width: 75em) {
   .right img {
     margin: 0;
@@ -1014,6 +1024,10 @@ ul {
   .next-student img,
   .prev-student img {
     margin-right:4%;
+  }
+
+  .cb-top {
+    display:none;
   }
 
 }
@@ -1119,7 +1133,7 @@ input.toggle-round-flat:checked + .label {
 }
 
 .left {
-    right:115px;
+    right:120px;
     top: 40px;
 }
 
@@ -1127,3 +1141,11 @@ input.toggle-round-flat:checked + .label {
     left:80px;
     top:40px;
 }
+
+@media only screen and (min-width: 75em) {
+  .left {
+    right:160px;
+    top: 40px;
+  }
+}
+
