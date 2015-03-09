@@ -1873,7 +1873,7 @@ shuffle(people.student);
 // 		return ($nameA < $nameB) ? -1 : ($nameA > $nameB) ? 1 : 0;
 // 	});
 
-var $name = name.full.charAt(people.student.name.partial.length-2)
+// var $name = name.full.charAt(people.student.name.partial.length-2)
 
 
 
